@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.App {
+  padding: 20px;
+  background-color: black;
+  font-family: "Outfit", sans-serif;
+  color: #E8EAED;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.awards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

@@ -1,0 +1,88 @@
+[
+    {
+        "name": "Memory Bear",
+        "icon": "",
+        "solution_link": "https://www.youtube.com/embed/y_t7XLDiGTQ?si=Isc1fSe2jxwiDxGO",
+        "solution_display_type": "youtube",
+        "description": "An Amazon Alexa skill designed to help its user keep track of people in their life. It's an accessibility feature aimed at people facing memory loss, primarily dementia or Alzheimer's. However, it can be useful for anyone, for example as a tool for remembering important dates.",
+        "event": {
+            "logo": "innovation_amazon.png",
+            "name": "HackYeah - Innovation@Amazon",
+            "date": "27-11-2020",
+            "location": "Online",
+            "duration": 48,
+            "event_link": "https://innovation-amazon.com/#task",
+            "event_website_link": "https://2020.hackyeah.pl/2020/12/10/the-winner-happy-bears/",
+            "place": 1
+        },
+        "team": "Ada Pleszewska, Kinga Marszałkowska, Przemysław Kvapil, Julian Zdunek, Marek Kudła",
+        "gallery": "assets/galleries/innovation_amazon20",
+        "referenced": {
+            "facebook": "https://www.facebook.com/OsrodekDamb/posts/pfbid02T655Bd64uJaBS1aFpaEtiynsQaGr7GSE9gwPgavE7Qg5YBcvdTR2hTYKpQMbQJXAl"
+        }
+    },
+    {
+        "name": "PeekaBOO",
+        "icon": "",
+        "solution_link": "https://marekk3301.itch.io/peekaboo",
+        "solution_display_type": "web_app",
+        "description": "",
+        "event": {
+            "logo": "assets/event_logos/gamejam.png",
+            "name": "HackJam",
+            "date": "26-01-2024",
+            "location": "Gdański Park Naukowo-Technologiczny",
+            "duration": 48,
+            "event_link": "https://app.evenea.pl/event/hackjam2024/",
+            "event_website_link": "https://codeme.pl/kursy/gamejam",
+            "place": 0
+        },
+        "team": "Agata Dobrzyniewicz, Weronika Schlahs, Michał Majerowski, Marek Kudła",
+        "gallery": "assets/galleries/gamejam24",
+        "referenced": {}
+    },
+    {
+        "name": "Spacerowe Bingo",
+        "icon": "",
+        "solution_link": "https://marekk3301.github.io/hack4change2024/",
+        "solution_display_type": "web_app",
+        "description": "",
+        "event": {
+            "logo": "assets/event_logos/hack4change.png",
+            "name": "Hack4Change",
+            "date": "21-06-2024",
+            "location": "Gdański Park Naukowo-Technologiczny",
+            "duration": 48,
+            "event_link": "https://hack4change.tech/summary-2024/",
+            "event_website_link": "https://codeme.pl/kursy/hack4change-hackathon",
+            "place": 3
+        },
+        "team": "Agata Dobrzyniewicz, Mariia Kurshakova, Kinga Wajda, Sylwia Puzio, Marek Kudła",
+        "gallery": "assets/galleries/hack4change24",
+        "referenced": {
+            "linkedin": "https://www.linkedin.com/pulse/hack4change-2024-relacja-code-me-oitdf/?trackingId=bUXaeDCvRxObYr04qGUhXg%3D%3D"
+        }
+    },
+    {
+        "name": "Samoloty AR",
+        "icon": "🛫",
+        "solution_link": "",
+        "solution_display_type": "picture",
+        "description": "",
+        "event": {
+            "logo": "assets/event_logos/animaton.png",
+            "name": "Animaton",
+            "date": "28-06-2024",
+            "location": "Instytut Kultury Miejskiej, Gdańsk",
+            "duration": 24,
+            "event_link": "https://www.facebook.com/events/1145422409910543",
+            "event_website_link": "https://hackathons.ikm.gda.pl/animaton/",
+            "place": 2
+        },
+        "team": "Sylwia Puzio, Aleksandra Krupińska, Marek Kudła",
+        "gallery": "assets/galleries/animaton24",
+        "referenced": {
+            "linkedin": "https://www.linkedin.com/posts/instytut-kultury-miejskiej_za-nami-trzecia-edycja-maratonu-tworzenia-activity-7214624162835755008-Wg_J?utm_source=share&utm_medium=member_desktop"
+        }
+    }
+]
