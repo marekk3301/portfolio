@@ -7,7 +7,7 @@ const MediaFrame = ({ solution, solution_display_type }) => {
     else if (solution_display_type === 'image') {
         return (
         <div className='mediaframe'>
-            <img src={solution} alt="Solution Image" />
+            <img src={solution} alt="Solution" />
         </div>
         );
     } 
