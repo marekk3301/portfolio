@@ -1,20 +1,16 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import ProjectInfo from './components/ProjectInfo';
-import MediaFrame from './components/MediaFrame';
-import Awards from './components/Awards';
-import EventInfo from './components/EventInfo';
 
-import hackathons from './assets/hackathons.json';
-
-const hackathon = hackathons[0];
+import Project from './pages/Project';
+import ProjectList from './pages/ProjectList';
 
 function App() {
   return (
     <div className="App">
-      <MediaFrame solution_link={hackathon.solution_link} solution_display_type={hackathon.solution_display_type} />
-      <ProjectInfo name={hackathon.name} description={hackathon.description} />
-      <Awards place={hackathon.event.place} />
-      <EventInfo event={hackathon.event} />
+      <Routes>
+         <Route path='/' element={<ProjectList/>} />
+         <Route path='/project/:id' element={<Project />} />
+       </Routes>
     </div>
   );
 }

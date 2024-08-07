@@ -9,19 +9,59 @@
 
 h1 {
   font-size: 24px;
+  margin: 0;
+  margin-top: 20px;
 }
 
 h2 {
   font-size: 20px;
+  margin: 30px 0 10px 0;
 }
 
 p {
   font-size: 16px;
+  margin: 10px 0;
 }
 
-.awards {
+
+.mediaframe img,
+.mediaframe video {
+  width: 100%;
+}
+
+
+.event__banner {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  margin: 30px 0 20px 0;
 }
 
+.event__logo {
+  max-height: 60px;
+  max-width: 50%;
+}
+
+.awards__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.authors__list,
+.links__list {
+  margin: 0;
+  padding-inline-start: 20px;
+}
+
+.links__list li a {
+  color: #E8EAED;
+  text-decoration: underline;
+  /* font-weight: 400; */
+}
+
+.event__textbox {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}

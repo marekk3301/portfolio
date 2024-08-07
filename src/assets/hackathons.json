@@ -1,88 +1,415 @@
 [
     {
+        "id": 1,
+        "name": "Keyboard to MIDI conversion",
+        "icon": "",
+        "solution": "https://scontent-waw2-1.xx.fbcdn.net/v/t1.6435-9/72617253_2799235973429167_1744550152959426560_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=f798df&_nc_ohc=RZmRxetSenAQ7kNvgE41Rf6&_nc_ht=scontent-waw2-1.xx&oh=00_AYAkfs4ozN7k_uIrTwrx-ez4KxrCLIcAgpRBZy6dpY78dA&oe=66D8EBD4",
+        "solution_display_type": "image",
+        "description": "For my first hackathon ever, we repurposed an old Casio SA-67 keyboard. By soldering into the PCB and connecting the keys to an Arduino, we aimed to read the key presses and transmit them as MIDI signals to a PC. Despite not finishing in time, the experience of a hackathon was incredibly fun.",
+        "event": {
+            "logo": "musicjam19.png",
+            "name": "MusicJam",
+            "date": "26-10-2019",
+            "location": "Inkubator Starter, Gdańsk",
+            "duration": 10,
+            "event_link": "https://www.facebook.com/events/2661666187227376/",
+            "event_website_link": "https://musicjam.pl/",
+            "awards": [3]
+        },
+        "team": "Kinga Marszałkowska",
+        "gallery": ["musicjam19", "musicjam19_1.jpg", "musicjam19_2.jpg", "musicjam19_3.jpg", "musicjam19_4.jpg", "musicjam19_5.jpg", "musicjam19_6.jpg", "musicjam19_7.jpg", "musicjam19_8.jpg"],
+        "links": {}
+    },
+    {
+        "id": 2,
+        "name": "Medieval song played by a 3D Printer",
+        "icon": "",
+        "solution": "https://www.youtube.com/embed/T_IM0BnU654?si=vwh02xU4-vGwWqUP",
+        "solution_display_type": "youtube",
+        "description": "We combined a medieval song \"Greensleves\", played by a 3d printer, with sounds that we had recorded. The vocals are a courtesy of medialab, they've managed to recreate the calls of Gdańsk's people from the 16th century. In the clip, G-code (an instruction for the printer needed to play the melody) is displayed. If you speak G-code, it's a karaoke version. The clips with crt tv are a background for medieval drawings. We experimented with montage to combine medieval art with technology, the old with the new.",
+        "event": {
+            "logo": "musicjam19.png",
+            "name": "Music Jam",
+            "date": "23-10-2020",
+            "location": "Online",
+            "duration": 24,
+            "event_link": "",
+            "event_website_link": "https://musicjam.pl/",
+            "awards": [2, "special"]
+        },
+        "team": "Kinga Marszałkowska",
+        "gallery": [],
+        "links": {}
+    },
+    {
+        "id": 3,
         "name": "Memory Bear",
         "icon": "",
-        "solution_link": "https://www.youtube.com/embed/y_t7XLDiGTQ?si=Isc1fSe2jxwiDxGO",
+        "solution": "https://www.youtube.com/embed/y_t7XLDiGTQ?si=Isc1fSe2jxwiDxGO",
         "solution_display_type": "youtube",
         "description": "An Amazon Alexa skill designed to help its user keep track of people in their life. It's an accessibility feature aimed at people facing memory loss, primarily dementia or Alzheimer's. However, it can be useful for anyone, for example as a tool for remembering important dates.",
         "event": {
-            "logo": "innovation_amazon.png",
+            "logo": "innovation_amazon20.png",
             "name": "HackYeah - Innovation@Amazon",
             "date": "27-11-2020",
             "location": "Online",
             "duration": 48,
             "event_link": "https://innovation-amazon.com/#task",
             "event_website_link": "https://2020.hackyeah.pl/2020/12/10/the-winner-happy-bears/",
-            "place": 1
+            "awards": [1]
         },
-        "team": "Ada Pleszewska, Kinga Marszałkowska, Przemysław Kvapil, Julian Zdunek, Marek Kudła",
-        "gallery": "assets/galleries/innovation_amazon20",
-        "referenced": {
-            "facebook": "https://www.facebook.com/OsrodekDamb/posts/pfbid02T655Bd64uJaBS1aFpaEtiynsQaGr7GSE9gwPgavE7Qg5YBcvdTR2hTYKpQMbQJXAl"
+        "team": "Ada Pleszewska, Kinga Marszałkowska, Przemysław Kvapil, Julian Zdunek",
+        "gallery": ["innovation_amazon20", "innovation_amazon20_1.jpg", "innovation_amazon20_2.jpg", "innovation_amazon20_3.jpg", "innovation_amazon20_4.png"],
+        "links": {
+            "facebook": "<div class=\"fb-post\" data-href=\"https://www.facebook.com/OsrodekDamb/posts/pfbid02T655Bd64uJaBS1aFpaEtiynsQaGr7GSE9gwPgavE7Qg5YBcvdTR2hTYKpQMbQJXAl\" data-width=\"500\" data-show-text=\"true\"><blockquote cite=\"https://www.facebook.com/OsrodekDamb/posts/6977356888972766\" class=\"fb-xfbml-parse-ignore\"><p>Nasze Happy Bears ❤❤❤❤❤ Kojarzycie tę Grupę? Oj dużo i kreatywnie się działo 😜. Nasza grupa konkursowa po zwycięstwach w...</p>Opublikowany przez <a href=\"https://facebook.com/OsrodekDamb\">Ośrodek Twórczej Psychoedukacji DAMB</a>&nbsp;<a href=\"https://www.facebook.com/OsrodekDamb/posts/6977356888972766\">Sobota, 12 lutego 2022</a></blockquote></div>"
         }
     },
     {
+        "id": 4,
+        "name": "GyroGlove",
+        "icon": "",
+        "solution": "https://www.youtube.com/embed/60ubFF-5QuY?si=jh4ivxdYne19I-zs",
+        "solution_display_type": "youtube",
+        "description": "We created a motion-controlled glove using an accelerometer and gyroscope module. We wrote demos in Processing to showcase its capabilities. One of them was a game where player controlled a ball's movement and speed by tilting the glove, aiming to score points and avoid traps.",
+        "event": {
+            "logo": "bitehack.png",
+            "name": "Bitehack",
+            "date": "16-01-2021",
+            "location": "Online",
+            "duration": 24,
+            "event_link": "",
+            "event_website_link": "https://bitehack.best.krakow.pl/",
+            "awards": []
+        },
+        "team": "Kinga Marszałkowska",
+        "gallery": ["bitehack21", "bitehack21_1.png", "bitehack21_2.jpg", "bitehack21_3.jpg", "bitehack21_4.jpg"],
+        "links": {}
+    },
+    {
+        "id": 5,
+        "name": "Alan Turing's Puzzle",
+        "icon": "",
+        "solution": "xxxxxxxxxx",
+        "solution_display_type": "none",
+        "description": "We developed a point-and-click puzzle game using MS PowerPoint as the engine. Inspired by Rusty Lake's Cube Escape games, players assisted Alan Turing in decrypting the Enigma code by solving various puzzles.",
+        "event": {
+            "logo": "kombajn22.png",
+            "name": "Kombajn GameJam",
+            "date": "29-01-2021",
+            "location": "Online",
+            "duration": 24,
+            "event_link": "",
+            "event_website_link": "",
+            "awards": []
+        },
+        "team": "Marta Kudła, Kinga Marszałkowska",
+        "gallery": ["kombajn21", "kombajn21_1.jpg"],
+        "links": {}
+    },
+    {
+        "id": 6,
+        "name": "Noble Party",
+        "icon": "",
+        "solution": "animaton21/animaton21.mp4",
+        "solution_display_type": "video",
+        "description": "Experimented with animation for the first time. We created a few simple animations using different techniques and technologies, including Blender, DaVinci Resolve, and editor in TikTok.",
+        "event": {
+            "logo": "animaton.png",
+            "name": "Animaton",
+            "date": "25-06-2021",
+            "location": "Stocznia Cesarska, Gdańsk",
+            "duration": 24,
+            "event_link": "https://www.facebook.com/events/328137005595966/?active_tab=discussion",
+            "event_website_link": "https://hackathons.ikm.gda.pl/animaton/",
+            "awards": []
+        },
+        "team": "Kinga Marszałkowska",
+        "gallery": [],
+        "links": {}
+    },
+    {
+        "id": 7,
+        "name": "Leśna Skrytka",
+        "icon": "",
+        "solution": "https://media.discordapp.net/attachments/742412441022890004/1270539434860871761/lasy.png?ex=66b4118e&is=66b2c00e&hm=9bbb645e23b57e73a522b36879a879c78e7ed2dd59d685c5f399173a35d3a593&=&format=webp&quality=lossless",
+        "solution_display_type": "image",
+        "description": "Wypoczynkomat (Leśna Skrytka) is a storage and distribution system for firewood. It also includes kindling and a returnable lighter in each locker containing wood. Five lockers store hammocks with setup instructions. A mobile app allows for reservations, automates payments, and provides forest-related information and safety notifications. The app also prevents access to firewood during high fire risk periods and enables users to report issues.",
+        "event": {
+            "logo": "lasy.png",
+            "name": "Forum Wizja Rozwoju",
+            "date": "26-08-2021",
+            "location": "Akademickie Centrum Sportowe Akademii Marynarki Wojennej, Gdynia",
+            "duration": 24,
+            "event_link": "https://challengerocket.com/wizjarozwoju21/",
+            "event_website_link": "",
+            "awards": ["special"]
+        },
+        "team": "Kinga Marszałkowska, Julian Zdunek",
+        "gallery": ["lasy21", "lasy21_1.png", "lasy21_2.png", "lasy21_3.png", "lasy21_4.png", "lasy21_5.png", "lasy21_6.png", "lasy21_7.png", "lasy21_8.png", "lasy21_9.jpg", "lasy21_10.jpg"],
+        "links": {}
+    },
+    {
+        "id": 8,
+        "name": "Non-negotioable Alarm Clock",
+        "icon": "",
+        "solution": "https://media.discordapp.net/attachments/742412441022890004/1270733308774449203/panic21.jpg?ex=66b4c61d&is=66b3749d&hm=306545fefb78d955c22fe60b53eb24cc4d37afe56db3e5a741cdd511512b3b6b&=&format=webp&width=634&height=663",
+        "solution_display_type": "image",
+        "description": "I built a PANIC alarm clock using Arduino, featuring a loudspeaker, strobe light, and clock display to ensure early morning wake-ups. It also had a big red button that humorously wasn't connected, making it impossible to mute or stop the alarm.",
+        "event": {
+            "logo": "panic.png",
+            "name": "Last minute PANIC hackathon",
+            "date": "03-09-2021",
+            "location": "Gdański Park Naukowo-Technologiczny",
+            "duration": 24,
+            "event_link": "https://www.facebook.com/share/p/PX2TtFzta4RoRSxh/",
+            "event_website_link": "https://gpnt.pl/aktualnosci/dzien-otwarty-space4makers-relacja",
+            "awards": [1]
+        },
+        "team": "",
+        "gallery": ["panic21", "panic21_1.jpg", "panic21_2.jpg", "panic21_3.jpg", "panic21_4.jpg", "panic21_5.jpg", "panic21_6.jpg", "panic21_7.jpg", "panic21_8.jpg"],
+        "links": {}
+    },
+    {
+        "id": 9,
+        "name": "Fruit Drums & Banana Flute",
+        "icon": "",
+        "solution": "bitehack22/bitehack22.mp4",
+        "solution_display_type": "video",
+        "description": "We designed and created a percussion instrument using fruits as capacitive sensors and an electronic flute with a banana base, communicating via WebSockets. Additionally, as a side project, we made an apple that screamed when bitten.",
+        "event": {
+            "logo": "bitehack.png",
+            "name": "Bitehack",
+            "date": "15-01-2022",
+            "location": "Klub Studio, Miasteczko Studenckie AGH, Kraków ",
+            "duration": 24,
+            "event_link": "https://www.facebook.com/events/217943793798492",
+            "event_website_link": "https://bitehack.best.krakow.pl/",
+            "awards": [3]
+        },
+        "team": "Kinga Marszałkowska, Antoni Ulenberg",
+        "gallery": ["bitehack22", "bitehack22_1.jpg", "bitehack22_2.jpg", "bitehack22_3.jpg", "bitehack22_4.jpg", "bitehack22_5.jpg", "bitehack22_6.jpg", "bitehack22_7.jpg"],
+        "links": {}
+    },
+    {
+        "id": 10,
+        "name": "Neon Pidgeon Clip",
+        "icon": "",
+        "solution": "animaton22/neon_pidgeon.mp4",
+        "solution_display_type": "video",
+        "description": "We created a video clip for one of the featured songs. We made a frame-by-frame animation using a life-sized pigeon sculpture made from glowsticks, taking a series of photos. In post-production, we added hand-drawn details and lyrics. This was one of two projects we completed during the event.",
+        "event": {
+            "logo": "animaton.png",
+            "name": "Animaton",
+            "date": "22-04-2022",
+            "location": "Budynek Dyrekcji Stoczni cesarskiej, Gdańsk",
+            "duration": 24,
+            "event_link": "https://www.facebook.com/events/657676255555719/?active_tab=discussion",
+            "event_website_link": "https://app.evenea.pl/event/animatoniimaraton/",
+            "awards": [3]
+        },
+        "team": "Kinga Marszałkowska",
+        "gallery": [],
+        "links": {}
+    },
+    {
+        "id": 11,
+        "name": "SFM Clip",
+        "icon": "",
+        "solution": "https://www.youtube.com/embed/TSgMcA8cNTY?si=801rSfM1_ArcvhHG",
+        "solution_display_type": "youtube",
+        "description": "An AI-generated animation, made using Disco Diffusion. Created before AI-generated images became mainstream (Before Dall-e 2 or Stable Diffusion). The clip was selected to be used as the official music video. This was one of two projects we completed during the event.",
+        "event": {
+            "logo": "animaton.png",
+            "name": "Animaton",
+            "date": "22-04-2022",
+            "location": "Budynek Dyrekcji Stoczni cesarskiej, Gdańsk",
+            "duration": 24,
+            "event_link": "https://www.facebook.com/events/657676255555719/?active_tab=discussion",
+            "event_website_link": "https://app.evenea.pl/event/animatoniimaraton/",
+            "awards": [2]
+        },
+        "team": "Kinga Marszałkowska",
+        "gallery": [],
+        "links": {}
+    },
+    {
+        "id": 12,
+        "name": "Detour ",
+        "icon": "",
+        "solution": "https://www.youtube.com/embed/08soLZlWvjk?si=6nJSUaOQ40Bf_8QG",
+        "solution_display_type": "youtube",
+        "description": "We developed a feature for the Tier e-scooter renting app that enhances navigation by suggesting detours to nearby landmarks and showcasing community-created tours with user-rated spots. Ideal for tourists, it emphasizes surprise and exploration without overwhelming users with excessive content. The feature also offers lower fares for group rides, gamifies the experience with challenges, achievements, and user profile badges such as explorers, guides, and socials.",
+        "event": {
+            "logo": "crafthack.png",
+            "name": "CraftHack - Tier Challenge",
+            "date": "06-05-2022",
+            "location": "Online",
+            "duration": 48,
+            "event_link": "https://www.facebook.com/events/budapest/crafthack-hybrid-hackathon-2022/1334827483646999/",
+            "event_website_link": "https://crafthack.crafthub.events/2022/#challenges",
+            "awards": []
+        },
+        "team": "Ada Pleszewska, Kinga Marszałkowska, Przemysław Kvapil",
+        "gallery": [],
+        "links": {}
+    },
+    {
+        "id": 13,
+        "name": "Rocketman Clip",
+        "icon": "",
+        "solution": "/galleries/musicjam22/musicjam22.png",
+        "solution_display_type": "image",
+        "description": "Recorded a cover of \"Rocket Man\" by Elton John and created a procedurally generated animation using Processing. The animation depicted a view from an accelerating spaceship, enhancing the musical experience with dynamic visuals.",
+        "event": {
+            "logo": "musicjam22.png",
+            "name": "Music Jam",
+            "date": "26-11-2022",
+            "location": "Instytut Kultury Miejskiej, Gdańsk ",
+            "duration": 12,
+            "event_link": "https://www.facebook.com/events/432105035698694/",
+            "event_website_link": "https://musicjam.pl/",
+            "awards": []
+        },
+        "team": "Marta Kudła",
+        "gallery": ["musicjam22", "musicjam22_1.jpg", "musicjam22_2.jpg", "musicjam22_3.jpg", "musicjam22_4.jpg", "musicjam22_6.png", "musicjam22_7.png", "musicjam22_8.jpg"],
+        "links": {}
+    },
+    {
+        "id": 14,
+        "name": "Space Sprouts",
+        "icon": "",
+        "solution": "/galleries/gamejam23/gamejam23.png",
+        "solution_display_type": "image",
+        "description": "As you strive to create a thriving exo-planet, you must cultivate the delicate relationship between plants, their roots, and the soil microbiome. With every seed you plant and every crop you harvest, you unleash the power of photosynthesis to transform the hostile environment into a lush and thriving ecosystem. But be vigilant, as you navigate the dangers of the cosmos and monitor the critical oxygen levels, your skills, and strategy will be tested. Roots left too long to grow will bite into the core of the planet and cause the decay of the core. Each successful harvest brings this new world one step closer to becoming a thriving, beautiful exo-planet.",
+        "event": {
+            "logo": "gamejam23.png",
+            "name": "GameJam",
+            "date": "03-02-2023",
+            "location": "Gdański Park Naukowo-Technologiczny",
+            "duration": 48,
+            "event_link": "https://www.facebook.com/events/3411972035759130",
+            "event_website_link": "https://evenea.pl/pl/wydarzenie/HSGameJam2023",
+            "awards": [3]
+        },
+        "team": "Sylwia Banasiuk, Kinga Marszałkowska, Mariusz Banasiuk",
+        "gallery": [],
+        "links": {}
+    },
+    {
+        "id": 15,
+        "name": "TreeCity",
+        "icon": "",
+        "solution": "xxxxxxxxxx",
+        "solution_display_type": "image",
+        "description": "The project is aimed at promoting green urban environments through an educational game. Players transform a city by making eco-friendly choices, such as creating parks and investing in green energy, which improve the city's environment and quality of life. Players earn points for real-life eco-friendly actions like walking or cycling, which can be used to unlock game upgrades. The project seeks to educate and engage users while collaborating with educational foundations, tech startups, and city councils, and utilizing community budgets to create a tangible impact on urban sustainability.",
+        "event": {
+            "logo": "hack4change.png",
+            "name": "Hack4Change",
+            "date": "02-06-2023",
+            "location": "Gdański Park Naukowo-Technologiczny",
+            "duration": 48,
+            "event_link": "",
+            "event_website_link": "https://hack4change.tech/summary-2023/",
+            "awards": [3]
+        },
+        "team": "Sylwia Puzio, Kinga Marszałkowska",
+        "gallery": [],
+        "links": {}
+    },
+    {
+        "id": 16,
+        "name": "Quantum-brain Art",
+        "icon": "",
+        "solution": "/galleries/hackyeah23/hackyeah23.png",
+        "solution_display_type": "image",
+        "description": "We developed a system that combines EEG data and quantum computing to create unique visual art. By measuring brain activities with an EEG headset, we use quantum systems to represent multiple mental states and generate images based on HSL color values. Hue reflects brain calmness, while saturation and luminance are derived from quantum states. This framework allows for instant, personalized art creation, using any art template and reflecting individual brain patterns and emotional influences.",
+        "event": {
+            "logo": "hackyeah.png",
+            "name": "HackYeah",
+            "date": "30-09-2023",
+            "location": "TAURON Arena, Kraków",
+            "duration": 24,
+            "event_link": "https://www.facebook.com/events/640290104530823",
+            "event_website_link": "https://hackyeah.pl/",
+            "awards": []
+        },
+        "team": "Kinga Marszałkowska",
+        "gallery": [],
+        "links": {}
+    },
+    {
+        "id": 17,
         "name": "PeekaBOO",
         "icon": "",
-        "solution_link": "https://marekk3301.itch.io/peekaboo",
-        "solution_display_type": "web_app",
-        "description": "",
+        "solution": "/galleries/gamejam24/gamejam24.png",
+        "solution_display_type": "image",
+        "description": "Dive into the spectral world of 'PeekaBoo' where you play as a friendly ghost on a heartwarming quest. Your mission? Use rhythm game mechanics to play a lullaby to make a crying baby laugh. Synchronize your movements with the soothing soundtrack and spread joy in this unique and whimsical adventure.",
         "event": {
-            "logo": "assets/event_logos/gamejam.png",
+            "logo": "gamejam23.png",
             "name": "HackJam",
             "date": "26-01-2024",
             "location": "Gdański Park Naukowo-Technologiczny",
             "duration": 48,
-            "event_link": "https://app.evenea.pl/event/hackjam2024/",
-            "event_website_link": "https://codeme.pl/kursy/gamejam",
-            "place": 0
+            "awards": []
         },
-        "team": "Agata Dobrzyniewicz, Weronika Schlahs, Michał Majerowski, Marek Kudła",
-        "gallery": "assets/galleries/gamejam24",
-        "referenced": {}
+        "team": "Agata Dobrzyniewicz, Weronika Schlahs, Michał Majerowski",
+        "gallery": ["gamejam24", "gamejam24-1.jpg", "gamejam24-2.jpg", "gamejam24-3.jpg", "gamejam24-4.jpg", "gamejam24-5.jpg", "gamejam24-6.jpg", "gamejam24-7.jpg", "gamejam24-8.jpg", "gamejam24-9.jpg", "gamejam24-10.jpg", "gamejam24-11.jpg", "gamejam24-12.jpg"],
+        "links": {
+            "Game": "https://marekk3301.itch.io/peekaboo",
+            "Github Source": "https://github.com/marekk3301/gamejam2024",
+            "Event": "https://app.evenea.pl/event/hackjam2024/",
+            "Event Website": "https://codeme.pl/kursy/gamejam"
+        }
     },
     {
+        "id": 18,
         "name": "Spacerowe Bingo",
         "icon": "",
-        "solution_link": "https://marekk3301.github.io/hack4change2024/",
-        "solution_display_type": "web_app",
-        "description": "",
+        "solution": "/galleries/hack4change24/spacerowebingo.png",
+        "solution_display_type": "image",
+        "description": "We developed a mobile app that encourages outdoor activity through a bingo game. Users can mark off items they see during walks, promoting physical exercise, improving mental health, and providing entertainment for all ages. The app is free for individual users, while institutions like museums can collaborate by creating custom bingo cards tailored to their events or locations. This feature not only boosts engagement but also highlights specific places and activities.",
         "event": {
-            "logo": "assets/event_logos/hack4change.png",
+            "logo": "hack4change.svg",
             "name": "Hack4Change",
             "date": "21-06-2024",
             "location": "Gdański Park Naukowo-Technologiczny",
             "duration": 48,
-            "event_link": "https://hack4change.tech/summary-2024/",
-            "event_website_link": "https://codeme.pl/kursy/hack4change-hackathon",
-            "place": 3
+            "awards": [3]
         },
-        "team": "Agata Dobrzyniewicz, Mariia Kurshakova, Kinga Wajda, Sylwia Puzio, Marek Kudła",
-        "gallery": "assets/galleries/hack4change24",
-        "referenced": {
-            "linkedin": "https://www.linkedin.com/pulse/hack4change-2024-relacja-code-me-oitdf/?trackingId=bUXaeDCvRxObYr04qGUhXg%3D%3D"
+        "team": "Agata Dobrzyniewicz, Mariia Kurshakova, Kinga Wajda, Sylwia Puzio",
+        "gallery": ["hack4change24", "hack4change24-1.jpg", "hack4change24-2.jpg", "hack4change24-3.jpg", "hack4change24-4.jpg", "hack4change24-5.jpg", "hack4change24-6.jpg", "hack4change24-7.jpg", "hack4change24-8.jpg", "hack4change24-9.jpg", "hack4change24-10.jpg", "hack4change24-11.jpg", "hack4change24-12.jpg", "hack4change24-13.jpg", "hack4change24-14.jpg", "hack4change24-15.jpg", "hack4change24-16.jpg", "hack4change24-17.jpg", "hack4change24-18.jpg", "hack4change24-19.jpg", "hack4change24-20.jpg"],
+        "links": {
+            "App Demo": "https://marekk3301.github.io/hack4change2024",
+            "Figma Prototype": "https://www.figma.com/design/YMIsjgIqBadcaAiDK0Y47e/Untitled?node-id=0-1&m=dev",
+            "Github Source": "https://github.com/marekk3301/hack4change2024",
+            "Event Summary": "https://hack4change.tech/summary-2024/",
+            "codeme.pl": "https://codeme.pl/kursy/hack4change-hackathon",
+            "Linkedin Article": "https://www.linkedin.com/pulse/hack4change-2024-relacja-code-me-oitdf/?trackingId=bUXaeDCvRxObYr04qGUhXg%3D%3D"
+
         }
     },
     {
+        "id": 19,
         "name": "Samoloty AR",
-        "icon": "🛫",
-        "solution_link": "",
-        "solution_display_type": "picture",
-        "description": "",
+        "icon": "",
+        "solution": "animaton24/animaton24.mp4",
+        "solution_display_type": "video",
+        "description": "An AR project that simulates planes flying over a large diorama of Gdańsk. Using augmented reality, users can view the planes in real-time. Additionally, projectors mounted above the diorama display current weather data and cast realistic shadows of the planes, enhancing the immersive experience.",
         "event": {
-            "logo": "assets/event_logos/animaton.png",
+            "logo": "animaton.png",
             "name": "Animaton",
             "date": "28-06-2024",
             "location": "Instytut Kultury Miejskiej, Gdańsk",
             "duration": 24,
-            "event_link": "https://www.facebook.com/events/1145422409910543",
-            "event_website_link": "https://hackathons.ikm.gda.pl/animaton/",
-            "place": 2
+            "awards": [2]
         },
-        "team": "Sylwia Puzio, Aleksandra Krupińska, Marek Kudła",
-        "gallery": "assets/galleries/animaton24",
-        "referenced": {
-            "linkedin": "https://www.linkedin.com/posts/instytut-kultury-miejskiej_za-nami-trzecia-edycja-maratonu-tworzenia-activity-7214624162835755008-Wg_J?utm_source=share&utm_medium=member_desktop"
+        "team": "Sylwia Puzio, Aleksandra Krupińska",
+        "gallery": ["animaton24", "animaton24-1.jpg", "animaton24-2.jpg", "animaton24-3.jpg", "animaton24-4.jpg", "animaton24-5.jpg", "animaton24-6.jpg", "animaton24-7.jpg", "animaton24-8.jpg", "animaton24-9.jpg", "animaton24-10.jpg", "animaton24-11.jpg", "animaton24-12.jpg", "animaton24-13.jpg", "animaton24-14.jpg", "animaton24-15.jpg", "animaton24-16.jpg", "animaton24-17.jpg", "animaton24-18.jpg", "animaton24-19.jpg", "animaton24-20.jpg"],
+        "links": {
+            "Github Source": "https://github.com/Sylwiapp/AR_top_project_ever",
+            "Facebook Event": "https://www.facebook.com/events/1145422409910543",
+            "Event Website": "https://hackathons.ikm.gda.pl/animaton/",
+            "Linkedin Article": "https://www.linkedin.com/posts/instytut-kultury-miejskiej_za-nami-trzecia-edycja-maratonu-tworzenia-activity-7214624162835755008-Wg_J?utm_source=share&utm_medium=member_desktop"
         }
     }
 ]

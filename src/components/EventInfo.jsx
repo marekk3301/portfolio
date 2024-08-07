@@ -1,11 +1,11 @@
 import EventBanner from '../components/EventBanner';
-// import EventDetails from './components/EventDetails';
+import EventDetails from '../components/EventDetails';
 
 const EventInfo = ({ event }) => {
     return (
       <div className="event">
-        <EventBanner logo={event.logo} duration={event.duration} />
-        {/* <EventDetails name={event.name} place={event.location} date={event.date} /> */}
+        <EventBanner logo={event.logo} awards={event.awards} />
+        <EventDetails name={event.name} location={event.location} date={event.date} duration={event.duration} />
       </div>
     );
   }

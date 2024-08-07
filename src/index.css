@@ -11,3 +11,16 @@ body {
 .glitch_no_blur {
   filter: drop-shadow(-2px 0 2px rgba(238, 107, 37, 35%)) drop-shadow(2px 0 2px rgba(34, 101, 203, 35%));
 }
+
+.project__description {
+  display: -webkit-box;
+  line-clamp: 4;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.project__description.expanded {
+  line-clamp: unset;
+  -webkit-line-clamp: unset;
+}

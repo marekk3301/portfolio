@@ -1,0 +1,43 @@
+.fullscreen-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .fullscreen-image__img {
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+  }
+  
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 100%; /* Aspect ratio 1:1 */
+    cursor: pointer;
+}
+
+.gallery-item__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
