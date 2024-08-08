@@ -368,7 +368,7 @@
         "id": 18,
         "name": "Spacerowe Bingo",
         "icon": "",
-        "solution": "/galleries/hack4change24/spacerowebingo.png",
+        "solution": "${process.env.PUBLIC_URL}/galleries/hack4change24/spacerowebingo.png",
         "solution_display_type": "image",
         "description": "We developed a mobile app that encourages outdoor activity through a bingo game. Users can mark off items they see during walks, promoting physical exercise, improving mental health, and providing entertainment for all ages. The app is free for individual users, while institutions like museums can collaborate by creating custom bingo cards tailored to their events or locations. This feature not only boosts engagement but also highlights specific places and activities.",
         "event": {
