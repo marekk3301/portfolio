@@ -110,8 +110,8 @@
         "id": 6,
         "name": "Noble Party",
         "icon": "",
-        "solution": "animaton21/animaton21.mp4",
-        "solution_display_type": "video",
+        "solution": "https://www.youtube.com/embed/8yK3SwcFowc",
+        "solution_display_type": "youtube",
         "description": "Experimented with animation for the first time. We created a few simple animations using different techniques and technologies, including Blender, DaVinci Resolve, and editor in TikTok.",
         "event": {
             "logo": "animaton.png",
@@ -173,8 +173,8 @@
         "id": 9,
         "name": "Fruit Drums & Banana Flute",
         "icon": "",
-        "solution": "bitehack22/bitehack22.mp4",
-        "solution_display_type": "video",
+        "solution": "https://www.youtube.com/embed/_U30CthOfIU?si=If63MAtJUoymgP8k",
+        "solution_display_type": "youtube",
         "description": "We designed and created a percussion instrument using fruits as capacitive sensors and an electronic flute with a banana base, communicating via WebSockets. Additionally, as a side project, we made an apple that screamed when bitten.",
         "event": {
             "logo": "bitehack.png",
@@ -194,8 +194,8 @@
         "id": 10,
         "name": "Neon Pidgeon Clip",
         "icon": "",
-        "solution": "animaton22/neon_pidgeon.mp4",
-        "solution_display_type": "video",
+        "solution": "https://www.youtube.com/embed/zFDLR6cfbYg?si=cRHFc17kkkFoi92O",
+        "solution_display_type": "youtube",
         "description": "We created a video clip for one of the featured songs. We made a frame-by-frame animation using a life-sized pigeon sculpture made from glowsticks, taking a series of photos. In post-production, we added hand-drawn details and lyrics. This was one of two projects we completed during the event.",
         "event": {
             "logo": "animaton.png",
@@ -257,7 +257,7 @@
         "id": 13,
         "name": "Rocketman Clip",
         "icon": "",
-        "solution": "/galleries/musicjam22/musicjam22.png",
+        "solution": "https://media.discordapp.net/attachments/742412441022890004/1271201221675585659/musicjam22.png?ex=66b679e5&is=66b52865&hm=06993f480fb09ecbd454bdf2f20be9aa5a2af2a9ddd19dc0fe84d72bf5ae17b0&=&format=webp&quality=lossless&width=724&height=406",
         "solution_display_type": "image",
         "description": "Recorded a cover of \"Rocket Man\" by Elton John and created a procedurally generated animation using Processing. The animation depicted a view from an accelerating spaceship, enhancing the musical experience with dynamic visuals.",
         "event": {
@@ -278,7 +278,7 @@
         "id": 14,
         "name": "Space Sprouts",
         "icon": "",
-        "solution": "/galleries/gamejam23/gamejam23.png",
+        "solution": "https://media.discordapp.net/attachments/742412441022890004/1271201371068170483/gamejam23.png?ex=66b67a08&is=66b52888&hm=30c90af1a01bf7c45cc7f065f22958d8776c2e0ac56e3f1c9b794683d2584955&=&format=webp&quality=lossless&width=722&height=406",
         "solution_display_type": "image",
         "description": "As you strive to create a thriving exo-planet, you must cultivate the delicate relationship between plants, their roots, and the soil microbiome. With every seed you plant and every crop you harvest, you unleash the power of photosynthesis to transform the hostile environment into a lush and thriving ecosystem. But be vigilant, as you navigate the dangers of the cosmos and monitor the critical oxygen levels, your skills, and strategy will be tested. Roots left too long to grow will bite into the core of the planet and cause the decay of the core. Each successful harvest brings this new world one step closer to becoming a thriving, beautiful exo-planet.",
         "event": {
@@ -320,7 +320,7 @@
         "id": 16,
         "name": "Quantum-brain Art",
         "icon": "",
-        "solution": "/galleries/hackyeah23/hackyeah23.png",
+        "solution": "https://media.discordapp.net/attachments/742412441022890004/1271201552132210779/hackyeah23.png?ex=66b67a33&is=66b528b3&hm=d1682892304caed8416378c1336f44ad37fa77b3e14ab2bf438d75b1463f6f02&=&format=webp&quality=lossless&width=346&height=406",
         "solution_display_type": "image",
         "description": "We developed a system that combines EEG data and quantum computing to create unique visual art. By measuring brain activities with an EEG headset, we use quantum systems to represent multiple mental states and generate images based on HSL color values. Hue reflects brain calmness, while saturation and luminance are derived from quantum states. This framework allows for instant, personalized art creation, using any art template and reflecting individual brain patterns and emotional influences.",
         "event": {
@@ -344,7 +344,7 @@
         "id": 17,
         "name": "PeekaBOO",
         "icon": "",
-        "solution": "/galleries/gamejam24/gamejam24.png",
+        "solution": "https://media.discordapp.net/attachments/742412441022890004/1271201689503797328/gamejam24.png?ex=66b67a54&is=66b528d4&hm=490163d66f3beba0fbb1241bd21e832c651bf44765a76f4a0f99833b0176eb3f&=&format=webp&quality=lossless&width=722&height=406",
         "solution_display_type": "image",
         "description": "Dive into the spectral world of 'PeekaBoo' where you play as a friendly ghost on a heartwarming quest. Your mission? Use rhythm game mechanics to play a lullaby to make a crying baby laugh. Synchronize your movements with the soothing soundtrack and spread joy in this unique and whimsical adventure.",
         "event": {
@@ -368,7 +368,7 @@
         "id": 18,
         "name": "Spacerowe Bingo",
         "icon": "",
-        "solution": "${process.env.PUBLIC_URL}/galleries/hack4change24/spacerowebingo.png",
+        "solution": "https://media.discordapp.net/attachments/742412441022890004/1271201852607828008/spacerowebingo.png?ex=66b67a7b&is=66b528fb&hm=f1fbe521a3087e41e236fdecb14b797e1cb554b4973d058b5f7b051ea70f909b&=&format=webp&quality=lossless&width=337&height=406",
         "solution_display_type": "image",
         "description": "We developed a mobile app that encourages outdoor activity through a bingo game. Users can mark off items they see during walks, promoting physical exercise, improving mental health, and providing entertainment for all ages. The app is free for individual users, while institutions like museums can collaborate by creating custom bingo cards tailored to their events or locations. This feature not only boosts engagement but also highlights specific places and activities.",
         "event": {
@@ -395,8 +395,8 @@
         "id": 19,
         "name": "Samoloty AR",
         "icon": "",
-        "solution": "animaton24/animaton24.mp4",
-        "solution_display_type": "video",
+        "solution": "https://www.youtube.com/embed/NSkSd0eo0t8",
+        "solution_display_type": "youtube",
         "description": "An AR project that simulates planes flying over a large diorama of Gdańsk. Using augmented reality, users can view the planes in real-time. Additionally, projectors mounted above the diorama display current weather data and cast realistic shadows of the planes, enhancing the immersive experience.",
         "event": {
             "logo": "animaton.png",
