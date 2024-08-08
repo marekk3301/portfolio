@@ -334,8 +334,11 @@
             "awards": []
         },
         "team": "Kinga Marszałkowska",
-        "gallery": [],
-        "links": {}
+        "gallery": ["hackyeah23", "hackyeah23-1.jpg", "hackyeah23-2.jpg", "hackyeah23-3.jpg", "hackyeah23-4.jpg", "hackyeah23-5.jpg", "hackyeah23-6.jpg", "hackyeah23-7.jpg"],
+        "links": {
+            "Facebook Event": "https://www.facebook.com/events/640290104530823",
+            "Event Website": "https://hackyeah.pl/"
+        }
     },
     {
         "id": 17,
