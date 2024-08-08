@@ -6,7 +6,7 @@ import '../css/Gallery.css';
 const Gallery = ({ gallery }) => {
 
     const folderName = gallery[0];
-    const imageList = gallery.slice(1).map((image) => `/galleries/${folderName}/${image}`);
+    const imageList = gallery.slice(1).map((image) => `${process.env.PUBLIC_URL}/galleries/${folderName}/${image}`);
     
     const [fullscreenImage, setFullscreenImage] = useState(null);
 

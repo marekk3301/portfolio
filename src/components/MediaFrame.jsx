@@ -14,7 +14,7 @@ const MediaFrame = ({ solution, solution_display_type }) => {
     else if (solution_display_type === 'video') {
         return (
             <div className='mediaframe'>
-                <video src={"/galleries/" + solution} controls />
+                <video src={process.env.PUBLIC_URL + "/galleries/" + solution} controls />
             </div>
         );
     }
