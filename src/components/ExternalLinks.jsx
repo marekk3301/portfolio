@@ -6,7 +6,7 @@ const ExternalLinks = ({ links }) => {
             <ul className='links__list'>
                 {Object.entries(links).map(([text, href]) => (
                     <li key={text}>
-                        <a className='link' href={href}>
+                        <a className='link' href={href} target='blank'>
                             {text}
                         </a>
                     </li>
