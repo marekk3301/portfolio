@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Keyboard to MIDI conversion",
-        "icon": "",
+        "icon": "musicjam19.svg",
         "solution": "https://marekk3301.github.io/portfolio/galleries/musicjam19/musicjam19.jpg",
         "solution_display_type": "image",
         "description": "For my first hackathon ever, we repurposed an old Casio SA-67 keyboard. By soldering into the PCB and connecting the keys to an Arduino, we aimed to read the key presses and transmit them as MIDI signals to a PC. Despite not finishing in time, the experience of a hackathon was incredibly fun.",
@@ -24,7 +24,7 @@
     {
         "id": 2,
         "name": "Medieval song played by a 3D Printer",
-        "icon": "",
+        "icon": "musicjam20.svg",
         "solution": "https://www.youtube.com/embed/T_IM0BnU654?si=vwh02xU4-vGwWqUP",
         "solution_display_type": "youtube",
         "description": "We combined a medieval song \"Greensleves\", played by a 3d printer, with sounds that we had recorded. The vocals are a courtesy of medialab, they've managed to recreate the calls of Gdańsk's people from the 16th century. In the clip, G-code (an instruction for the printer needed to play the melody) is displayed. If you speak G-code, it's a karaoke version. The clips with crt tv are a background for medieval drawings. We experimented with montage to combine medieval art with technology, the old with the new.",
@@ -45,7 +45,7 @@
     {
         "id": 3,
         "name": "Memory Bear",
-        "icon": "",
+        "icon": "alexa20.svg",
         "solution": "https://www.youtube.com/embed/y_t7XLDiGTQ?si=Isc1fSe2jxwiDxGO",
         "solution_display_type": "youtube",
         "description": "An Amazon Alexa skill designed to help its user keep track of people in their life. It's an accessibility feature aimed at people facing memory loss, primarily dementia or Alzheimer's. However, it can be useful for anyone, for example as a tool for remembering important dates.",
@@ -69,7 +69,7 @@
     {
         "id": 4,
         "name": "GyroGlove",
-        "icon": "",
+        "icon": "bitehack21.svg",
         "solution": "https://www.youtube.com/embed/60ubFF-5QuY?si=jh4ivxdYne19I-zs",
         "solution_display_type": "youtube",
         "description": "We created a motion-controlled glove using an accelerometer and gyroscope module. We wrote demos in Processing to showcase its capabilities. One of them was a game where player controlled a ball's movement and speed by tilting the glove, aiming to score points and avoid traps.",
@@ -91,7 +91,7 @@
     {
         "id": 5,
         "name": "Alan Turing's Puzzle",
-        "icon": "",
+        "icon": "kombajn21.svg",
         "solution": "https://marekk3301.github.io/portfolio/galleries/kombajn21/kombajn21.png",
         "solution_display_type": "image",
         "description": "We developed a point-and-click puzzle game using MS PowerPoint as the engine. Inspired by Rusty Lake's Cube Escape games, players assisted Alan Turing in decrypting the Enigma code by solving various puzzles.",
@@ -114,7 +114,7 @@
     {
         "id": 6,
         "name": "Noble Party",
-        "icon": "",
+        "icon": "animaton21.svg",
         "solution": "https://www.youtube.com/embed/8yK3SwcFowc",
         "solution_display_type": "youtube",
         "description": "Experimented with animation for the first time. We created a few simple animations using different techniques and technologies, including Blender, DaVinci Resolve, and editor in TikTok.",
@@ -137,7 +137,7 @@
     {
         "id": 7,
         "name": "Leśna Skrytka",
-        "icon": "",
+        "icon": "lasy21.svg",
         "solution": "https://marekk3301.github.io/portfolio/galleries/lasy21/lasy21.png",
         "solution_display_type": "image",
         "description": "Wypoczynkomat (Leśna Skrytka) is a storage and distribution system for firewood. It also includes kindling and a returnable lighter in each locker containing wood. Five lockers store hammocks with setup instructions. A mobile app allows for reservations, automates payments, and provides forest-related information and safety notifications. The app also prevents access to firewood during high fire risk periods and enables users to report issues.",
@@ -162,7 +162,7 @@
     {
         "id": 8,
         "name": "Non-negotioable Alarm Clock",
-        "icon": "",
+        "icon": "panic21.svg",
         "solution": "https://www.youtube.com/embed/TOA2egFkRPo?si=o7MX5_KYbjahkIpD",
         "solution_display_type": "youtube",
         "description": "I built a PANIC alarm clock using Arduino, featuring a loudspeaker, strobe light, and clock display to ensure early morning wake-ups. It also included a big red button that humorously wasn't connected, making it impossible to mute or stop the alarm.",
@@ -184,7 +184,7 @@
     {
         "id": 9,
         "name": "Fruit Drums & Banana Flute",
-        "icon": "",
+        "icon": "bitehack22.svg",
         "solution": "https://www.youtube.com/embed/_U30CthOfIU?si=If63MAtJUoymgP8k",
         "solution_display_type": "youtube",
         "description": "We designed and created a percussion instrument using fruits as capacitive sensors and an electronic flute with a banana base, communicating via WebSockets. Additionally, as a side project, we made an apple that screamed when bitten.",
@@ -208,7 +208,7 @@
     {
         "id": 10,
         "name": "Neon Pidgeon Clip",
-        "icon": "",
+        "icon": "animaton22pidgeon.svg",
         "solution": "https://www.youtube.com/embed/zFDLR6cfbYg?si=cRHFc17kkkFoi92O",
         "solution_display_type": "youtube",
         "description": "We created a video clip for one of the featured songs. We made a frame-by-frame animation using a life-sized pigeon sculpture made from glowsticks, taking a series of photos. In post-production, we added hand-drawn details and lyrics. This was one of two projects we completed during the event.",
@@ -230,7 +230,7 @@
     {
         "id": 11,
         "name": "SFM Clip",
-        "icon": "",
+        "icon": "animaton22sfm.svg",
         "solution": "https://www.youtube.com/embed/TSgMcA8cNTY?si=801rSfM1_ArcvhHG",
         "solution_display_type": "youtube",
         "description": "An AI-generated animation, made using Disco Diffusion. Created before AI-generated images became mainstream (Before Dall-e 2 or Stable Diffusion). The clip was selected to be used as the official music video. This was one of two projects we completed during the event.",
@@ -252,7 +252,7 @@
     {
         "id": 12,
         "name": "Detour",
-        "icon": "",
+        "icon": "crafthack22.svg",
         "solution": "https://www.youtube.com/embed/08soLZlWvjk?si=6nJSUaOQ40Bf_8QG",
         "solution_display_type": "youtube",
         "description": "We developed a feature for the Tier e-scooter renting app that enhances navigation by suggesting detours to nearby landmarks and showcasing community-created tours with user-rated spots. Ideal for tourists, it emphasizes surprise and exploration without overwhelming users with excessive content. The feature also offers lower fares for group rides, gamifies the experience with challenges, achievements, and user profile badges such as explorers, guides, and socials.",
@@ -275,7 +275,7 @@
     {
         "id": 13,
         "name": "Rocketman Clip",
-        "icon": "",
+        "icon": "musicjam22.svg",
         "solution": "https://marekk3301.github.io/portfolio/galleries/musicjam22/musicjam22.png",
         "solution_display_type": "image",
         "description": "Recorded a cover of \"Rocket Man\" by Elton John and created a procedurally generated animation using Processing. The animation depicted a view from an accelerating spaceship, enhancing the musical experience with dynamic visuals.",
@@ -297,7 +297,7 @@
     {
         "id": 14,
         "name": "Space Sprouts",
-        "icon": "",
+        "icon": "gamejam23.svg",
         "solution": "https://marekk3301.github.io/portfolio/galleries/gamejam23/gamejam23.png",
         "solution_display_type": "image",
         "description": "As you strive to create a thriving exo-planet, you must cultivate the delicate relationship between plants, their roots, and the soil microbiome. With every seed you plant and every crop you harvest, you unleash the power of photosynthesis to transform the hostile environment into a lush and thriving ecosystem. But be vigilant, as you navigate the dangers of the cosmos and monitor the critical oxygen levels, your skills, and strategy will be tested. Roots left too long to grow will bite into the core of the planet and cause the decay of the core. Each successful harvest brings this new world one step closer to becoming a thriving, beautiful exo-planet.",
@@ -323,7 +323,7 @@
     {
         "id": 15,
         "name": "TreeCity",
-        "icon": "",
+        "icon": "hack4change23.svg",
         "solution": "https://marekk3301.github.io/portfolio/galleries/hack4change23/hack4change23.png",
         "solution_display_type": "image",
         "description": "The project is aimed at promoting green urban environments through an educational game. Players transform a city by making eco-friendly choices, such as creating parks and investing in green energy, which improve the city's environment and quality of life. Players earn points for real-life eco-friendly actions like walking or cycling, which can be used to unlock game upgrades. The project seeks to educate and engage users while collaborating with educational foundations, tech startups, and city councils, and utilizing community budgets to create a tangible impact on urban sustainability.",
@@ -346,7 +346,7 @@
     {
         "id": 16,
         "name": "Quantum-brain Art",
-        "icon": "",
+        "icon": "hackyeah23.svg",
         "solution": "https://www.youtube.com/embed/Trf-pVv9Qzk?si=WDvu5979GHV4JpfH",
         "solution_display_type": "youtube",
         "description": "We developed a system that combines EEG data and quantum computing to create unique visual art. By measuring brain activities with an EEG headset, we use quantum systems to represent multiple mental states and generate images based on HSL color values. Hue reflects brain calmness, while saturation and luminance are derived from quantum states. This framework allows for instant, personalized art creation, using any art template and reflecting individual brain patterns and emotional influences.",
@@ -369,7 +369,7 @@
     {
         "id": 17,
         "name": "PeekaBOO",
-        "icon": "",
+        "icon": "gamejam24.svg",
         "solution": "https://marekk3301.github.io/portfolio/galleries/gamejam24/gamejam24.png",
         "solution_display_type": "image",
         "description": "Dive into the spectral world of 'PeekaBoo' where you play as a friendly ghost on a heartwarming quest. Your mission? Use rhythm game mechanics to play a lullaby to make a crying baby laugh. Synchronize your movements with the soothing soundtrack and spread joy in this unique and whimsical adventure.",
@@ -393,7 +393,7 @@
     {
         "id": 18,
         "name": "Spacerowe Bingo",
-        "icon": "",
+        "icon": "hack4change24.svg",
         "solution": "https://marekk3301.github.io/portfolio/galleries/hack4change24/hack4change24.png",
         "solution_display_type": "image",
         "description": "We developed a mobile app that encourages outdoor activity through a bingo game. Users can mark off items they see during walks, promoting physical exercise, improving mental health, and providing entertainment for all ages. The app is free for individual users, while institutions like museums can collaborate by creating custom bingo cards tailored to their events or locations. This feature not only boosts engagement but also highlights specific places and activities.",
@@ -420,7 +420,7 @@
     {
         "id": 19,
         "name": "Samoloty AR",
-        "icon": "",
+        "icon": "animaton24.svg",
         "solution": "https://www.youtube.com/embed/NSkSd0eo0t8",
         "solution_display_type": "youtube",
         "description": "An AR project that simulates planes flying over a large diorama of Gdańsk. Using augmented reality, users can view the planes in real-time. Additionally, projectors mounted above the diorama display current weather data and cast realistic shadows of the planes, enhancing the immersive experience.",

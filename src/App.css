@@ -24,6 +24,17 @@ p {
 }
 
 
+.project__icon {
+  list-style: none;
+}
+
+.project__icon img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+
 .mediaframe img,
 .mediaframe video {
   width: 100%;
