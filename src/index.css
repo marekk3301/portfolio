@@ -6,11 +6,11 @@ body {
 }
 
 .glitch {
-  filter: blur(0.5px) drop-shadow(-2px 0 2px rgba(238, 107, 37, 35%)) drop-shadow(2px 0 2px rgba(34, 101, 203, 35%));
+  filter: blur(0.5px) drop-shadow(-2px 0 2px rgba(238, 107, 37, 45%)) drop-shadow(2px 0 2px rgba(34, 101, 203, 85%));
 }
 
 .glitch_no_blur {
-  filter: drop-shadow(-2px 0 2px rgba(238, 107, 37, 35%)) drop-shadow(2px 0 2px rgba(34, 101, 203, 35%));
+  filter: drop-shadow(-2px 0 2px rgba(238, 107, 37, 35%)) drop-shadow(2px 0 2px rgba(34, 101, 203, 75%));
 }
 
 .project__description {

@@ -1,0 +1,11 @@
+.authors__list,
+.links__list {
+  margin: 0;
+  padding-inline-start: 20px;
+}
+
+.links__list li a {
+  color: #E8EAED;
+  text-decoration: underline;
+  /* font-weight: 400; */
+}

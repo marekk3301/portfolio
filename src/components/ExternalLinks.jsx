@@ -1,5 +1,7 @@
 import React from 'react';
 
+import "../css/Lists.css"
+
 const ExternalLinks = ({ links }) => {
     return (
         <div>

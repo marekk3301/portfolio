@@ -1,0 +1,4 @@
+.mediaframe img,
+.mediaframe video {
+  width: 100%;
+}

@@ -1,6 +1,8 @@
 import React from 'react';
 import Award from './Award';
 
+import "../css/Event.css"
+
 const EventBanner = ({ logo, awards }) => {
     const path = process.env.PUBLIC_URL + "/galleries/event_logos/" + logo; 
     return (

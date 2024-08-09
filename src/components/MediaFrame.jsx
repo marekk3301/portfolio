@@ -1,5 +1,7 @@
 import React from 'react';
 
+import "../css/MediaFrame.css"
+
 const MediaFrame = ({ solution, solution_display_type }) => {
     if (solution_display_type === "none") {
         return ("");

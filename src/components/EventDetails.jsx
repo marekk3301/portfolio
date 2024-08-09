@@ -1,5 +1,7 @@
 import React from 'react';
 
+import "../css/Event.css"
+
 const EventDetails = ({ name, location, date, duration }) => {
     return (
         <div>

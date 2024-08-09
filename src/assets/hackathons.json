@@ -30,7 +30,7 @@
         "description": "We combined a medieval song \"Greensleves\", played by a 3d printer, with sounds that we had recorded. The vocals are a courtesy of medialab, they've managed to recreate the calls of Gdańsk's people from the 16th century. In the clip, G-code (an instruction for the printer needed to play the melody) is displayed. If you speak G-code, it's a karaoke version. The clips with crt tv are a background for medieval drawings. We experimented with montage to combine medieval art with technology, the old with the new.",
         "event": {
             "logo": "musicjam19.png",
-            "name": "Music Jam",
+            "name": "MusicJam",
             "date": "23-10-2020",
             "location": "Online",
             "duration": 24,
@@ -281,7 +281,7 @@
         "description": "Recorded a cover of \"Rocket Man\" by Elton John and created a procedurally generated animation using Processing. The animation depicted a view from an accelerating spaceship, enhancing the musical experience with dynamic visuals.",
         "event": {
             "logo": "musicjam22.png",
-            "name": "Music Jam",
+            "name": "MusicJam",
             "date": "26-11-2022",
             "location": "Instytut Kultury Miejskiej, Gdańsk ",
             "duration": 12,
