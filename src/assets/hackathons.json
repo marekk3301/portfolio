@@ -82,7 +82,7 @@
             "awards": []
         },
         "team": "Kinga Marszałkowska",
-        "gallery": ["bitehack21", "bitehack21-1.png", "bitehack21-2.jpg", "bitehack21-3.jpg", "bitehack21-4.jpg", "bitehack21-5.jpg"],
+        "gallery": ["bitehack21", "bitehack21-1.png", "bitehack21-2.jpg", "bitehack21-3.jpg", "bitehack21-4.jpg", "bitehack21-5.JPG"],
         "links": {
             "Github Source": "https://github.com/kinga-marszalkowska/gyro_glove",
             "Event Website": "https://bitehack.best.krakow.pl/"
@@ -92,8 +92,8 @@
         "id": 5,
         "name": "Alan Turing's Puzzle",
         "icon": "",
-        "solution": "",
-        "solution_display_type": "none",
+        "solution": "https://marekk3301.github.io/portfolio/galleries/kombajn21/kombajn21.png",
+        "solution_display_type": "image",
         "description": "We developed a point-and-click puzzle game using MS PowerPoint as the engine. Inspired by Rusty Lake's Cube Escape games, players assisted Alan Turing in decrypting the Enigma code by solving various puzzles.",
         "event": {
             "logo": "kombajn22.png",
@@ -127,7 +127,7 @@
             "awards": []
         },
         "team": "Kinga Marszałkowska",
-        "gallery": ["animaton21", "animaton21-1.jpg", "animaton21-2.jpg", "animaton21-3.jpg", "animaton21-4.jpg", "animaton21-5.jpg", "animaton21-6.jpg", "animaton21-7.jpg", "animaton21-8.jpg"],
+        "gallery": ["animaton21", "animaton21-1.jpg", "animaton21-2.JPG", "animaton21-3.JPG", "animaton21-4.jpg", "animaton21-5.JPG", "animaton21-6.jpg", "animaton21-7.jpg", "animaton21-8.JPG"],
         "links": {
             "My Drone Footage": "https://fb.watch/tEWKhHhrx-/",
             "Facebook Event": "https://www.facebook.com/events/328137005595966/?active_tab=discussion",
