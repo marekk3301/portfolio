@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 .App {
-  padding: 20px;
   background-color: black;
   font-family: "Outfit", sans-serif;
   color: #E8EAED;
@@ -21,4 +20,8 @@ h2 {
 p {
   font-size: 16px;
   margin: 10px 0;
+}
+
+.content {
+  padding: 20px;
 }

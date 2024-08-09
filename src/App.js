@@ -5,14 +5,26 @@ import Project from './routes/Project';
 import ProjectList from './routes/ProjectList';
 
 function App() {
-  return (
-    <div className="App">
-      <Routes>
-         <Route path='/' element={<ProjectList/>} />
-         <Route path='/project/:id' element={<Project />} />
-       </Routes>
-    </div>
-  );
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  const desktopLock = true;
+
+  if (!isMobile && desktopLock) {
+    return (
+      <div className="App">
+        <h2>Sorry! Desktop view is currently under construction.</h2>
+      </div>
+    );
+  } else {
+    return (
+      <div className="App">
+        <Routes>
+           <Route path='/' element={<ProjectList/>} />
+           <Route path='/project/:id' element={<Project />} />
+         </Routes>
+      </div>
+    );
+  }
+  
 }
 
 export default App;

@@ -19,7 +19,7 @@ const Project = () => {
     }
 
     return (
-        <>
+        <div className='content'>
             <MediaFrame solution={hackathon.solution} solution_display_type={hackathon.solution_display_type} />
             <h1 className='project__name'>{hackathon.name}</h1>
             <ProjectDescription description={hackathon.description}/>
@@ -34,7 +34,7 @@ const Project = () => {
                 <Gallery gallery={hackathon.gallery} />
                 </>
             )}
-        </>
+        </div>
     );
 };
 
