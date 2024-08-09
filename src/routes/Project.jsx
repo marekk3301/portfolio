@@ -24,10 +24,10 @@ const Project = () => {
             <h1 className='project__name'>{hackathon.name}</h1>
             <ProjectDescription description={hackathon.description}/>
             <EventInfo event={hackathon.event} />
-            <h2>Authors:</h2>
-            <Authors team={hackathon.team} />
             <h2>External Links:</h2>
             <ExternalLinks links={hackathon.links} />
+            <h2>Authors:</h2>
+            <Authors team={hackathon.team} />
             {hackathon.gallery.length > 0 && (
                 <>
                 <h2>Gallery:</h2>
