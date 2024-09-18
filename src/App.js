@@ -6,7 +6,7 @@ import ProjectList from './routes/ProjectList';
 
 function App() {
   const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-  const desktopLock = true;
+  const desktopLock = false;
 
   if (!isMobile && desktopLock) {
     return (

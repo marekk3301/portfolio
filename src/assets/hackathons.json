@@ -27,7 +27,7 @@
         "icon": "musicjam20.svg",
         "solution": "https://www.youtube.com/embed/T_IM0BnU654?si=vwh02xU4-vGwWqUP",
         "solution_display_type": "youtube",
-        "description": "We combined a medieval song \"Greensleves\", played by a 3d printer, with sounds that we had recorded. The vocals are a courtesy of medialab, they've managed to recreate the calls of Gdańsk's people from the 16th century. In the clip, G-code (an instruction for the printer needed to play the melody) is displayed. If you speak G-code, it's a karaoke version. The clips with crt tv are a background for medieval drawings. We experimented with montage to combine medieval art with technology, the old with the new.",
+        "description": "We combined a medieval song \"Greensleves\", played by a 3d printer, with sounds that we had recorded. The vocals are a courtesy of medialab, they've managed to recreate the calls of Gdańsk's people from the 16th century. In the clip, G-code (an instruction for the printer needed to play the melody) is displayed. If you speak G-code, it's a karaoke version. The clips with CRT TV are a background for medieval drawings. We experimented with montage to combine medieval art with technology - the old with the new.",
         "event": {
             "logo": "musicjam19.png",
             "name": "MusicJam",
@@ -439,6 +439,29 @@
             "Facebook Event": "https://www.facebook.com/events/1145422409910543",
             "Event Website": "https://hackathons.ikm.gda.pl/animaton/",
             "Linkedin Article": "https://www.linkedin.com/posts/instytut-kultury-miejskiej_za-nami-trzecia-edycja-maratonu-tworzenia-activity-7214624162835755008-Wg_J?utm_source=share&utm_medium=member_desktop"
+        }
+    },
+    {
+        "id": 20,
+        "name": "Bomberwoman",
+        "icon": "illuminathon24.svg",
+        "solution": "https://www.facebook.com/34954d59-d772-4ce6-9f19-e304425bb849",
+        "solution_display_type": "image",
+        "description": "We developed an arcade game featuring a custom-built controller and a 64×32 pixel screen, centered around disarming bombs. The controller included an LED compass that pointed toward the direction of mines and two rotary encoders used to move a cursor on the map. To disarm a bomb, players physically connected color-coded wires on the controller in the correct order indicated by RGB LEDs. If the player was too slow, the bomb would explode.",
+        "event": {
+            "logo": "illuminathon.png",
+            "name": "Illuminathon",
+            "date": "23-09-2024",
+            "location": "Hackerspace Trójmiasto, Gdańsk",
+            "duration": 24,
+            "awards": ["community"]
+        },
+        "team": "Agata Dobrzyniewicz",
+        "gallery": [],
+        "links": {
+            "Github Code": "https://github.com/marekk3301/illuminathon_bomberwoman",
+            "Event Website": "https://hs3.eu/wydarzenia/2024/09/13/2024-09-13-illuminathon-maraton-tworzenia-instalacji-swietlnych/",
+            "Linkedin Article": "https://www.linkedin.com/posts/hackerspace-tr%C3%B3jmiasto_321start-pierwsza-edycja-illuminathonu-activity-7240484809553178624--VGq?utm_source=share&utm_medium=member_desktop"
         }
     }
 ]
