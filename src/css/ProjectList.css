@@ -6,36 +6,27 @@
     margin: 0;
 }
 
-.list__container {
-    height: 100vh;
+.list__mask {
+    max-height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
+.list__mask::-webkit-scrollbar {
+    display: none;
+} 
+
 .project__list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: start;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(60px, 1fr));
     gap: 20px;
     padding: 0;
     margin: 0;
-}
-
-.list__column {
-    max-height: 380px;
-    overflow: scroll;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    scrollbar-width: none; /* hide scrollbar on Firefox */
-    -ms-overflow-style: none; /* hide scrollbar on IE and Edge */
-}
-
-.list__column::-webkit-scrollbar {
-    display: none; /* hide scrollbar on Chrome, Safari, and Opera */
+    max-width: 100%;
 }
 
 .project__icon {
@@ -44,24 +35,10 @@
     height: 60px;
 }
 
-.arrows {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
 
-.arrow_down {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60px;
-    height: 30px;
-    margin: 0;
-
-}
-
-.arrow_down svg path {
-    width: 40px;
-    height: 30px;
+@media (min-width: 1024px) {
+    .project__list {
+        grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+        max-width: 60vw;
+    }
 }

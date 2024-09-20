@@ -12,7 +12,8 @@
             "date": "26-10-2019",
             "location": "Inkubator Starter, Gdańsk",
             "duration": 10,
-            "awards": [3]
+            "awards": [3],
+            "certificate": ""
         },
         "team": "Kinga Marszałkowska",
         "gallery": ["musicjam19", "musicjam19-1.jpg", "musicjam19-2.jpg", "musicjam19-3.jpg", "musicjam19-4.jpg", "musicjam19-5.jpg", "musicjam19-6.jpg", "musicjam19-7.jpg", "musicjam19-8.jpg"],
@@ -34,7 +35,8 @@
             "date": "23-10-2020",
             "location": "Online",
             "duration": 24,
-            "awards": [2, "special"]
+            "awards": [2, "special"],
+            "certificate": "musicjam20.pdf"
         },
         "team": "Kinga Marszałkowska",
         "gallery": [],
@@ -55,7 +57,8 @@
             "date": "27-11-2020",
             "location": "Online",
             "duration": 48,
-            "awards": [1]
+            "awards": [1],
+            "certificate": ""
         },
         "team": "Ada Pleszewska, Kinga Marszałkowska, Przemysław Kvapil, Julian Zdunek",
         "gallery": ["alexa20", "alexa20-1.jpg", "alexa20-2.jpg", "alexa20-3.jpg", "alexa20-4.png"],
@@ -79,7 +82,8 @@
             "date": "16-01-2021",
             "location": "Online",
             "duration": 24,
-            "awards": []
+            "awards": [],
+            "certificate": ""
         },
         "team": "Kinga Marszałkowska",
         "gallery": ["bitehack21", "bitehack21-1.png", "bitehack21-2.jpg", "bitehack21-3.jpg", "bitehack21-4.jpg", "bitehack21-5.JPG"],
@@ -101,7 +105,8 @@
             "date": "29-01-2021",
             "location": "Online",
             "duration": 24,
-            "awards": []
+            "awards": [],
+            "certificate": ""
         },
         "team": "Marta Kudła, Kinga Marszałkowska",
         "gallery": ["kombajn21", "kombajn21-1.jpg", "kombajn21-2.jpg", "kombajn21-3.png", "kombajn21-4.png", "kombajn21-5.png", "kombajn21-6.png", "kombajn21-7.png", "kombajn21-8.png", "kombajn21-9.png", "kombajn21-10.png"],
@@ -124,7 +129,8 @@
             "date": "25-06-2021",
             "location": "Stocznia Cesarska, Gdańsk",
             "duration": 24,
-            "awards": []
+            "awards": [],
+            "certificate": ""
         },
         "team": "Kinga Marszałkowska",
         "gallery": ["animaton21", "animaton21-1.jpg", "animaton21-2.JPG", "animaton21-3.JPG", "animaton21-4.jpg", "animaton21-5.JPG", "animaton21-6.jpg", "animaton21-7.jpg", "animaton21-8.JPG"],
@@ -148,10 +154,11 @@
             "location": "Akademickie Centrum Sportowe Akademii Marynarki Wojennej, Gdynia",
             "duration": 24,
             "event_website_link": "",
-            "awards": ["special"]
+            "awards": ["special"],
+            "certificate": "lasy21.pdf"
         },
         "team": "Kinga Marszałkowska, Julian Zdunek",
-        "gallery": ["lasy21", "lasy21_1.png", "lasy21_2.png", "lasy21_3.png", "lasy21_4.png", "lasy21_5.png", "lasy21_6.png", "lasy21_7.png", "lasy21_8.png", "lasy21_9.jpg", "lasy21_10.jpg"],
+        "gallery": ["lasy21", "lasy21_2.png", "lasy21_3.png", "lasy21_4.png", "lasy21_5.png", "lasy21_6.png", "lasy21_7.png", "lasy21_8.png", "lasy21_9.jpg", "lasy21_10.jpg"],
         "links": {
             "Slideshow": "https://docs.google.com/presentation/d/1FH9JmDz3a-qWffmZvli5aoNALYNW9MuY/edit?usp=sharing&ouid=108330482710501040717&rtpof=true&sd=true",
             "Challenge": "https://challengerocket.com/wizjarozwoju21/",
@@ -172,7 +179,8 @@
             "date": "03-09-2021",
             "location": "Gdański Park Naukowo-Technologiczny",
             "duration": 24,
-            "awards": [1]
+            "awards": [1],
+            "certificate": ""
         },
         "team": "",
         "gallery": ["panic21", "panic21-1.jpg", "panic21-2.jpg", "panic21-3.jpg", "panic21-4.jpg", "panic21-5.jpg", "panic21-6.jpg", "panic21-7.jpg", "panic21-8.jpg"],
@@ -194,7 +202,8 @@
             "date": "15-01-2022",
             "location": "Klub Studio, Miasteczko Studenckie AGH, Kraków ",
             "duration": 24,
-            "awards": [3]
+            "awards": [3],
+            "certificate": "bitehack22.pdf"
         },
         "team": "Kinga Marszałkowska, Antoni Ulenberg",
         "gallery": ["bitehack22", "bitehack22-1.jpg", "bitehack22-2.jpg", "bitehack22-3.jpg", "bitehack22-4.jpg", "bitehack22-5.jpg", "bitehack22-6.jpg", "bitehack22-7.jpg", "bitehack22-8.png"],
@@ -218,7 +227,8 @@
             "date": "22-04-2022",
             "location": "Budynek Dyrekcji Stoczni cesarskiej, Gdańsk",
             "duration": 24,
-            "awards": [3]
+            "awards": [3],
+            "certificate": "animaton22pidgeon.pdf"
         },
         "team": "Kinga Marszałkowska",
         "gallery": [],
@@ -240,7 +250,8 @@
             "date": "22-04-2022",
             "location": "Budynek Dyrekcji Stoczni cesarskiej, Gdańsk",
             "duration": 24,
-            "awards": [2]
+            "awards": [2],
+            "certificate": "animaton22sfm.pdf"
         },
         "team": "Kinga Marszałkowska",
         "gallery": [],
@@ -262,7 +273,8 @@
             "date": "06-05-2022",
             "location": "Online",
             "duration": 48,
-            "awards": []
+            "awards": [],
+            "certificate": ""
         },
         "team": "Ada Pleszewska, Kinga Marszałkowska, Przemysław Kvapil",
         "gallery": [],
@@ -285,7 +297,8 @@
             "date": "26-11-2022",
             "location": "Instytut Kultury Miejskiej, Gdańsk ",
             "duration": 12,
-            "awards": []
+            "awards": [],
+            "certificate": ""
         },
         "team": "Marta Kudła",
         "gallery": ["musicjam22", "musicjam22-1.jpg", "musicjam22-2.jpg", "musicjam22-3.png", "musicjam22-4.png", "musicjam22-5.jpg", "musicjam22-6.jpg", "musicjam22-7.jpg"],
@@ -307,7 +320,8 @@
             "date": "03-02-2023",
             "location": "Gdański Park Naukowo-Technologiczny",
             "duration": 48,
-            "awards": [3]
+            "awards": [3],
+            "certificate": ""
         },
         "team": "Sylwia Banasiuk, Kinga Marszałkowska, Mariusz Banasiuk",
         "gallery": ["gamejam23", "gamejam23-1.jpg", "gamejam23-2.jpg", "gamejam23-3.jpg", "gamejam23-4.jpg"],
@@ -333,7 +347,8 @@
             "date": "02-06-2023",
             "location": "Gdański Park Naukowo-Technologiczny",
             "duration": 48,
-            "awards": [3]
+            "awards": [3],
+            "certificate": ""
         },
         "team": "Sylwia Puzio, Kinga Marszałkowska",
         "gallery": ["hack4change23", "hack4change23-1.jpg", "hack4change23-2.jpg", "hack4change23-3.jpg", "hack4change23-4.png", "hack4change23-5.jpg"],
@@ -356,7 +371,8 @@
             "date": "30-09-2023",
             "location": "TAURON Arena, Kraków",
             "duration": 24,
-            "awards": []
+            "awards": [],
+            "certificate": ""
         },
         "team": "Kinga Marszałkowska",
         "gallery": ["hackyeah23", "hackyeah23-1.jpg", "hackyeah23-2.jpg", "hackyeah23-3.jpg", "hackyeah23-4.jpg", "hackyeah23-5.jpg", "hackyeah23-6.jpg", "hackyeah23-7.jpg", "hackyeah23-8.jpg"],
@@ -379,7 +395,8 @@
             "date": "26-01-2024",
             "location": "Gdański Park Naukowo-Technologiczny",
             "duration": 48,
-            "awards": []
+            "awards": [],
+            "certificate": ""
         },
         "team": "Agata Dobrzyniewicz, Weronika Schlahs, Michał Majerowski",
         "gallery": ["gamejam24", "gamejam24-1.jpg", "gamejam24-2.jpg", "gamejam24-3.jpg", "gamejam24-4.jpg", "gamejam24-5.jpg", "gamejam24-6.jpg", "gamejam24-7.jpg", "gamejam24-8.jpg", "gamejam24-9.jpg", "gamejam24-10.jpg", "gamejam24-11.jpg", "gamejam24-12.jpg"],
@@ -403,7 +420,8 @@
             "date": "21-06-2024",
             "location": "Gdański Park Naukowo-Technologiczny",
             "duration": 48,
-            "awards": [3]
+            "awards": [3],
+            "certificate": ""
         },
         "team": "Agata Dobrzyniewicz, Mariia Kurshakova, Kinga Wajda, Sylwia Puzio",
         "gallery": ["hack4change24", "hack4change24-1.jpg", "hack4change24-2.jpg", "hack4change24-3.jpg", "hack4change24-4.jpg", "hack4change24-5.jpg", "hack4change24-6.jpg", "hack4change24-7.jpg", "hack4change24-8.jpg", "hack4change24-9.jpg", "hack4change24-10.jpg", "hack4change24-11.jpg", "hack4change24-12.jpg", "hack4change24-13.jpg", "hack4change24-14.jpg", "hack4change24-15.jpg", "hack4change24-16.jpg", "hack4change24-17.jpg", "hack4change24-18.jpg", "hack4change24-19.jpg", "hack4change24-20.jpg"],
@@ -430,7 +448,8 @@
             "date": "28-06-2024",
             "location": "Instytut Kultury Miejskiej, Gdańsk",
             "duration": 24,
-            "awards": [2]
+            "awards": [2],
+            "certificate": "animaton24.pdf"
         },
         "team": "Sylwia Puzio, Aleksandra Krupińska",
         "gallery": ["animaton24", "animaton24-1.jpg", "animaton24-2.jpg", "animaton24-3.jpg", "animaton24-4.jpg", "animaton24-5.jpg", "animaton24-6.jpg", "animaton24-7.jpg", "animaton24-8.jpg", "animaton24-9.jpg", "animaton24-10.jpg", "animaton24-11.jpg", "animaton24-12.jpg", "animaton24-13.jpg", "animaton24-14.jpg", "animaton24-15.jpg", "animaton24-16.jpg", "animaton24-17.jpg", "animaton24-18.jpg", "animaton24-19.jpg", "animaton24-20.jpg"],
@@ -454,7 +473,8 @@
             "date": "23-09-2024",
             "location": "Hackerspace Trójmiasto, Gdańsk",
             "duration": 24,
-            "awards": ["community"]
+            "awards": ["community"],
+            "certificate": ""
         },
         "team": "Agata Dobrzyniewicz",
         "gallery": [],
@@ -462,6 +482,75 @@
             "Github Code": "https://github.com/marekk3301/illuminathon_bomberwoman",
             "Event Website": "https://hs3.eu/wydarzenia/2024/09/13/2024-09-13-illuminathon-maraton-tworzenia-instalacji-swietlnych/",
             "Linkedin Article": "https://www.linkedin.com/posts/hackerspace-tr%C3%B3jmiasto_321start-pierwsza-edycja-illuminathonu-activity-7240484809553178624--VGq?utm_source=share&utm_medium=member_desktop"
+        }
+    },
+    {
+        "id": null,
+        "name": "",
+        "icon": "",
+        "solution": "",
+        "solution_display_type": "none",
+        "description": "",
+        "event": {
+            "logo": "hackyeah.png",
+            "name": "HackYeah",
+            "date": "28-09-2024",
+            "location": "TAURON Arena, Kraków",
+            "duration": 24,
+            "awards": [],
+            "certificate": ""
+        },
+        "team": "Kinga Nowak",
+        "gallery": [],
+        "links": {
+            "Facebook Event": "https://www.facebook.com/events/734698882062901",
+            "Event Website": "https://hackyeah.pl/"
+        }
+    },
+    {
+        "id": null,
+        "name": "",
+        "icon": "",
+        "solution": "",
+        "solution_display_type": "none",
+        "description": "",
+        "event": {
+            "logo": "spaceapps.png",
+            "name": "NASA Space Apps",
+            "date": "05-10-2024",
+            "location": "Stalowa Wola",
+            "duration": 36,
+            "awards": [],
+            "certificate": ""
+        },
+        "team": "Kinga Marszałkowska",
+        "gallery": [],
+        "links": {
+            "Global Event Website": "https://www.spaceappschallenge.org/nasa-space-apps-2024/2024-local-events/stalowa-wola",
+            "Local Venue Website": "https://hackathon.stalowawola.pl/"
+        }
+    },
+    {
+        "id": null,
+        "name": "",
+        "icon": "",
+        "solution": "",
+        "solution_display_type": "none",
+        "description": "",
+        "event": {
+            "logo": "mermaid.jpg",
+            "name": "Warsaw MERMAID Game Jam",
+            "date": "11-10-2024",
+            "location": "Centrum Rozwoju Przemysłów Kreatywnych, Warszawa",
+            "duration": 48,
+            "awards": [],
+            "certificate": ""
+        },
+        "team": "",
+        "gallery": [],
+        "links": {
+            "Facebook Event": "https://www.facebook.com/events/546603017898412",
+            "Admission": "https://gamejam.crpk.pl"
         }
     }
 ]

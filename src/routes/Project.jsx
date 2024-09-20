@@ -7,6 +7,7 @@ import EventInfo from '../components/EventInfo';
 import Authors from '../components/Authors';
 import ExternalLinks from '../components/ExternalLinks';
 import Gallery from '../components/Gallery';
+import CloseButton from '../components/CloseButton';
 
 import hackathons from '../assets/hackathons.json';
 
@@ -34,6 +35,7 @@ const Project = () => {
                 <Gallery gallery={hackathon.gallery} />
                 </>
             )}
+            <CloseButton></CloseButton>
         </div>
     );
 };
