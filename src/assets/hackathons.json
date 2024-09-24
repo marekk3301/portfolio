@@ -464,7 +464,7 @@
         "id": 20,
         "name": "Bomberwoman",
         "icon": "illuminathon24.svg",
-        "solution": "https://youtu.be/8KV6GIFQgwQ",
+        "solution": "https://www.youtube.com/embed/8KV6GIFQgwQ?si=NvMwIq_kqhJZwzSd",
         "solution_display_type": "youtube",
         "description": "We developed an arcade game featuring a custom-built controller and a 64×32 pixel screen, centered around disarming bombs. The controller included an LED compass that pointed toward the direction of mines and two rotary encoders used to move a cursor on the map. To disarm a bomb, players physically connected color-coded wires on the controller in the correct order indicated by RGB LEDs. If the player was too slow, the bomb would explode.",
         "event": {
@@ -477,7 +477,7 @@
             "certificate": ""
         },
         "team": "Agata Dobrzyniewicz",
-        "gallery": [],
+        "gallery": ["illuminaton24", "illuminaton24-1.jpg", "illuminaton24-2.jpg", "illuminaton24-3.jpg", "illuminaton24-4.jpg", "illuminaton24-5.jpg"],
         "links": {
             "Github Code": "https://github.com/marekk3301/illuminathon_bomberwoman",
             "Event Website": "https://hs3.eu/wydarzenia/2024/09/13/2024-09-13-illuminathon-maraton-tworzenia-instalacji-swietlnych/",
