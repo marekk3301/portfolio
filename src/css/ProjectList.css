@@ -29,6 +29,7 @@
     max-width: 100%;
 }
 
+
 .project__icon {
     list-style: none;
     width: 60px;
@@ -38,7 +39,14 @@
 
 @media (min-width: 1024px) {
     .project__list {
-        grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
         max-width: 60vw;
+        gap: 30px;
+    }
+
+    .project__icon,
+    .project__icon img {
+        width: 90px;
+        height: 90px;
     }
 }

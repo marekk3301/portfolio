@@ -336,6 +336,30 @@
     },
     {
         "id": 15,
+        "name": "Digital Keys for Lab Access Control",
+        "icon": "hackster23.svg",
+        "solution": "https://www.youtube.com/embed/tGMhZkGO8OI?si=MVo4owYW8rkE3ew5",
+        "solution_display_type": "youtube",
+        "description": "In order to open a classroom or lab room, the lecturers need to go all the way to reception to get a key, which requires them to use their breaks between classes to return and get keys. We have built a prototype of a display with an automatic door lock and a card reader which makes getting inside classrooms easier. Additionally, it allows the security to remotely control who can access rooms without having to distribute keys. The display shows information such as room schedule, announcements, or alerts.",
+        "event": {
+            "logo": "hackster.png",
+            "name": "Smart Campus",
+            "date": "24-05-2023",
+            "location": "Online",
+            "duration": "100+",
+            "awards": ["special"],
+            "certificate": ""
+        },
+        "team": "Magda Kokornacka, Kinga Marszałkowska, Antoni Ulenberg",
+        "gallery": [],
+        "links": {
+            "Project Overview": "https://www.hackster.io/507183/digital-keys-for-lab-access-control-9b3caf",
+            "Awards Announcment (Accessibility Award)": "https://www.hackster.io/contests/smartcampus2023#category-1085",
+            "Zipped Source Code": "https://hacksterio.s3.amazonaws.com/uploads/attachments/1599152/app.zip"
+        }
+    },
+    {
+        "id": 16,
         "name": "TreeCity",
         "icon": "hack4change23.svg",
         "solution": "https://marekk3301.github.io/portfolio/galleries/hack4change23/hack4change23.png",
@@ -359,7 +383,7 @@
         }
     },
     {
-        "id": 16,
+        "id": 17,
         "name": "Quantum-brain Art",
         "icon": "hackyeah23.svg",
         "solution": "https://www.youtube.com/embed/Trf-pVv9Qzk?si=WDvu5979GHV4JpfH",
@@ -383,7 +407,7 @@
         }
     },
     {
-        "id": 17,
+        "id": 18,
         "name": "PeekaBOO",
         "icon": "gamejam24.svg",
         "solution": "https://marekk3301.github.io/portfolio/galleries/gamejam24/gamejam24.png",
@@ -408,7 +432,7 @@
         }
     },
     {
-        "id": 18,
+        "id": 19,
         "name": "Spacerowe Bingo",
         "icon": "hack4change24.svg",
         "solution": "https://marekk3301.github.io/portfolio/galleries/hack4change24/hack4change24.png",
@@ -436,7 +460,7 @@
         }
     },
     {
-        "id": 19,
+        "id": 20,
         "name": "Samoloty AR",
         "icon": "animaton24.svg",
         "solution": "https://www.youtube.com/embed/NSkSd0eo0t8",
@@ -461,7 +485,7 @@
         }
     },
     {
-        "id": 20,
+        "id": 21,
         "name": "Bomberwoman",
         "icon": "illuminathon24.svg",
         "solution": "https://www.youtube.com/embed/8KV6GIFQgwQ?si=NvMwIq_kqhJZwzSd",
