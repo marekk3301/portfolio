@@ -464,8 +464,8 @@
         "id": 20,
         "name": "Bomberwoman",
         "icon": "illuminathon24.svg",
-        "solution": "https://www.facebook.com/34954d59-d772-4ce6-9f19-e304425bb849",
-        "solution_display_type": "image",
+        "solution": "https://youtu.be/8KV6GIFQgwQ",
+        "solution_display_type": "youtube",
         "description": "We developed an arcade game featuring a custom-built controller and a 64×32 pixel screen, centered around disarming bombs. The controller included an LED compass that pointed toward the direction of mines and two rotary encoders used to move a cursor on the map. To disarm a bomb, players physically connected color-coded wires on the controller in the correct order indicated by RGB LEDs. If the player was too slow, the bomb would explode.",
         "event": {
             "logo": "illuminathon.png",
