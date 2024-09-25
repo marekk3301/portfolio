@@ -25,7 +25,7 @@ const MediaFrame = ({ solution, solution_display_type }) => {
             <div className='mediaframe' style={{ margin: '-10px -10px 0 -10px; width: 100%' }}>
                 <iframe 
                     width="100%" 
-                    height="auto" 
+                    height="250px" 
                     src={solution} 
                     title="YouTube video player" 
                     frameborder="0" 
