@@ -3,7 +3,7 @@ import EventDetails from '../components/EventDetails';
 
 const EventInfo = ({ event }) => {
     return (
-      <div className="event">
+      <div className="project_event">
         <EventBanner logo={event.logo} awards={[event.awards, event.certificate]} />
         <EventDetails name={event.name} location={event.location} date={event.date} duration={event.duration} />
       </div>

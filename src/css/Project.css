@@ -1,0 +1,40 @@
+@media (min-width: 1024px) {
+    .content {
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+    }
+
+    .mediaframe {
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    .project_panel {
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .project_details {
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    .project_gallery {
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    .project__name{
+        font-size: 32px;
+    }
+
+    .project__description{
+        font-size: 18px;
+        line-clamp: 6;
+        -webkit-line-clamp: 6;
+    }
+}

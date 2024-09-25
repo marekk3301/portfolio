@@ -22,7 +22,7 @@ const MediaFrame = ({ solution, solution_display_type }) => {
     }
     else if (solution_display_type === 'youtube') {
         return (
-            <div style={{ margin: '-10px -10px 0 -10px; width: 100%' }}>
+            <div className='mediaframe' style={{ margin: '-10px -10px 0 -10px; width: 100%' }}>
                 <iframe 
                     width="100%" 
                     height="auto" 
