@@ -8,7 +8,7 @@ const EventBanner = ({ logo, awards }) => {
     const awardPath = process.env.PUBLIC_URL + "/galleries/awards/" + awards[1]; 
     console.log(awards);
 
-    if (awards[1] != "") {
+    if (awards[1] !== "") {
         return (
             <div className='event__banner'>
                 <img src={logoPath} alt={logo} className='event__logo'/>

@@ -55,7 +55,7 @@ const Award = ({ award }) => {
                 </svg>
             </div>;
         default:
-            return <div className='awards'>no awards</div>;
+            return <div className='awards'>{award}</div>;
     }
 };
 
