@@ -514,7 +514,7 @@
         "icon": "hackyeah24.svg",
         "solution": "https://www.youtube.com/embed/_i4UiDvGe2s?si=CPH6ZdDtKxViS-h0",
         "solution_display_type": "youtube",
-        "description": "We created a game where players take on the role of a lemur mother defending her baobab tree and babies from poachers. Baby lemurs can be placed on the trunk to attack climbing poachers. We also designed a custom controller—players move on the tree by hovering their hands over two ultrasonic distance sensors, and placing a lemur requires tapping capacitive fruits in the correct order. The game features procedural animations, custom shaders, and VFX.",
+        "description": "We created a game where players take on the role of a lemur mother defending her baobab tree and babies from poachers. Baby lemurs can be placed on the trunk to attack climbing poachers. We also designed a custom controller - players move on the tree by hovering their hands over two ultrasonic distance sensors, and placing a lemur requires tapping capacitive fruits in the correct order. The game features procedural animations, custom shaders, and VFX.",
         "event": {
             "logo": "hackyeah.png",
             "name": "HackYeah",
