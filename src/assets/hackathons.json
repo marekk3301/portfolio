@@ -510,7 +510,7 @@
     },
     {
         "id": 22,
-        "name": "Le Mur Defense",
+        "name": "LeMur Defense",
         "icon": "hackyeah24.svg",
         "solution": "https://www.youtube.com/embed/_i4UiDvGe2s?si=CPH6ZdDtKxViS-h0",
         "solution_display_type": "youtube",
@@ -524,9 +524,10 @@
             "awards": ["Finalist (Top 5)"],
             "certificate": ""
         },
-        "team": "Kinga Nowak, Magda, Krzysztof Bański, Michał Cieśla, Kamil Butryn",
+        "team": "Kinga Nowak, Magda Kowalska, Krzysztof Bański, Michał Cieśla, Kamil Butryn",
         "gallery": ["hackyeah24", "hackyeah24-1.jpg", "hackyeah24-2.jpg", "hackyeah24-3.png", "hackyeah24-4.jpg", "hackyeah24-5.jpg", "hackyeah24-6.jpg", "hackyeah24-7.jpg"],
         "links": {
+            "Game Download": "https://kosmik123.itch.io/lemur-defense",
             "Challenge Entry": "https://challengerocket.com/hackyeah-2024/works/le-mur-8e98e8#go-pagecontent",
             "Github Source": "https://github.com/kaybenot/HackYeah",
             "Facebook Event": "https://www.facebook.com/events/734698882062901",
