@@ -10,6 +10,10 @@ import hackathons from '../assets/hackathons.json';
 const ProjectList = () => {
 
     const projectList = hackathons.map((hackathon) => {
+        if (hackathon.icon == "") {
+          hackathon.icon = "generic.svg"
+        }
+
         if (hackathon.id) {
           console.log(hackathon.event.name, hackathon.event.date);
           return (

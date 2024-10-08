@@ -522,7 +522,7 @@
             "location": "TAURON Arena, Kraków",
             "duration": 24,
             "awards": ["Finalist (Top 5)"],
-            "certificate": ""
+            "certificate": "hackyeah24.pdf"
         },
         "team": "Kinga Nowak, Magda Kowalska, Krzysztof Bański, Michał Cieśla, Kamil Butryn",
         "gallery": ["hackyeah24", "hackyeah24-1.jpg", "hackyeah24-2.jpg", "hackyeah24-3.png", "hackyeah24-4.jpg", "hackyeah24-5.jpg", "hackyeah24-6.jpg", "hackyeah24-7.jpg"],
@@ -535,12 +535,12 @@
         }
     },
     {
-        "id": null,
-        "name": "",
+        "id": 23,
+        "name": "Kardashev Game",
         "icon": "spaceapps24.svg",
-        "solution": "",
-        "solution_display_type": "none",
-        "description": "",
+        "solution": "https://www.youtube.com/embed/55EbobOBdGI?si=rNO6QWE-Tt_7gvb9",
+        "solution_display_type": "youtube",
+        "description": "We created a text-based adventure game where the Earth is on the brink of collapse, necessitating the exploration of space. Players need to learn about various exoplanets to be able to make a decision where to settle. Real-life scientific data is presented by a fine-tuned AI assistant (openAI), who also helps the player advance space technologies. The challange is to choose planets with the most favorable conditions for life and energy acquisition. Some planets can be a true paradise, some are risky but rewarding, and others...a flop!",
         "event": {
             "logo": "spaceapps.png",
             "name": "NASA Space Apps",
