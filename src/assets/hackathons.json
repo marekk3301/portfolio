@@ -559,20 +559,20 @@
     {
         "id": 24,
         "name": "Broken by choice",
-        "icon": "",
+        "icon": "steelworks24.svg",
         "solution": "https://img.itch.zone/aW1hZ2UvMzA2Njk4MS8xODM0NzYzOS5wbmc=/original/6Tzbfn.png",
         "solution_display_type": "image",
         "description": "We developed a jigsaw-inspired horror game set in a surreal, atmospheric world. Players must navigate various rooms filled with deadly zombies and gruesome decapitation devices. To survive and progress, they face tough choices: sacrifice body parts in exchange for items essential for surviving and winning. Choose wisely, act quickly. And beware of the stew.",
         "event": {
             "logo": "steelworks3.png",
-            "name": "Steelworks Game Jam 3",
+            "name": "Steelworks Game Jam",
             "date": "25-10-2024",
             "location": "Nowohuckie Centrum Kultury, Kraków",
             "duration": 49,
             "awards": [],
             "certificate": ""
         },
-        "team": "Kinga Nowak, Magda Kowalska, Madzia, Krzysztof Bański, Kamil Butryn, Szymon",
+        "team": "Kinga Nowak, Magda Kowalska, Madzia, Krzysztof Bański, Kamil Butryn, Szymon Konieczny",
         "gallery": ["steelworks24", "steelworks24-1.jpg", "steelworks24-2.jpg", "steelworks24-3.jpg", "steelworks24-4.jpg", "steelworks24-5.jpg", "steelworks24-6.jpg", "steelworks24-7.jpg", "steelworks24-8.jpg"],
         "links": {
             "Game": "https://marekk3301.itch.io/broken-by-choice",
