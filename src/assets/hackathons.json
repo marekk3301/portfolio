@@ -550,11 +550,36 @@
             "awards": [],
             "certificate": ""
         },
-        "team": "Kinga Marszałkowska",
+        "team": "Kinga Marszałkowska, Sylwia Bujak",
         "gallery": [],
         "links": {
             "Global Event Website": "https://www.spaceappschallenge.org/nasa-space-apps-2024/2024-local-events/stalowa-wola",
             "Local Venue Website": "https://hackathon.stalowawola.pl/"
+        }
+    },
+    {
+        "id": 24,
+        "name": "Broken by choice",
+        "icon": "steelworks24.svg",
+        "solution": "https://img.itch.zone/aW1hZ2UvMzA2Njk4MS8xODM0NzYzOS5wbmc=/original/6Tzbfn.png",
+        "solution_display_type": "image",
+        "description": "We developed a jigsaw-inspired horror game set in a surreal, atmospheric world. Players must navigate various rooms filled with deadly zombies and gruesome decapitation devices. To survive and progress, they face tough choices: sacrifice body parts in exchange for items essential for surviving and winning. Choose wisely, act quickly. And beware of the stew.",
+        "event": {
+            "logo": "steelworks3.png",
+            "name": "Steelworks Game Jam",
+            "date": "25-10-2024",
+            "location": "Nowohuckie Centrum Kultury, Kraków",
+            "duration": 49,
+            "awards": [],
+            "certificate": ""
+        },
+        "team": "Kinga Nowak, Magda Kowalska, Madzia, Krzysztof Bański, Kamil Butryn, Szymon Konieczny",
+        "gallery": ["steelworks24", "steelworks24-1.jpg", "steelworks24-2.jpg", "steelworks24-3.jpg", "steelworks24-4.jpg", "steelworks24-5.jpg", "steelworks24-6.jpg", "steelworks24-7.jpg", "steelworks24-8.jpg"],
+        "links": {
+            "Game": "https://marekk3301.itch.io/broken-by-choice",
+            "Event Website": "https://nck.krakow.pl/steelworks-jam-iii/",
+            "Facebook Event": "https://www.facebook.com/events/895876985728890",
+            "Photo Gallery": "https://www.facebook.com/share/p/dpRZ2i1ij3CfAea5/"
         }
     },
     {
@@ -565,19 +590,18 @@
         "solution_display_type": "none",
         "description": "",
         "event": {
-            "logo": "mermaid.jpg",
-            "name": "Warsaw MERMAID Game Jam",
-            "date": "11-10-2024",
-            "location": "Centrum Rozwoju Przemysłów Kreatywnych, Warszawa",
-            "duration": 48,
+            "logo": ".jpg",
+            "name": "",
+            "date": "dd-mm-rrrr",
+            "location": "",
+            "duration": 24,
             "awards": [],
             "certificate": ""
         },
         "team": "",
         "gallery": [],
         "links": {
-            "Facebook Event": "https://www.facebook.com/events/546603017898412",
-            "Admission": "https://gamejam.crpk.pl"
+            "Facebook Event": "https://www.facebook.com/events/"
         }
     }
 ]
