@@ -25,3 +25,8 @@ p {
 .content {
   padding: 20px;
 }
+
+a {
+  color: #E8EAED;
+  text-decoration: none;
+}

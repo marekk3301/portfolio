@@ -510,7 +510,7 @@
     },
     {
         "id": 22,
-        "name": "Le Mur Defense",
+        "name": "LeMur Defense",
         "icon": "hackyeah24.svg",
         "solution": "https://www.youtube.com/embed/_i4UiDvGe2s?si=CPH6ZdDtKxViS-h0",
         "solution_display_type": "youtube",
@@ -522,11 +522,12 @@
             "location": "TAURON Arena, Kraków",
             "duration": 24,
             "awards": ["Finalist (Top 5)"],
-            "certificate": ""
+            "certificate": "hackyeah24.pdf"
         },
-        "team": "Kinga Nowak, Magda, Krzysztof Bański, Michał Cieśla, Kamil Butryn",
-        "gallery": ["hackyeah24", "hackyeah24-1.jpg", "hackyeah24-2.jpg", "hackyeah24-3.png", "hackyeah24-4.jpg", "hackyeah24-5.jpg", "hackyeah24-6.jpg", "hackyeah24-7.jpg"],
+        "team": "Kinga Nowak, Magda Kowalska, Krzysztof Bański, Michał Cieśla, Kamil Butryn",
+        "gallery": ["hackyeah24", "hackyeah24-1.jpg", "hackyeah24-2.jpg", "hackyeah24-3.jpg", "hackyeah24-4.jpg", "hackyeah24-5.jpg", "hackyeah24-6.jpg", "hackyeah24-7.jpg", "hackyeah24-8.jpg", "hackyeah24-9.png", "hackyeah24-10.jpg", "hackyeah24-11.jpg", "hackyeah24-12.jpg", "hackyeah24-13.jpg", "hackyeah24-14.jpg"],
         "links": {
+            "Game Download": "https://kosmik123.itch.io/lemur-defense",
             "Challenge Entry": "https://challengerocket.com/hackyeah-2024/works/le-mur-8e98e8#go-pagecontent",
             "Github Source": "https://github.com/kaybenot/HackYeah",
             "Facebook Event": "https://www.facebook.com/events/734698882062901",
@@ -534,12 +535,12 @@
         }
     },
     {
-        "id": null,
-        "name": "",
+        "id": 23,
+        "name": "Kardashev Game",
         "icon": "spaceapps24.svg",
-        "solution": "",
-        "solution_display_type": "none",
-        "description": "",
+        "solution": "https://www.youtube.com/embed/55EbobOBdGI?si=rNO6QWE-Tt_7gvb9",
+        "solution_display_type": "youtube",
+        "description": "We created a text-based adventure game where the Earth is on the brink of collapse, necessitating the exploration of space. Players need to learn about various exoplanets to be able to make a decision where to settle. Real-life scientific data is presented by a fine-tuned AI assistant (openAI), who also helps the player advance space technologies. The challange is to choose planets with the most favorable conditions for life and energy acquisition. Some planets can be a true paradise, some are risky but rewarding, and others...a flop!",
         "event": {
             "logo": "spaceapps.png",
             "name": "NASA Space Apps",
@@ -549,11 +550,36 @@
             "awards": [],
             "certificate": ""
         },
-        "team": "Kinga Marszałkowska",
+        "team": "Kinga Marszałkowska, Sylwia Bujak",
         "gallery": [],
         "links": {
             "Global Event Website": "https://www.spaceappschallenge.org/nasa-space-apps-2024/2024-local-events/stalowa-wola",
             "Local Venue Website": "https://hackathon.stalowawola.pl/"
+        }
+    },
+    {
+        "id": 24,
+        "name": "Broken by choice",
+        "icon": "steelworks24.svg",
+        "solution": "https://img.itch.zone/aW1hZ2UvMzA2Njk4MS8xODM0NzYzOS5wbmc=/original/6Tzbfn.png",
+        "solution_display_type": "image",
+        "description": "We developed a jigsaw-inspired horror game set in a surreal, atmospheric world. Players must navigate various rooms filled with deadly zombies and gruesome decapitation devices. To survive and progress, they face tough choices: sacrifice body parts in exchange for items essential for surviving and winning. Choose wisely, act quickly. And beware of the stew.",
+        "event": {
+            "logo": "steelworks3.png",
+            "name": "Steelworks Game Jam",
+            "date": "25-10-2024",
+            "location": "Nowohuckie Centrum Kultury, Kraków",
+            "duration": 49,
+            "awards": [],
+            "certificate": ""
+        },
+        "team": "Kinga Nowak, Magda Kowalska, Madzia, Krzysztof Bański, Kamil Butryn, Szymon Konieczny",
+        "gallery": ["steelworks24", "steelworks24-1.jpg", "steelworks24-2.jpg", "steelworks24-3.jpg", "steelworks24-4.jpg", "steelworks24-5.jpg", "steelworks24-6.jpg", "steelworks24-7.jpg", "steelworks24-8.jpg"],
+        "links": {
+            "Game": "https://marekk3301.itch.io/broken-by-choice",
+            "Event Website": "https://nck.krakow.pl/steelworks-jam-iii/",
+            "Facebook Event": "https://www.facebook.com/events/895876985728890",
+            "Photo Gallery": "https://www.facebook.com/share/p/dpRZ2i1ij3CfAea5/"
         }
     },
     {
@@ -564,19 +590,18 @@
         "solution_display_type": "none",
         "description": "",
         "event": {
-            "logo": "mermaid.jpg",
-            "name": "Warsaw MERMAID Game Jam",
-            "date": "11-10-2024",
-            "location": "Centrum Rozwoju Przemysłów Kreatywnych, Warszawa",
-            "duration": 48,
+            "logo": ".jpg",
+            "name": "",
+            "date": "dd-mm-rrrr",
+            "location": "",
+            "duration": 24,
             "awards": [],
             "certificate": ""
         },
         "team": "",
         "gallery": [],
         "links": {
-            "Facebook Event": "https://www.facebook.com/events/546603017898412",
-            "Admission": "https://gamejam.crpk.pl"
+            "Facebook Event": "https://www.facebook.com/events/"
         }
     }
 ]
