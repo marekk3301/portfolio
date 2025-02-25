@@ -89,6 +89,7 @@
         "gallery": ["bitehack21", "bitehack21-1.png", "bitehack21-2.jpg", "bitehack21-3.jpg", "bitehack21-4.jpg", "bitehack21-5.JPG"],
         "links": {
             "Github Source": "https://github.com/kinga-marszalkowska/gyro_glove",
+            "Facebook Event": "https://www.facebook.com/events/3836074446416897",
             "Event Website": "https://bitehack.best.krakow.pl/"
         }
     },
@@ -551,10 +552,14 @@
             "certificate": ""
         },
         "team": "Kinga Marszałkowska, Sylwia Bujak",
-        "gallery": [],
+        "gallery": ["spaceapps24", "spaceapps24-1.jpg", "spaceapps24-2.jpg", "spaceapps24-3.jpg"],
         "links": {
+            "Game": "https://marekk3301.itch.io/kardashev-game",
+            "Github Source": "https://github.com/marekk3301/Kardashev-NASA-Space-Apps-2024",
             "Global Event Website": "https://www.spaceappschallenge.org/nasa-space-apps-2024/2024-local-events/stalowa-wola",
-            "Local Venue Website": "https://hackathon.stalowawola.pl/"
+            "Local Venue Website": "https://hackathon.stalowawola.pl/",
+            "Facebook Event": "https://www.facebook.com/space4talents",
+            "Aftermovie": "https://www.youtube.com/watch?v=ANbYKp9kopI"
         }
     },
     {
@@ -573,13 +578,63 @@
             "awards": [],
             "certificate": ""
         },
-        "team": "Kinga Nowak, Magda Kowalska, Madzia, Krzysztof Bański, Kamil Butryn, Szymon Konieczny",
+        "team": "Kinga Nowak, Magda Kowalska, Madzia Gancarek, Krzysztof Bański, Kamil Butryn, Szymon Konieczny",
         "gallery": ["steelworks24", "steelworks24-1.jpg", "steelworks24-2.jpg", "steelworks24-3.jpg", "steelworks24-4.jpg", "steelworks24-5.jpg", "steelworks24-6.jpg", "steelworks24-7.jpg", "steelworks24-8.jpg"],
         "links": {
             "Game": "https://marekk3301.itch.io/broken-by-choice",
             "Event Website": "https://nck.krakow.pl/steelworks-jam-iii/",
             "Facebook Event": "https://www.facebook.com/events/895876985728890",
             "Photo Gallery": "https://www.facebook.com/share/p/dpRZ2i1ij3CfAea5/"
+        }
+    },
+    {
+        "id": 25,
+        "name": "Superman (t-rex) Runner irl",
+        "icon": "bitehack24.svg",
+        "solution": "https://marekk3301.github.io/portfolio/galleries/bitehack24/bitehack24-1.jpg",
+        "solution_display_type": "image",
+        "description": "",
+        "event": {
+            "logo": "bitehack.png",
+            "name": "Bitehack",
+            "date": "14-12-2024",
+            "location": "TAURON Arena, Kraków",
+            "duration": 24,
+            "awards": [],
+            "certificate": ""
+        },
+        "team": "Antoni Ulenberg",
+        "gallery": ["bitehack24", "bitehack24-1.jpg", "bitehack24-2.jpg", "bitehack24-3.jpg", "bitehack24-4.jpg", "bitehack24-5.jpg", "bitehack24-6.jpg", "bitehack24-7.jpg", "bitehack24-8.jpg", "bitehack24-9.jpg", "bitehack24-10.jpg", "bitehack24-11.jpg", "bitehack24-12.jpg"],
+        "links": {
+            "Github Source": "https://github.com/kinga-marszalkowska/bitehack2022",
+            "Facebook Page": "https://www.facebook.com/BEST.BITEhack",
+            "Event Website": "https://bitehack.best.krakow.pl/"
+        }
+    },
+    {
+        "id": 26,
+        "name": "speechBubble",
+        "icon": "gamejam25.svg",
+        "solution": "https://marekk3301.github.io/portfolio/galleries/gamejam25/gamejam25.png",
+        "solution_display_type": "image",
+        "description": "A lighthearted and addictive emoji-merging game that puts your creativity and logic to the test! Starting with simple chat bubbles and emojis, players combine elements to discover new, hilarious conversational expressions to talk with strangers. From basic \"Hi!\" bubbles to quirky meme-worthy combos, each new merge brings surprises and challenges.",
+        "event": {
+            "logo": "gamejam24.png",
+            "name": "HackJam",
+            "date": "24-01-2025",
+            "location": "Gdański Park Naukowo-Technologiczny",
+            "duration": 48,
+            "awards": [],
+            "certificate": ""
+        },
+        "team": "Agata Dobrzyniewicz",
+        "gallery": ["gamejam25", "gamejam25-1.png", "gamejam25-2.jpg", "gamejam25-3.jpg", "gamejam25-4.jpg", "gamejam25-5.jpg", "gamejam25-6.jpg", "gamejam25-7.jpg", "gamejam25-8.jpg", "gamejam25-9.jpg", "gamejam25-10.jpg", "gamejam25-11.jpg", "gamejam25-12.jpg", "gamejam25-13.jpg", "gamejam25-14.jpg"],
+        "links": {
+            "Game": "https://marekk3301.github.io/speechBubbleGame/",
+            "Global Game Jam Entry": "https://globalgamejam.org/games/2025/speechbubble-3",
+            "Github Source": "https://github.com/marekk3301/speechBubbleGame",
+            "Event": "https://app.evenea.pl/event/hackjam2025/",
+            "Event Website": "https://codeme.pl/kursy/gamejam"
         }
     },
     {
