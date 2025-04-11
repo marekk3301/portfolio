@@ -5,7 +5,7 @@ import '../css/CloseButton.css';
 const CloseButton = () => {
     const navigate = useNavigate();
 
-    // Handle the click event to navigate back to the main page
+    // Handle the click event to either navigate back to the main page or close fullscreen picture
     const handleClose = () => {
         navigate('/');
     };

@@ -42,7 +42,7 @@ const Project = () => {
                     <Gallery gallery={hackathon.gallery} />
                 </div>
             )}
-            <CloseButton></CloseButton>
+            <CloseButton></CloseButton> {/* todo: change close button behaviour inside fullscreen picture */}
         </div>
     );
 };
