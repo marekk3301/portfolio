@@ -1,165 +1,153 @@
 import React, { useRef, useEffect } from 'react';
 import * as THREE from 'three';
-import { VideoTexture } from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
-
-// import '../css/Monitors.css';
+import { VideoTexture } from 'three';
 
 const Monitors = () => {
-    const mountRef = useRef(null);
+  const mountRef = useRef(null);
 
-    useEffect(() => {
-        // Scene setup
-        const scene = new THREE.Scene();
-        const camera = new THREE.PerspectiveCamera(50, mountRef.current.clientWidth / mountRef.current.clientHeight, 0.1, 1000);
-        let pivot = 5;
-        camera.position.y = -1;
-        camera.position.z = 20;
-        // camera.position.y = 10;
+  // Individual CRT refs
+  const crtRefs = useRef({});
 
-        const renderer = new THREE.WebGLRenderer({ antialias: true });
-        renderer.setSize(mountRef.current.clientWidth, mountRef.current.clientHeight);
-        mountRef.current.appendChild(renderer.domElement);
+  useEffect(() => {
+    if (!mountRef.current) return;
 
-        const textureLoader = new THREE.TextureLoader();
-        const screenTexture = textureLoader.load('/models/textures/testCard.png');
-        
-        const video = document.createElement('video');
-        video.src = '/models/textures/no-signal.mp4';  // your video file
-        video.loop = true;
-        video.muted = true;
-        video.play();
-
-        const videoTexture = new VideoTexture(video);
-        let crt1Material = new THREE.MeshBasicMaterial({ map: videoTexture });
-
-
-        const loader = new GLTFLoader();
-        let crt1;
-        let crt2;
-        let crt3;
-        let crt4;
-
-        const crtStack = new THREE.Group();
-
-        loader.load('/models/crt1_.glb', (gltf) => {
-            crt1 = gltf.scene;
-            crt1.scale.set(1, 1, 1);
-            crt1.position.set(0, -pivot, 0);    // ensure it's centered
-            crt1.rotation.set(0, 3.3, 0);    // ensure it's centered
-            crtStack.add(crt1);
-
-            let i = 0;
-            crt1.traverse((child) => {
-                if (child.isMesh) {
-                    i++;
-                    if (i == 6) {
-                        child.material = crt1Material;
-                    }
-                }
-            });
-
-            const planeGeometry = new THREE.PlaneGeometry(2, 1.5); // Adjust size
-            const planeMaterial = new THREE.MeshBasicMaterial({ map: screenTexture });
-            const screenPlane = new THREE.Mesh(planeGeometry, planeMaterial);
-            screenPlane.position.set(0, 0, 0.1); // Slightly in front of CRT screen
-            crt1.add(screenPlane);
-        });
-        loader.load('/models/crt1_.glb', (gltf) => {
-            crt2 = gltf.scene;
-            crt2.scale.set(.9, .9, .9);
-            crt2.position.set(0.3, 3.9-pivot, 0);    // ensure it's centered
-            crt2.rotation.set(0, 3.14-0.1, 0);    // ensure it's centered
-            crtStack.add(crt2);
-            
-            let i = 0;
-            crt2.traverse((child) => {
-                if (child.isMesh) {
-                    i++;
-                    if (i == 6) {
-                        child.material = new THREE.MeshBasicMaterial({ map: screenTexture });
-                    }
-                }
-            });
-        });
-        loader.load('/models/crt2_.glb', (gltf) => {
-            crt3 = gltf.scene;
-            crt3.scale.set(1, 1, 1);
-            crt3.position.set(0, 6.75-pivot, 0.2);    // ensure it's centered
-            crt3.rotation.set(0, 3.14+0.2, 0);    // ensure it's centered
-            crtStack.add(crt3);
-            
-            let i = 0;
-            crt3.traverse((child) => {
-                if (child.isMesh) {
-                    i++;
-                    if (i == 9) {
-                        child.material = crt1Material;
-                    }
-                }
-            });
-        });
-        loader.load('/models/crt3_.glb', (gltf) => {
-            crt4 = gltf.scene;
-            crt4.scale.set(1, 1, 1);
-            crt4.position.set(-.4, 9.2-pivot, 0.1);    // ensure it's centered
-            crt4.rotation.set(0, 3.14-.1, 0);    // ensure it's centered
-            crtStack.add(crt4);
-            
-            let i = 0;
-            crt4.traverse((child) => {
-                if (child.isMesh) {
-                    i++;
-                    if (i == 4) {
-                        child.material = new THREE.MeshBasicMaterial({ map: screenTexture });
-                    }
-                }
-            });
-        });
-
-        crtStack.rotation.set(0, 0, 0);    // ensure it's centered
-        scene.add(crtStack);
-
-        const ambientLight = new THREE.AmbientLight(0xffffff, 1);
-        scene.add(ambientLight);
-
-        const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
-        directionalLight.position.set(5, 5, 5);
-        scene.add(directionalLight);
-
-        const handleMouseMove = (event) => {
-            const { clientX, clientY } = event;
-            const windowCenterX = window.innerWidth / 2;
-            const windowCenterY = window.innerHeight / 2;
-        
-            const rotationY = (clientX - windowCenterX) / windowCenterX; // -1 to +1
-            const rotationX = (clientY - windowCenterY) / windowCenterY; // -1 to +1
-        
-            crtStack.rotation.y = rotationY * 0.5; // adjust multiplier to control sensitivity
-            crtStack.rotation.x = rotationX * 0.2;
-        };
-        
-        window.addEventListener('mousemove', handleMouseMove);
-        
-        const animate = () => {
-            requestAnimationFrame(animate);
-            renderer.render(scene, camera);
-          };
-        animate();
-
-        
-        // Cleanup on unmount
-        return () => {
-            window.removeEventListener('mousemove', handleMouseMove);
-            if (mountRef.current && renderer.domElement.parentNode === mountRef.current) {
-                mountRef.current.removeChild(renderer.domElement);
-            }
-        };
-      }, []);
-    
-    return (
-        <div ref={mountRef} style={{ width: '100vw', height: '100vh' }} />
+    // Scene setup
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(
+      50,
+      mountRef.current.clientWidth / mountRef.current.clientHeight,
+      0.1,
+      1000
     );
+    camera.position.set(0, -1, 20);
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(mountRef.current.clientWidth, mountRef.current.clientHeight);
+    mountRef.current.appendChild(renderer.domElement);
+
+    const textureLoader = new THREE.TextureLoader();
+    const screenTexture = textureLoader.load('/models/textures/testCard.png');
+
+    const video = document.createElement('video');
+    video.src = '/models/textures/no-signal.mp4';
+    video.loop = true;
+    video.muted = true;
+    video.play();
+
+    const videoTexture = new VideoTexture(video);
+    const videoMaterial = new THREE.MeshBasicMaterial({ map: videoTexture });
+    const staticMaterial = new THREE.MeshBasicMaterial({ map: screenTexture });
+
+    const loader = new GLTFLoader();
+    const crtStack = new THREE.Group();
+    const pivotOffset = 5;
+
+    // Raycaster and mouse for click detection
+    const raycaster = new THREE.Raycaster();
+    const mouse = new THREE.Vector2();
+
+    const loadCRT = (name, path, scale, position, rotation, screenMaterial, targetMeshIndex) => {
+      loader.load(path, (gltf) => {
+        const crt = gltf.scene;
+        crt.name = name; // Important for identification
+        crt.scale.set(...scale);
+        crt.position.set(...position.map((p, i) => (i === 1 ? p - pivotOffset : p)));
+        crt.rotation.set(...rotation);
+
+        let meshIndex = 0;
+        crt.traverse((child) => {
+          if (child.isMesh) {
+            meshIndex++;
+            if (meshIndex === targetMeshIndex) {
+              child.material = screenMaterial;
+            }
+          }
+        });
+
+        crtStack.add(crt);
+
+        // Store ref
+        crtRefs.current[name] = crt;
+      });
+    };
+
+    // Load CRTs
+    loadCRT('crt1', '/models/crt1_.glb', [1, 1, 1], [0, 0, 0], [0, 3.3, 0], videoMaterial, 6);
+    loadCRT('crt2', '/models/crt1_.glb', [0.9, 0.9, 0.9], [0.3, 3.9, 0], [0, 3.04, 0], staticMaterial, 6);
+    loadCRT('crt3', '/models/crt2_.glb', [1, 1, 1], [0, 6.75, 0.2], [0, 3.34, 0], videoMaterial, 9);
+    loadCRT('crt4', '/models/crt3_.glb', [1, 1, 1], [-0.4, 9.2, 0.1], [0, 3.04, 0], staticMaterial, 4);
+
+    crtStack.rotation.set(0, 0, 0);
+    scene.add(crtStack);
+
+    // Lighting
+    scene.add(new THREE.AmbientLight(0xffffff, 1));
+    const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
+    directionalLight.position.set(5, 5, 5);
+    scene.add(directionalLight);
+
+    // Mouse Move for CRT stack rotation
+    const handleMouseMove = (event) => {
+      const { clientX, clientY } = event;
+      const windowCenterX = window.innerWidth / 2;
+      const windowCenterY = window.innerHeight / 2;
+
+      const rotationY = (clientX - windowCenterX) / windowCenterX;
+      const rotationX = (clientY - windowCenterY) / windowCenterY;
+
+      crtStack.rotation.y = rotationY * 0.5;
+      crtStack.rotation.x = rotationX * 0.2;
+    };
+
+    // Mouse Click for CRT detection
+    const handleMouseClick = (event) => {
+      if (!mountRef.current) return;
+
+      const rect = mountRef.current.getBoundingClientRect();
+      mouse.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
+      mouse.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
+
+      raycaster.setFromCamera(mouse, camera);
+      const intersects = raycaster.intersectObjects(crtStack.children, true);
+
+      if (intersects.length > 0) {
+        const firstIntersect = intersects[0].object;
+
+        // Traverse upward to find the parent CRT group
+        let crt = firstIntersect;
+        while (crt.parent && crt.parent !== crtStack) {
+          crt = crt.parent;
+        }
+
+        console.log(`Clicked on ${crt.name}`);
+        alert(`You clicked on ${crt.name}`);
+        
+        // Example: rotate clicked CRT
+        // crt.rotation.z += Math.PI / 8;
+      }
+    };
+
+    window.addEventListener('mousemove', handleMouseMove);
+    window.addEventListener('click', handleMouseClick);
+
+    const animate = () => {
+      requestAnimationFrame(animate);
+      renderer.render(scene, camera);
+    };
+    animate();
+
+    return () => {
+      window.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener('click', handleMouseClick);
+
+      if (mountRef.current?.contains(renderer.domElement)) {
+        mountRef.current.removeChild(renderer.domElement);
+      }
+    };
+  }, []);
+
+  return <div ref={mountRef} style={{ width: '100vw', height: '100vh' }} />;
 };
 
 export default Monitors;
