@@ -19,7 +19,7 @@ const Project = () => {
     const hackathon = hackathons.find(h => h.id == id);
 
     if (!hackathon) {
-        return <div style={{marginTop: "45%", textAlign: "center"}}>Project #{id} not found</div>;
+        return <div style={{marginTop: "20%", textAlign: "center"}}>Project #{id} not found</div>;
     }
 
     return (

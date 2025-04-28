@@ -7,7 +7,7 @@ const CloseButton = () => {
 
     // Handle the click event to navigate back to the main page
     const handleClose = () => {
-        navigate('/');
+        navigate('/projects');
     };
 
     let fill_color = "#ffffff";
