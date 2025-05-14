@@ -1,13 +1,16 @@
 import { Link } from "react-router-dom";
 
-import "../css/ProjectList.css"
+import "../css/HackathonProjectList.css"
+import "../css/Project.css"
+
+import CloseButton from '../components/CloseButton';
 
 // import PdfModal from '../components/PdfModal';
 // import ExternalLinks from '../components/ExternalLinks';
 
 import hackathons from '../assets/hackathons.json';
 
-const ProjectList = () => {
+const HackathonProjectList = () => {
 
     const projectList = hackathons.map((hackathon) => {
         if (hackathon.icon == "") {
@@ -34,8 +37,9 @@ const ProjectList = () => {
             {projectList}
           </div>
         </div>
+        <CloseButton path='/'></CloseButton>
       </div>
     );
   }
- 
-  export default ProjectList
+
+  export default HackathonProjectList
