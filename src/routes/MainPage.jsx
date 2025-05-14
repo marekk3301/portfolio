@@ -5,8 +5,6 @@ import Monitors from '../components/Monitors';
 
 // import "../css/MainPage.css"
 
-// import hackathons from '../assets/hackathons.json';
-
 const MainPage = () => {
     
     return (

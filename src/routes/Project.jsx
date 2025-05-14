@@ -42,7 +42,7 @@ const Project = () => {
                     <Gallery gallery={hackathon.gallery} />
                 </div>
             )}
-            <CloseButton></CloseButton>
+            <CloseButton path="/hackathons" />
         </div>
     );
 };

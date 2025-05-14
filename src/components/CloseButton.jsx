@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../css/CloseButton.css';
 
-const CloseButton = (path) => {
+const CloseButton = ({ path }) => {
     const navigate = useNavigate();
 
     // Handle the click event to navigate back to the main page

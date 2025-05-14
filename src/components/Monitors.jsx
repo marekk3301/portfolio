@@ -18,7 +18,7 @@ const Monitors = () => {
       rotation: [0, 3.3, 0],
       targetMeshIndex: 6,
       route: '/hackathons',
-      videoSrc: '/models/textures/no-signal.mp4'
+      videoSrc: null
     },
     {
       name: 'crt2',
@@ -28,7 +28,7 @@ const Monitors = () => {
       rotation: [0, 3.04, 0],
       targetMeshIndex: 6,
       route: '/ootm',
-      videoSrc: '/models/textures/no-signal.mp4'
+      videoSrc: '/models/textures/ootm.mp4'
     },
     {
       name: 'crt3',
@@ -38,7 +38,7 @@ const Monitors = () => {
       rotation: [0, 3.34, 0],
       targetMeshIndex: 9,
       route: '/projects',
-      videoSrc: null // Uses static texture
+      videoSrc: null
     },
     {
       name: 'crt4',
@@ -48,7 +48,7 @@ const Monitors = () => {
       rotation: [0, 3.04, 0],
       targetMeshIndex: 4,
       route: '/skills',
-      videoSrc: '/models/textures/no-signal.mp4'
+      videoSrc: null
     }
   ];
 
@@ -82,7 +82,9 @@ const Monitors = () => {
       video.muted = true;
       video.playsInline = true;
       video.play();
-      return new THREE.MeshBasicMaterial({ map: new THREE.VideoTexture(video) });
+      let videoTexture = new THREE.VideoTexture(video)
+      // videoTexture.flipY = true;
+      return new THREE.MeshBasicMaterial({ map: videoTexture });
     };
 
     // Create static noise material
@@ -250,7 +252,11 @@ const Monitors = () => {
     };
   }, [navigate]);
 
-  return <div ref={mountRef} style={{ width: '100vw', height: '100vh' }} />;
+  return (
+    <div>
+      <div ref={mountRef} style={{ width: '100vw', height: '100vh' }} />
+    </div>
+  );
 };
 
 export default Monitors;

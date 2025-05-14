@@ -1,8 +1,12 @@
 import { Link } from "react-router-dom";
 
 import "../css/HackathonProjectList.css"
+import "../css/Project.css"
+
+import CloseButton from '../components/CloseButton';
 
 import hackathons from '../assets/hackathons.json';
+
 
 const HackathonProjectList = () => {
 
@@ -31,6 +35,7 @@ const HackathonProjectList = () => {
             {projectList}
           </div>
         </div>
+        <CloseButton path='/'></CloseButton>
       </div>
     );
   }
