@@ -499,7 +499,7 @@
             "location": "Hackerspace Trójmiasto, Gdańsk",
             "duration": 24,
             "awards": ["community"],
-            "certificate": "illuminathon24.jpg"
+            "certificate": "illuminathon24.pdf"
         },
         "team": "Agata Dobrzyniewicz",
         "gallery": ["illuminathon24", "illuminathon24-1.jpg", "illuminathon24-2.jpg", "illuminathon24-3.jpg", "illuminathon24-4.jpg", "illuminathon24-5.jpg"],
@@ -635,6 +635,32 @@
             "Github Source": "https://github.com/marekk3301/speechBubbleGame",
             "Event": "https://app.evenea.pl/event/hackjam2025/",
             "Event Website": "https://codeme.pl/kursy/gamejam"
+        }
+    },
+    {
+        "id": 27,
+        "name": "Celestia",
+        "icon": "rerenesans25.svg",
+        "solution": "https://marekk3301.github.io/portfolio/galleries/rerenesans25/celestia.jpg",
+        "solution_display_type": "image",
+        "description": "We built an interactive art installation that combines addressable LEDs with a voice assistant to bring the night sky indoors. People can ask the AI about constellations, planets, or stars, and see them light up in real time on a mapped LED starfield. The system also responds to the assistant's own storytelling, illuminating constellations as they are mentioned.",
+        "event": {
+            "logo": "rerenesans.png",
+            "name": "Re:renesans",
+            "date": "29-08-2025",
+            "location": "Biblioteka Główna Uniwersytetu Gdańskiego",
+            "duration": 48,
+            "awards": [1, "community"],
+            "certificate": "rerenesans25.pdf"
+        },
+        "team": "Agata Dobrzyniewicz, Mateusz Grencel",
+        "gallery": ["rerenesans25", "rerenesans25-1.png", "rerenesans25-2.png", "rerenesans25-3.png", "rerenesans25-4.jpg", "rerenesans25-5.jpg", "rerenesans25-6.jpg", "rerenesans25-7.jpg", "rerenesans25-8.jpg", "rerenesans25-9.jpg", "rerenesans25-10.jpg", "rerenesans25-11.jpg", "rerenesans25-12.jpg", "rerenesans25-13.jpg", "rerenesans25-14.jpg", "rerenesans25-15.jpg", "rerenesans25-16.jpg", "rerenesans25-17.jpg", "rerenesans25-18.jpg"],
+        "links": {
+            "Presentation": "https://www.youtube.com/live/Aa0GkLbIiII?t=4860",
+            "Awards Announcement": "https://www.youtube.com/live/Aa0GkLbIiII?t=8868",
+            "Event Website": "https://evenea.pl/pl/wydarzenie/rerenesans",
+            "Event": "https://codeme.pl/eventy/rerenesans/"
+
         }
     },
     {
