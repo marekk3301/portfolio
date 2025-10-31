@@ -63,7 +63,7 @@
         "team": "Ada Pleszewska, Kinga Marszałkowska, Przemysław Kvapil, Julian Zdunek",
         "gallery": ["alexa20", "alexa20-1.jpg", "alexa20-2.jpg", "alexa20-3.jpg", "alexa20-4.png"],
         "links": {
-            "Slideshow": "https://drive.google.com/file/d/1ySHdXwxGKaDmu_9DVvxxX01O3phdTOTc/view?usp=drive_link",
+            "Presentation": "https://drive.google.com/file/d/1ySHdXwxGKaDmu_9DVvxxX01O3phdTOTc/view?usp=drive_link",
             "Task": "https://innovation-amazon.com/#task",
             "Winners Announcement": "https://2020.hackyeah.pl/2020/12/10/the-winner-happy-bears/",
             "Facebook Reference": "https://www.facebook.com/OsrodekDamb/posts/pfbid02T655Bd64uJaBS1aFpaEtiynsQaGr7GSE9gwPgavE7Qg5YBcvdTR2hTYKpQMbQJXAl"
@@ -161,7 +161,7 @@
         "team": "Kinga Marszałkowska, Julian Zdunek",
         "gallery": ["lasy21", "lasy21_2.png", "lasy21_3.png", "lasy21_4.png", "lasy21_5.png", "lasy21_6.png", "lasy21_7.png", "lasy21_8.png", "lasy21_9.jpg", "lasy21_10.jpg"],
         "links": {
-            "Slideshow": "https://docs.google.com/presentation/d/1FH9JmDz3a-qWffmZvli5aoNALYNW9MuY/edit?usp=sharing&ouid=108330482710501040717&rtpof=true&sd=true",
+            "Presentation": "https://docs.google.com/presentation/d/1FH9JmDz3a-qWffmZvli5aoNALYNW9MuY/edit?usp=sharing&ouid=108330482710501040717&rtpof=true&sd=true",
             "Challenge": "https://challengerocket.com/wizjarozwoju21/",
             "Event Website": "https://2021.wizjarozwoju.pl/event/hackathon/"
 
@@ -327,12 +327,12 @@
         "team": "Sylwia Banasiuk, Kinga Marszałkowska, Mariusz Banasiuk",
         "gallery": ["gamejam23", "gamejam23-1.jpg", "gamejam23-2.jpg", "gamejam23-3.jpg", "gamejam23-4.jpg"],
         "links": {
-            "Game on itch.io": "https://superbanan.itch.io/space-sprouts",
+            "Game": "https://superbanan.itch.io/space-sprouts",
             "Global Game Jam Entry": "https://v3.globalgamejam.org/2023/games/roots-5",
             "Github Source": "https://github.com/marekk3301/gamejam2023",
-            "Event Summary": "https://www.linkedin.com/pulse/hackjam-hackerspace-game-jam-2023-code-me/",
             "Facebook Event": "https://www.facebook.com/events/3411972035759130",
-            "Event Website": "https://codeme.pl/kursy/gamejam"
+            "Event Website": "https://codeme.pl/kursy/gamejam",
+            "Event Summary": "https://www.linkedin.com/pulse/hackjam-hackerspace-game-jam-2023-code-me/"
         }
     },
     {
@@ -356,7 +356,7 @@
         "links": {
             "Project Overview": "https://www.hackster.io/507183/digital-keys-for-lab-access-control-9b3caf",
             "Awards Announcment (Accessibility Award)": "https://www.hackster.io/contests/smartcampus2023#category-1085",
-            "Zipped Source Code": "https://hacksterio.s3.amazonaws.com/uploads/attachments/1599152/app.zip"
+            "Source Code": "https://hacksterio.s3.amazonaws.com/uploads/attachments/1599152/app.zip"
         }
     },
     {
@@ -379,7 +379,7 @@
         "gallery": ["hack4change23", "hack4change23-1.jpg", "hack4change23-2.jpg", "hack4change23-3.jpg", "hack4change23-4.png", "hack4change23-5.jpg"],
         "links": {
             "Figma Prototype": "https://www.figma.com/design/pYwerDw9IdIFeSQe13AgS9/Untitled?node-id=0-1&m=dev&t=JRttK3bxIn3lfEBI-1",
-            "Slideshow": "https://docs.google.com/presentation/d/1avFgakfPxo8V9GpCxn-msSU09-KY2q9R7P6gGdF_JeM/edit?usp=sharing",
+            "Presentation": "https://docs.google.com/presentation/d/1avFgakfPxo8V9GpCxn-msSU09-KY2q9R7P6gGdF_JeM/edit?usp=sharing",
             "Event Summary": "https://hack4change.tech/summary-2023/"
         }
     },
@@ -453,6 +453,7 @@
         "links": {
             "App Demo": "https://marekk3301.github.io/hack4change2024",
             "Figma Prototype": "https://www.figma.com/design/YMIsjgIqBadcaAiDK0Y47e/Untitled?node-id=0-1&m=dev",
+            "Canva Presentation": "https://www.canva.com/design/DAGI88K_s_g/0YUDuIqO0QGe4BxJg8jR4w/view?utm_content=DAGI88K_s_g&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3729166162",
             "Github Source": "https://github.com/marekk3301/hack4change2024",
             "Event Summary": "https://hack4change.tech/summary-2024/",
             "codeme.pl": "https://codeme.pl/kursy/hack4change-hackathon",
@@ -528,11 +529,13 @@
         "team": "Kinga Nowak, Magda Kowalska, Krzysztof Bański, Michał Cieśla, Kamil Butryn",
         "gallery": ["hackyeah24", "hackyeah24-1.jpg", "hackyeah24-2.jpg", "hackyeah24-3.jpg", "hackyeah24-4.jpg", "hackyeah24-5.jpg", "hackyeah24-6.jpg", "hackyeah24-7.jpg", "hackyeah24-8.jpg", "hackyeah24-9.png", "hackyeah24-10.jpg", "hackyeah24-11.jpg", "hackyeah24-12.jpg", "hackyeah24-13.jpg", "hackyeah24-14.jpg"],
         "links": {
-            "Game Download": "https://kosmik123.itch.io/lemur-defense",
+            "Game": "https://kosmik123.itch.io/lemur-defense",
             "Challenge Entry": "https://challengerocket.com/hackyeah-2024/works/le-mur-8e98e8#go-pagecontent",
             "Github Source": "https://github.com/kaybenot/HackYeah",
             "Facebook Event": "https://www.facebook.com/events/734698882062901",
-            "Event Website": "https://hackyeah.pl/"
+            "Event Website": "https://hackyeah.pl/",
+            "Photo Gallery": "https://www.flickr.com/photos/proideastock/albums/72177720320756666/",
+            "Aftermovie": "https://www.youtube.com/watch?v=p44bl-53KjE"
         }
     },
     {
@@ -632,6 +635,7 @@
         "links": {
             "Game": "https://marekk3301.github.io/speechBubbleGame/",
             "Global Game Jam Entry": "https://globalgamejam.org/games/2025/speechbubble-3",
+            "Canva Presentation": "https://www.canva.com/design/DAGdTAZNPzs/YdIKS4p_dUxOOKJJoTq_0w/view?utm_content=DAGdTAZNPzs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4004771b4b",
             "Github Source": "https://github.com/marekk3301/speechBubbleGame",
             "Event": "https://app.evenea.pl/event/hackjam2025/",
             "Event Website": "https://codeme.pl/kursy/gamejam"
@@ -664,25 +668,92 @@
         }
     },
     {
-        "id": null,
-        "name": "",
-        "icon": "",
-        "solution": "",
-        "solution_display_type": "none",
-        "description": "",
+        "id": 28,
+        "name": "Wartuś",
+        "icon": "hackyeah25.svg",
+        "solution": "https://marekk3301.github.io/portfolio/galleries/hackyeah25/wartus.png",
+        "solution_display_type": "image",
+        "description": "We designed a smart plush toy that helps parents understand and support their baby’s health, sleep and well-being. Inside Wartuś there are non-contact sensors for tracking breathing and heart rate, as well as skin and room temperature, ambient noise, and diaper status (via H₂S detection) sensors. The companion app processes this data locally and in real time to recognize patterns, predict short-term changes (like restlessness or diaper needs) and provide gentle, data-driven guidance instead of guesswork.",
         "event": {
-            "logo": ".jpg",
-            "name": "",
-            "date": "dd-mm-rrrr",
-            "location": "",
+            "logo": "hackyeah.png",
+            "name": "HackYeah",
+            "date": "04-10-2025",
+            "location": "TAURON Arena, Kraków",
             "duration": 24,
             "awards": [],
             "certificate": ""
         },
+        "team": "Sylwia Puzio",
+        "gallery": ["hackyeah25", "hackyeah25-1.jpg", "hackyeah25-2.jpg", "hackyeah25-3.jpg", "hackyeah25-4.jpg", "hackyeah25-5.jpg", "hackyeah25-6.jpg", "hackyeah25-7.jpg", "hackyeah25-8.jpg", "hackyeah25-9.jpg", "hackyeah25-10.jpg", "hackyeah25-11.jpg", "hackyeah25-12.jpg", "hackyeah25-13.jpg", "hackyeah25-14.jpg", "hackyeah25-15.jpg", "hackyeah25-16.jpg", "hackyeah25-17.jpg", "hackyeah25-18.jpg"],
+        "links": {
+            "App Demo": "https://marekk3301.github.io/wartek/",
+            "Canva Presentation": "https://www.canva.com/design/DAG04Ekif4g/XZF-VC-T1oiR49Z7ziEqgQ/view?utm_content=DAG04Ekif4g&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0d44248285",
+            "Github Source": "https://github.com/marekk3301/wartek",
+            "Event Website": "https://www.hackyeah.pl/",
+            "Photo Gallery": "https://www.flickr.com/photos/proideastock/albums/72177720329494272/",
+            "Aftermovie": "https://www.youtube.com/watch?v=3RXcGE3FXr8"
+        }
+    },
+    {
+        "id": 29,
+        "name": "PrzeinaczAI",
+        "icon": "bkihack25.svg",
+        "solution": "https://marekk3301.github.io/portfolio/galleries/bkihack25/przeinaczAI.jpg",
+        "solution_display_type": "image",
+        "description": "We developed a Chrome extension that transforms any online article into the writing and speaking style of your favorite real or fictional character. It extracts clean text, rewrites it using AI, and lets you listen to it in the matching voice using text-to-speech. The generated version appears seamlessly above the article.",
+        "event": {
+            "logo": "bkihack.svg",
+            "name": "BKI Hack",
+            "date": "24-10-2025",
+            "location": "WSB Merito, Toruń",
+            "duration": 24,
+            "awards": [1],
+            "certificate": "bkihack25.pdf"
+        }, 
+        "team": "Sylwia Puzio, Katarzyna Zawiasińska, Marcin Gesek, Jan Kamiński",
+        "gallery": ["bkihack25", "bkihack25-1.jpg", "bkihack25-2.jpg", "bkihack25-3.jpg", "bkihack25-4.jpg", "bkihack25-5.jpg", "bkihack25-6.jpg", "bkihack25-7.jpg", "bkihack25-8.jpg"],
+        "links": {
+            "Github Source": "https://github.com/jasi306/PrzeinaczAI",
+            "Canva Presentation": "https://www.canva.com/design/DAG2zE72Hv0/nBuv_OzdjyE3sglOOhIW_w/view?utm_content=DAG2zE72Hv0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h116473b34d",
+            "Facebook Event": "https://www.facebook.com/bkihack",
+            "Event Website": "https://www.bkihack.pl/",
+            "Event Summary": "https://www.bkihack.pl/history/2-torunski-hackathon",
+            "Linkedin Article": "https://www.linkedin.com/posts/bydgoski-klaster-informatyczny_hackathon-toruagm-bydgoskiklasterinformatyczny-activity-7387918087704104960-sBp5?utm_source=share&utm_medium=member_desktop&rcm=ACoAACL6wVcBmoTmScFaS0fAtWc-XxqtVq3qc5w"
+        }
+    },
+    {
+        "id": null,
+        "name": "",
+        "icon": "generic.svg",
+        "solution": "",
+        "solution_display_type": "none",
+        "description": "",
+        "event": {
+            "logo": ".png",
+            "name": "",
+            "date": "dd-mm-rrrr",
+            "location": "",
+            "duration": 24,
+            "awards": [1, 2, 3, "community", "special", "trophy", "Other (display as text)"],
+            "certificate": "certificate.pdf"
+        },
         "team": "",
         "gallery": [],
         "links": {
-            "Facebook Event": "https://www.facebook.com/events/"
+            "App Demo": "https://marekk3301.github.io/",
+            "Game": "https://marekk3301.itch.io/",
+            "Global Game Jam Entry": "https://v3.globalgamejam.org/",
+            "Challenge Entry": "https://challengerocket.com/",
+            "Figma Prototype": "https://www.figma.com/design/",
+            "Canva Presentation": "https://www.canva.com/design/",
+            "Github Source": "https://github.com/marekk3301/",
+            "Facebook Event": "https://www.facebook.com/events/",
+            "Event Website": "",
+            "Event Summary": "",
+            "Awards Announcement": "",
+            "Photo Gallery": "",
+            "Linkedin Article": "https://www.linkedin.com/",
+            "Aftermovie": "https://www.youtube.com/"
         }
     }
 ]
