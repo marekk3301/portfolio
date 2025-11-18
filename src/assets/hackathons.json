@@ -9,6 +9,7 @@
         "event": {
             "logo": "musicjam19.png",
             "name": "MusicJam",
+            "type": "musicjam",
             "date": "26-10-2019",
             "location": "Inkubator Starter, Gdańsk",
             "duration": 10,
@@ -32,6 +33,7 @@
         "event": {
             "logo": "musicjam19.png",
             "name": "MusicJam",
+            "type": "musicjam",
             "date": "23-10-2020",
             "location": "Online",
             "duration": 24,
@@ -54,6 +56,7 @@
         "event": {
             "logo": "innovation_amazon20.png",
             "name": "HackYeah - Innovation@Amazon",
+            "type": "programming",
             "date": "27-11-2020",
             "location": "Online",
             "duration": 48,
@@ -79,6 +82,7 @@
         "event": {
             "logo": "bitehack.png",
             "name": "Bitehack",
+            "type": "electronics",
             "date": "16-01-2021",
             "location": "Online",
             "duration": 24,
@@ -103,6 +107,7 @@
         "event": {
             "logo": "kombajn22.png",
             "name": "Kombajn GameJam",
+            "type": "gamejam",
             "date": "29-01-2021",
             "location": "Online",
             "duration": 24,
@@ -127,6 +132,7 @@
         "event": {
             "logo": "animaton.png",
             "name": "Animaton",
+            "type": "animaton",
             "date": "25-06-2021",
             "location": "Stocznia Cesarska, Gdańsk",
             "duration": 24,
@@ -151,6 +157,7 @@
         "event": {
             "logo": "lasy.png",
             "name": "Forum Wizja Rozwoju",
+            "type": "programming",
             "date": "26-08-2021",
             "location": "Akademickie Centrum Sportowe Akademii Marynarki Wojennej, Gdynia",
             "duration": 24,
@@ -177,6 +184,7 @@
         "event": {
             "logo": "panic.png",
             "name": "Last minute PANIC hackathon",
+            "type": "electronics",
             "date": "03-09-2021",
             "location": "Gdański Park Naukowo-Technologiczny",
             "duration": 24,
@@ -200,6 +208,7 @@
         "event": {
             "logo": "bitehack.png",
             "name": "Bitehack",
+            "type": "electronics",
             "date": "15-01-2022",
             "location": "Klub Studio, Miasteczko Studenckie AGH, Kraków ",
             "duration": 24,
@@ -225,6 +234,7 @@
         "event": {
             "logo": "animaton.png",
             "name": "Animaton",
+            "type": "animaton",
             "date": "22-04-2022",
             "location": "Budynek Dyrekcji Stoczni cesarskiej, Gdańsk",
             "duration": 24,
@@ -248,6 +258,7 @@
         "event": {
             "logo": "animaton.png",
             "name": "Animaton",
+            "type": "animaton",
             "date": "22-04-2022",
             "location": "Budynek Dyrekcji Stoczni cesarskiej, Gdańsk",
             "duration": 24,
@@ -271,6 +282,7 @@
         "event": {
             "logo": "crafthack.png",
             "name": "CraftHack - Tier Challenge",
+            "type": "programming",
             "date": "06-05-2022",
             "location": "Online",
             "duration": 48,
@@ -295,8 +307,9 @@
         "event": {
             "logo": "musicjam22.png",
             "name": "MusicJam",
+            "type": "musicjam",
             "date": "26-11-2022",
-            "location": "Instytut Kultury Miejskiej, Gdańsk ",
+            "location": "Instytut Kultury Miejskiej, Gdańsk",
             "duration": 12,
             "awards": [],
             "certificate": ""
@@ -318,6 +331,7 @@
         "event": {
             "logo": "gamejam23.png",
             "name": "Hackerspace GameJam",
+            "type": "gamejam",
             "date": "03-02-2023",
             "location": "Gdański Park Naukowo-Technologiczny",
             "duration": 48,
@@ -345,6 +359,7 @@
         "event": {
             "logo": "hackster.png",
             "name": "Smart Campus",
+            "type": "electronics",
             "date": "24-05-2023",
             "location": "Online",
             "duration": "100+",
@@ -369,6 +384,7 @@
         "event": {
             "logo": "hack4change.svg",
             "name": "Hack4Change",
+            "type": "programming",
             "date": "02-06-2023",
             "location": "Gdański Park Naukowo-Technologiczny",
             "duration": 48,
@@ -393,6 +409,7 @@
         "event": {
             "logo": "hackyeah.png",
             "name": "HackYeah",
+            "type": "programming",
             "date": "30-09-2023",
             "location": "TAURON Arena, Kraków",
             "duration": 24,
@@ -417,6 +434,7 @@
         "event": {
             "logo": "gamejam24.png",
             "name": "HackJam",
+            "type": "gamejam",
             "date": "26-01-2024",
             "location": "Gdański Park Naukowo-Technologiczny",
             "duration": 48,
@@ -442,6 +460,7 @@
         "event": {
             "logo": "hack4change.svg",
             "name": "Hack4Change",
+            "type": "programming",
             "date": "21-06-2024",
             "location": "Gdański Park Naukowo-Technologiczny",
             "duration": 48,
@@ -471,6 +490,7 @@
         "event": {
             "logo": "animaton.png",
             "name": "Animaton",
+            "type": "animaton",
             "date": "28-06-2024",
             "location": "Instytut Kultury Miejskiej, Gdańsk",
             "duration": 24,
@@ -496,6 +516,7 @@
         "event": {
             "logo": "illuminathon.png",
             "name": "Illuminathon",
+            "type": "electronics",
             "date": "23-09-2024",
             "location": "Hackerspace Trójmiasto, Gdańsk",
             "duration": 24,
@@ -520,6 +541,7 @@
         "event": {
             "logo": "hackyeah.png",
             "name": "HackYeah",
+            "type": "programming",
             "date": "28-09-2024",
             "location": "TAURON Arena, Kraków",
             "duration": 24,
@@ -548,6 +570,7 @@
         "event": {
             "logo": "spaceapps.png",
             "name": "NASA Space Apps",
+            "type": "programming",
             "date": "05-10-2024",
             "location": "Stalowa Wola",
             "duration": 36,
@@ -575,6 +598,7 @@
         "event": {
             "logo": "steelworks3.png",
             "name": "Steelworks Game Jam",
+            "type": "gamejam",
             "date": "25-10-2024",
             "location": "Nowohuckie Centrum Kultury, Kraków",
             "duration": 49,
@@ -600,6 +624,7 @@
         "event": {
             "logo": "bitehack.png",
             "name": "Bitehack",
+            "type": "electronics",
             "date": "14-12-2024",
             "location": "TAURON Arena, Kraków",
             "duration": 24,
@@ -624,6 +649,7 @@
         "event": {
             "logo": "gamejam24.png",
             "name": "HackJam",
+            "type": "gamejam",
             "date": "24-01-2025",
             "location": "Gdański Park Naukowo-Technologiczny",
             "duration": 48,
@@ -651,6 +677,7 @@
         "event": {
             "logo": "rerenesans.png",
             "name": "Re:renesans",
+            "type": "electronics",
             "date": "29-08-2025",
             "location": "Biblioteka Główna Uniwersytetu Gdańskiego",
             "duration": 48,
@@ -677,6 +704,7 @@
         "event": {
             "logo": "hackyeah.png",
             "name": "HackYeah",
+            "type": "programming",
             "date": "04-10-2025",
             "location": "TAURON Arena, Kraków",
             "duration": 24,
@@ -704,6 +732,7 @@
         "event": {
             "logo": "bkihack.svg",
             "name": "BKI Hack",
+            "type": "programming",
             "date": "24-10-2025",
             "location": "WSB Merito, Toruń",
             "duration": 24,
@@ -722,11 +751,34 @@
         }
     },
     {
+        "id": 30,
+        "name": "Du hast den guten Wein bisher behalten",
+        "icon": "musicjam25.svg",
+        "solution": "https://marekk3301.github.io/portfolio/galleries/musicjam25/musicjam25.jpg",
+        "solution_display_type": "image",
+        "description": "We created an interactive sound installation that reimagines a fragment of the baroque composition \"Du hast den guten Wein bisher behalten\" by Johann Daniel Pucklitz through the live-coding ecosystem Strudel. The original notesheets were transcribed by hand and rewritten in code which allowed them to be shaped in real time by a set of tactile, mushroom-shaped controllers. Each mushroom hides a different sensor which allow performers to alter parameters and apply effects directly to the running composition as it plays. The result is a meeting point between baroque music and interactive digital art.",
+        "event": {
+            "logo": "musicjam25.png",
+            "name": "MusicJam",
+            "type": "musicjam",
+            "date": "14-11-2025",
+            "location": "Instytut Kultury Miejskiej, Gdańsk",
+            "duration": 24,
+            "awards": [1],
+            "certificate": "musicjam25.pdf"
+        },
+        "team": "Ada Pleszewska, Mariia Krykun, Przemysław Kvapil, Natan Tułodziecki",
+        "gallery": ["musicjam25", "musicjam25-1.jpg", "musicjam25-2.jpg", "musicjam25-3.jpg", "musicjam25-4.jpg", "musicjam25-5.jpg", "musicjam25-6.jpg", "musicjam25-7.jpg"],
+        "links": {
+            "Event Website": "https://www.musicjam.pl/"
+        }
+    },
+    {
         "id": null,
         "name": "",
         "icon": "generic.svg",
         "solution": "",
-        "solution_display_type": "none",
+        "solution_display_type": "image / youtube / video / none",
         "description": "",
         "event": {
             "logo": ".png",

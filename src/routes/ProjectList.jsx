@@ -10,6 +10,7 @@ import hackathons from '../assets/hackathons.json';
 const ProjectList = () => {
 
     const projectList = hackathons.map((hackathon) => {
+        // eslint-disable-next-line
         if (hackathon.icon == "") {
           hackathon.icon = "generic.svg"
         }
