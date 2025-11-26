@@ -29,7 +29,7 @@
         "icon": "musicjam20.svg",
         "solution": "https://www.youtube.com/embed/T_IM0BnU654?si=vwh02xU4-vGwWqUP",
         "solution_display_type": "youtube",
-        "description": "We combined a medieval song \"Greensleves\", played by a 3d printer, with sounds that we had recorded. The vocals are a courtesy of medialab, they've managed to recreate the calls of Gdańsk's people from the 16th century. In the clip, G-code (an instruction for the printer needed to play the melody) is displayed. If you speak G-code, it's a karaoke version. The clips with CRT TV are a background for medieval drawings. We experimented with montage to combine medieval art with technology - the old with the new.",
+        "description": "We combined a medieval song \"Greensleves\" played by a 3d printer, with sounds that we had recorded. The vocals are a courtesy of medialab - they've managed to recreate the calls of people from 16th century Gdańsk. In the clip, G-code (an instruction for the printer needed to play the melody) is displayed. If you speak G-code, it's a karaoke version. The clips with CRT TV are a background for medieval drawings. We experimented with montage to combine medieval art with technology - the old with the new.",
         "event": {
             "logo": "musicjam19.png",
             "name": "MusicJam",
@@ -41,7 +41,7 @@
             "certificate": "musicjam20.pdf"
         },
         "team": "Kinga Marszałkowska",
-        "gallery": [],
+        "gallery": ["musicjam20", "musicjam20-1.png", "musicjam20-2.png", "musicjam20-3.png", "musicjam20-4.png", "musicjam20-5.png", "musicjam20-6.png"],
         "links": {
             "Event Website": "https://musicjam.pl/"
         }
