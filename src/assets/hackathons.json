@@ -777,7 +777,7 @@
         "id": 31,
         "name": "Kontrabando",
         "icon": "generic.svg",
-        "solution": "https://marekk3301.github.io/portfolio/galleries/hacknation25/hacknation25.jpg",
+        "solution": "https://marekk3301.github.io/portfolio/galleries/hacknation25/hacknation25.png",
         "solution_display_type": "image",
         "description": "We developed an AI-driven solution which utilizes image embeddings to accurately match vehicle X-ray scans with their corresponding reference templates stored in a database. This system enhances the efficiency and accuracy of identifying contraband hidden within vehicles at border checkpoints by flagging any discrepancies that may indicate the presence of illicit items.",
         "event": {
