@@ -774,6 +774,32 @@
         }
     },
     {
+        "id": 31,
+        "name": "Kontrabando",
+        "icon": "generic.svg",
+        "solution": "https://marekk3301.github.io/portfolio/galleries/hacknation25/hacknation25.jpg",
+        "solution_display_type": "image",
+        "description": "We developed an AI-driven solution which utilizes image embeddings to accurately match vehicle X-ray scans with their corresponding reference templates stored in a database. This system enhances the efficiency and accuracy of identifying contraband hidden within vehicles at border checkpoints by flagging any discrepancies that may indicate the presence of illicit items.",
+        "event": {
+            "logo": "hacknation25.png",
+            "name": "HackNation",
+            "date": "06-12-2025",
+            "location": "Bydgoskie Centrum Targowo-Wystawiennicze, Bydgoszcz",
+            "duration": 24,
+            "awards": [],
+            "certificate": ""
+        },
+        "team": "Katarzyna Zawiasińska, Klaudia Nosal, Jan Kamiński, Piotr Górski",
+        "gallery": ["hacknation25", "hacknation25-1.png", "hacknation25-2.png", "hacknation25-3.jpg", "hacknation25-4.jpg", "hacknation25-5.jpg", "hacknation25-6.jpg", "hacknation25-7.jpg", "hacknation25-8.jpg", "hacknation25-9.jpg", "hacknation25-10.jpg", "hacknation25-11.jpg", "hacknation25-12.jpg", "hacknation25-13.jpg"],
+        "links": {
+            "Notebook": "https://marekk3301.github.io/",
+            "Facebook Event": "https://www.facebook.com/HackNationPL",
+            "Event Website": "https://hacknation.pl/",
+            "Photo Gallery": "https://www.facebook.com/HackNationPL/photos",
+            "Aftermovie": "https://www.youtube.com/watch?v=Wg3RtsT2fZY"
+        }
+    },
+    {
         "id": null,
         "name": "",
         "icon": "generic.svg",
