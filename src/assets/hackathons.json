@@ -800,6 +800,31 @@
         }
     },
     {
+        "id": 32,
+        "name": "(Don't) Let it Burn",
+        "icon": "gamejam26.svg",
+        "solution": "https://marekk3301.pl/galleries/gamejam26/gamejam26.png",
+        "solution_display_type": "image",
+        "description": "We created a game wkere players can become an ordinary firefighters in a not so ordinary world of magic, dragons and...FIRE?! Well now someone has to extinguish it before it gets out of control. Use magic PyroMasks to see hidden walls, magic doors as well as enchanted fires that can not be seen with naked eye.",
+        "event": {
+            "logo": "gamejam24.png",
+            "name": "HackJam",
+            "date": "31-01-2026",
+            "location": "Gdański Park Naukowo-Technologiczny",
+            "duration": 48,
+            "awards": [],
+            "certificate": ""
+        },
+        "team": "Agata Dobrzyniewicz",
+        "gallery": [],
+        "links": {
+            "Game": "https://marekk3301.itch.io/let-it-burn",
+            "Global Game Jam Entry": "https://globalgamejam.org/games/2026/dont-let-it-burn-5",
+            "Canva Presentation": "https://www.canva.com/design/DAHAEEjn23M/tfwfyGdSbqKDEl0AXyccOw/edit?utm_content=DAHAEEjn23M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+            "Github Source": "https://github.com/marekk3301/let-it-burn"
+        }
+    },
+    {
         "id": null,
         "name": "",
         "icon": "generic.svg",
