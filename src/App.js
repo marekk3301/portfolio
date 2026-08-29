@@ -4,6 +4,7 @@ import './App.css';
 import Project from './routes/Project';
 import ProjectList from './routes/ProjectList';
 import Landing from './routes/Landing';
+import CraftHackathon from './routes/CraftHackathon';
 
 function App() {
   const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
@@ -22,6 +23,9 @@ function App() {
            <Route path='/' element={<ProjectList/>} />
            <Route path='/project/:id' element={<Project />} />
            <Route path='/main' element={<Landing />} />
+           <Route path='/craft' element={<CraftHackathon />} />
+           <Route path='/crafthack' element={<CraftHackathon />} />
+           <Route path='/craft-hackathon' element={<CraftHackathon />} />
          </Routes>
       </div>
     );
