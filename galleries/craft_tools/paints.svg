@@ -1,26 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#e8eaed">
-  <!-- 18ml Miniature Dropper Bottle (Vallejo / Army Painter style) -->
-  <!-- Dropper Tip -->
-  <path d="M5.5 1h2v2h-2z"/>
-  <!-- Screw Cap with ridges -->
-  <path d="M4.5 3h4c.3 0 .5.2.5.5v3.5h-5V3.5c0-.3.2-.5.5-.5z"/>
-  <path d="M5.5 4h.8v2h-.8zm1.4 0h.8v2h-.8z" fill="#000"/>
-  <!-- Bottle Neck Collar -->
-  <path d="M4 7h5v1.2H4z"/>
-  <!-- Bottle Body -->
-  <path d="M3 8.5h7c.6 0 1 .4 1 1v11c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2v-11c0-.6.4-1 1-1zm1 3.5h5v5H4v-5z"/>
-  <!-- Label band fill -->
-  <path d="M4.5 13h4v2h-4z" fill="#000"/>
-
-  <!-- Miniature Detail Paintbrush (Angled from top-right) -->
-  <!-- Bristle Tip -->
-  <path d="M12.5 17.5l2 2c.4.4.4 1 0 1.4-.4.4-1 .4-1.4 0l-2-2c-.3-.4 0-1 .4-1.4.3-.3.7-.3 1 0z"/>
-  <!-- Ferrule (Metal Sleeve) -->
-  <path d="M13.5 16.5l2 2 2.5-2.5-2-2-2.5 2.5z"/>
-  <!-- Brush Handle -->
-  <path d="M16.5 13.5l2 2L23 4c.3-.5.2-1.1-.3-1.4-.5-.3-1.1-.2-1.4.3l-4.8 10.6z"/>
-
-  <!-- Paint droplets -->
-  <circle cx="11.5" cy="21.5" r="1"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 16 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-4.037885,-2.236486)">
+        <g transform="matrix(1,0,0,1,0,-0.488798)">
+            <g transform="matrix(1,0,0,1,-0.917904,0)">
+                <path d="M16.547,5.92C16.785,5.796 17.216,5.504 17.415,4.936C17.697,4.129 17.642,3.628 17.642,3.628L18.895,3.628C18.895,3.628 18.841,4.129 19.122,4.936C19.404,5.743 20.156,5.993 20.156,5.993L20.337,9.577L16.898,9.577L16.715,9.264L16.547,5.92ZM17.24,10.325L20.293,10.325C20.673,10.339 20.871,10.491 20.88,10.787L20.88,20.372L17.366,20.372L17.366,11.074L17.365,11.002L17.24,10.325Z" style="fill:rgb(232,234,237);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,1.082096,0.031823)">
+                <path d="M6.47,20.34L2.956,20.34L2.956,10.755C2.965,10.459 3.163,10.307 3.543,10.293L6.596,10.293L6.471,10.97L6.47,11.042L6.47,20.34ZM6.938,9.545L3.504,9.545L3.684,5.962C3.684,5.962 4.436,5.711 4.718,4.904C5,4.098 4.945,3.596 4.945,3.596L6.198,3.596C6.198,3.596 6.144,4.098 6.426,4.904C6.624,5.473 7.057,5.765 7.294,5.888L7.127,9.221L6.938,9.545Z" style="fill:rgb(232,234,237);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,2.525574,0.063644)">
+                <path d="M10.208,2.662C10.208,2.662 10.144,3.246 10.473,4.187C10.802,5.128 11.679,5.42 11.679,5.42L11.889,9.599L7.066,9.599L7.276,5.42C7.276,5.42 8.153,5.128 8.482,4.187C8.81,3.246 8.746,2.662 8.746,2.662L10.208,2.662ZM11.837,10.472C12.281,10.488 12.512,10.665 12.523,11.01L12.523,22.189L6.426,22.189L6.426,11.01C6.437,10.665 6.668,10.488 7.111,10.472L11.837,10.472Z" style="fill:rgb(232,234,237);"/>
+            </g>
+        </g>
+    </g>
 </svg>
