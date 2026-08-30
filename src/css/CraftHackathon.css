@@ -38,7 +38,8 @@
 
 .craft-hero__subtitle {
   font-family: monospace;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 700;
   letter-spacing: 4px;
   color: #ee6b25;
   margin-bottom: 24px;

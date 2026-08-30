@@ -108,7 +108,7 @@ const CraftHackathon = () => {
 
       {/* Hero Section */}
       <header className="craft-hero">
-        <div className="craft-hero__subtitle glitch_no_blur">
+        <div className="craft-hero__subtitle">
           CRAFT HACKATHON
         </div>
 
