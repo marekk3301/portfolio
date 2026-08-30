@@ -1,11 +1,11 @@
-# ⚡ Marek Kudła – Hackathon Portfolio
+# Hackathon Portfolio
 
 [![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react&logoColor=black)](https://reactjs.org/)
 [![React Router](https://img.shields.io/badge/React_Router-v6-CA4245?logo=react-router&logoColor=white)](https://reactrouter.com/)
 [![Deployment](https://img.shields.io/badge/Hosted_on-GitHub_Pages-222222?logo=github)](https://www.marekk3301.pl/)
 [![License](https://img.shields.io/badge/License-Private-lightgrey.svg)]()
 
-> Interactive, cyberpunk-themed portfolio showcasing hackathon projects, interactive solutions, awards, certificates, and media galleries.
+> Interactive portfolio showcasing hackathon projects, awards, certificates, and media galleries.
 
 🔗 **Live Website:** [marekk3301.pl](https://www.marekk3301.pl/)
 
@@ -28,7 +28,7 @@
 
 ## 🌟 Overview
 
-This web application serves as a comprehensive portfolio cataloging **Marek Kudła's** hackathon achievements, interactive prototypes, multimedia presentations, and collaborative experiments. Built with a retro-futuristic, mobile-first design, it features chromatic aberration glitch aesthetics, modular component architecture, and a zero-database, JSON-driven content management setup.
+This web application serves as a comprehensive portfolio cataloging my hackathon achievements, prototypes, multimedia presentations, and collaborative experiments.
 
 ---
 
@@ -126,7 +126,7 @@ All project content is driven by `src/assets/hackathons.json`. Each entry adhere
 {
   "id": 1,
   "name": "Project Name",
-  "icon": "icon_filename.svg",
+  "icon": "icon_filename.svg", // Should be placed in /public/galleries/project_icons
   "solution": "https://www.youtube.com/embed/XXXXXX",
   "solution_display_type": "youtube",
   "description": "Comprehensive narrative explaining the problem, solution, tech stack, and experience.",
@@ -138,12 +138,12 @@ All project content is driven by `src/assets/hackathons.json`. Each entry adhere
     "location": "City, Country or Online",
     "duration": 24,
     "awards": [1, "special"],
-    "certificate": "certificate_file.pdf"
+    "certificate": "certificate_file.pdf" // Should be placed in /public/galleries/awards
   },
-  "team": "Teammate One, Teammate Two",
+  "team": "Teammate One, Teammate Two, ...",
   "gallery": [
-    "gallery_folder_name",
-    "image_1.jpg",
+    "gallery_folder_name", // Should be created in /public/galleries
+    "image_1.jpg", // Should be placed in /public/galleries/gallery_folder_name
     "image_2.jpg"
   ],
   "links": {

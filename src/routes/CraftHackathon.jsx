@@ -4,85 +4,85 @@ import '../css/CraftHackathon.css';
 const toolsData = [
   {
     id: 'pc',
-    name: 'PC & Workstations',
+    name: 'Computers',
     icon: 'pc.svg',
-    examples: '3D Models, Vector Paths, Slicing, Code, Generative Art, PCB Layouts'
+    examples: '3D Models, Vector Paths, Slicing, Code, Machines Software'
   },
   {
     id: 'fdm',
     name: 'FDM 3D Printer',
     icon: 'fdm.svg',
-    examples: 'PLA, PETG, Functional Brackets, Shells, Custom Enclosures'
+    examples: 'Functional parts, Enclosures, Decorations, Household fixtures, Cosplay props, Art'
   },
   {
     id: 'sla',
     name: 'SLA Resin Printer',
     icon: 'sla.svg',
-    examples: 'UV Resin, Miniatures, High-Detail Figurines, Precision Parts'
+    examples: 'Tabletop Miniatures, Jewelry, Keycaps, Tiny gears, High-detail, precision parts'
   },
   {
     id: 'laser',
-    name: '40W Laser Cutter',
+    name: 'Laser Cutter',
     icon: 'laser.svg',
-    examples: 'Plywood, Acrylic, Cardboard, Laser Engravings, Box Joints'
+    examples: 'Plywood Boxes, Veneer Inlays, Jigsaw puzzles, Architectural models, Fabric Patterns, Rubber Stamps, Metal Marking'
   },
   {
     id: 'vinyl',
     name: 'Vinyl Cutter',
     icon: 'vinyl.svg',
-    examples: 'Adhesive Vinyl, Custom Stickers, Stencils, Heat-Press Foil'
+    examples: 'Custom Stickers, Stencils, T-shirts and apparel, Vehicle lettering'
   },
   {
     id: 'soldering',
     name: 'Soldering Station',
     icon: 'soldering.svg',
-    examples: 'Lead-Free Solder, Heat Shrink, Custom Cables, Circuit Assembly'
+    examples: 'Electronic Circuits, Custom PCBs, Electronic repairs, Metal jewelry, Stained Glass'
   },
   {
     id: 'electronics',
     name: 'Electronic Components',
     icon: 'electronics.svg',
-    examples: 'ESP32, Arduino, LEDs, Sensors, Servos, Switches, Batteries'
+    examples: 'Home automation, Interactive art, Custom game controllers, LEDs, Sensors, Servos, Switches'
   },
   {
     id: 'dremel',
     name: 'Dremel Multitool',
     icon: 'dremel.svg',
-    examples: 'Cutting Wheels, Sanding Drums, Polishing Bits, Surface Engraving'
+    examples: 'Polished metalwork, Wood carvings, Engraved glassware'
   },
   {
     id: 'resin',
     name: '2K Resin',
     icon: 'resin.svg',
-    examples: 'Epoxy, Polyurethane, Silicone Molds, Encapsulation, Clear Casts'
+    examples: 'River tables, Custom dice sets, Silicone Mold Castings'
   },
   {
     id: 'paints',
-    name: 'Paints & Finishes',
+    name: 'Airbrush & Paints',
     icon: 'paints.svg',
-    examples: 'Acrylics, Spray Cans, Primers, Washes, Weathering & Detailing'
+    examples: '3D printed miniatures, Wargaming terrain, Weathered props, Custom action figures, Graffiti art'
   },
   {
     id: 'powertools',
     name: 'Power Tools',
     icon: 'powertools.svg',
-    examples: 'Cordless Drill, Orbital Sander, Jigsaw, Heat Gun, Hot Glue'
+    examples: 'Cordless Drill, Orbital Sander, Heat Gun, Hot Glue Gun'
   },
   {
     id: 'handtools',
     name: 'Hand Tools',
     icon: 'handtools.svg',
-    examples: 'Flush Cutters, Pliers, Screwdrivers, Scalpels, Calipers, Clamps'
+    examples: 'Cutters, Pliers, Screwdrivers, Scalpels, Calipers, Clamps and many more...'
   }
 ];
 
 const timelineData = [
-  { time: '12:00', title: 'Coffee and Tool Tutorials' },
-  { time: '14:00', title: 'Start Projects' },
+  { time: '12:00', title: 'Coffee and tool tutorials' },
+  { time: '14:00', title: 'Start working on projects' },
   { time: '18:00', title: 'Pizza' },
   { time: '11:00', title: 'Breakfast' },
-  { time: '14:00', title: 'Projects DEADLINE & Showcase' },
-  { time: '15:00', title: 'Get out xd' }
+  { time: '14:00', title: 'Projects deadline & showcase' },
+  { time: '15:00', title: 'Heading out' }
 ];
 
 const faqData = [
@@ -141,11 +141,11 @@ const CraftHackathon = () => {
           </div>
           <div className="craft-manifesto__card">
             <p className="craft-manifesto__lead">
-              We spend our days scrolling, tapping, and consuming digital streams designed by others. 
-              <strong> The Craft Hackathon is an antidote.</strong>
+              We spend our days scrolling, tapping, and consuming digital content designed by others. 
+              <strong> This Craft Hackathon is a remedy.</strong>
             </p>
             <p className="craft-manifesto__body">
-              This is a sprint dedicated to tangible, hands-on creation. No theoretical slide decks or abstract repos—we are gathering to build physical artifacts, interactive machines, wearable tech, cybernetic sculptures, and crafted prototypes that you can touch, test, and hold in your hands.
+              This is a sprint dedicated to tangible, hands-on creation. We are gathering to build physical artifacts, device prototypes, fashion pieces, scrapbooking and art that you can touch and hold in your hands.
             </p>
           </div>
         </section>
@@ -210,7 +210,7 @@ const CraftHackathon = () => {
               </div>
               <div className="craft-logistics__row">
                 <span className="craft-logistics__label">HOURS</span>
-                <span className="craft-logistics__val">12:00 – 15:00 (24h+)</span>
+                <span className="craft-logistics__val">sat 12:00 – sun 15:00 (24h+)</span>
               </div>
               <div className="craft-logistics__row">
                 <span className="craft-logistics__label">LOCATION</span>
