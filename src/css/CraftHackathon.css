@@ -365,10 +365,22 @@
   gap: 16px;
 }
 
+@media (min-width: 768px) {
+  .craft-faq__grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+}
+
 .craft-faq__card {
   background: rgba(255, 255, 255, 0.02);
   border: 1px solid rgba(255, 255, 255, 0.06);
-  padding: 20px;
+  padding: 20px 22px;
+  transition: border-color 0.2s ease;
+}
+
+.craft-faq__card:hover {
+  border-color: rgba(238, 107, 37, 0.3);
 }
 
 .craft-faq__q {
@@ -376,11 +388,14 @@
   font-weight: 600;
   color: #ffffff;
   margin-bottom: 8px;
+  line-height: 1.35;
 }
 
 .craft-faq__a {
   font-size: 13px;
+  line-height: 1.6;
   color: rgba(232, 234, 237, 0.8);
+  margin: 0;
 }
 
 /* Footer */

@@ -88,15 +88,15 @@ const timelineData = [
 const faqData = [
   {
     q: 'Who is this hackathon for?',
-    a: 'Everyone invited! Whether you want to build hardware, code, craft, or sculpt, there is a space and tool for you.'
-  },
-  {
-    q: 'What should I bring?',
-    a: 'Your laptop, chargers, and any weird components or materials you want to play with.'
+    a: 'Everyone invited! Whether you want to build hardware, craft, or make art, there is a space and tool for you.'
   },
   {
     q: 'Will materials be provided?',
-    a: 'Filaments, resin, plywood, acrylic, solder, wire, paints, and basic consumables will be ready on-site.'
+    a: "Filament, 3D printing resin, plywood, stamp rubber, adhesive vinyl, HTV, EVA foam, solder, wire, basic electronic parts, casting resin, paints, and everyday consumables will be available on-site. If you plan to use anything unusual (or unreasonable amounts of anything), it's best to bring your own."
+  },
+  {
+    q: 'What should I bring?',
+    a: 'A laptop (if you need one) and any unique tools, components, or materials you want to experiment with. You can always ask beforehand if a specific tool or material will be available — we have too much gear to list here.'
   }
 ];
 
@@ -220,8 +220,8 @@ const CraftHackathon = () => {
           </div>
         </section>
 
-        {/* Section: FAQ (Preserved in code, hidden via CSS) */}
-        <section className="craft-section craft-faq-hidden">
+        {/* Section: FAQ */}
+        <section className="craft-section">
           <div className="craft-section__header">
             <span className="craft-section__num">04</span>
             <h2 className="craft-section__title">FAQ</h2>
