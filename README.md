@@ -224,7 +224,7 @@ graph TD
 - **`App.js`**: Top-level route definitions (`/`, `/project/:id`, `/main`, `/craft`). Includes an optional `desktopLock` flag to toggle under-construction states.
 - **`ProjectList.jsx`**: Renders the dynamic icon matrix by iterating through `hackathons.json`.
 - **`Project.jsx`**: Dynamically matches `:id` with `hackathons.json` to hydrate the detailed view.
-- **`CraftHackathon.jsx`**: Dedicated invite & information landing page for the upcoming 19.09.2026 Craft Hackathon with interactive tool arsenal hover cards, timeline, FAQs, and RSVP.
+- **`CraftHackathon.jsx`**: Dedicated invite & information landing page for the upcoming 12.09.2026 Craft Hackathon with interactive tool arsenal hover cards, timeline, FAQs, and RSVP.
 - **`MediaFrame.jsx`**: Polymorphic media player switching between `<iframe>` (YouTube), `<video>` (local MP4), and `<img>`.
 - **`Award.jsx`**: Inline SVG rendering engine supporting custom colored badges for podium placements (`1`, `2`, `3`), special recognitions, and community trophies.
 - **`Gallery.jsx` & `FullscreenImage.jsx`**: Responsive gallery with React state-driven lightbox overlay for distraction-free viewing.

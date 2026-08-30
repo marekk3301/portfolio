@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../css/CraftHackathon.css';
 
 const toolsData = [
@@ -101,6 +101,14 @@ const faqData = [
 ];
 
 const CraftHackathon = () => {
+  useEffect(() => {
+    const previousTitle = document.title;
+    document.title = 'Craft Hackathon';
+    return () => {
+      document.title = previousTitle;
+    };
+  }, []);
+
   return (
     <div className="craft-page">
       {/* Background Subtle Gradient */}
@@ -122,7 +130,7 @@ const CraftHackathon = () => {
         </h1>
 
         <div className="craft-hero__date glitch_no_blur">
-          19.09.2026
+          12.09.2026
         </div>
 
         <div className="craft-hero__scroll-hint">
@@ -206,7 +214,7 @@ const CraftHackathon = () => {
             <div className="craft-logistics__card">
               <div className="craft-logistics__row">
                 <span className="craft-logistics__label">DATE</span>
-                <span className="craft-logistics__val">19.09.2026 – 20.09.2026</span>
+                <span className="craft-logistics__val">12.09.2026 – 13.09.2026</span>
               </div>
               <div className="craft-logistics__row">
                 <span className="craft-logistics__label">HOURS</span>
