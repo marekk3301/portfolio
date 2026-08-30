@@ -42,7 +42,7 @@ const toolsData = [
     id: 'electronics',
     name: 'Electronic Components',
     icon: 'electronics.svg',
-    examples: 'Home automation, Interactive art, Custom game controllers, LEDs, Sensors, Servos, Switches'
+    examples: 'Home automation, Interactive art, Custom game controllers, Regular and addressable LEDs, Sensors, Servos, Switches'
   },
   {
     id: 'dremel',
@@ -138,6 +138,7 @@ const CraftHackathon = () => {
         </h1>
 
         <div className="craft-hero__date glitch_no_blur">
+          19.09.2026
           12.09.2026
         </div>
 
@@ -222,6 +223,7 @@ const CraftHackathon = () => {
             <div className="craft-logistics__card">
               <div className="craft-logistics__row">
                 <span className="craft-logistics__label">DATE</span>
+                <span className="craft-logistics__val">19.09.2026 – 20.09.2026</span>
                 <span className="craft-logistics__val">12.09.2026 – 13.09.2026</span>
               </div>
               <div className="craft-logistics__row">
