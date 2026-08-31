@@ -88,7 +88,15 @@ const timelineData = [
 const faqData = [
   {
     q: 'Who is this hackathon for?',
-    a: 'Everyone invited! Whether you want to build hardware, craft, or make art, there is a space and tool for you.'
+    a: 'Everyone invited! Whether you want to build hardware, craft or make art, there is a space and tool for you.'
+  },
+  {
+    q: 'How much does it cost?',
+    a: 'Admission is free, but please RSVP so we can plan for food and materials.'
+  },
+  {
+    q: 'Can I stay the night?',
+    a: "Yes! You're welcome to stay overnight if you want to — whether you plan to keep working or get some sleep."
   },
   {
     q: 'Will materials be provided?',
