@@ -5,6 +5,7 @@ import Project from './routes/Project';
 import ProjectList from './routes/ProjectList';
 import Landing from './routes/Landing';
 import CraftHackathon from './routes/CraftHackathon';
+import WorkshopBoard from './routes/WorkshopBoard';
 
 function App() {
   const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
@@ -24,8 +25,11 @@ function App() {
            <Route path='/project/:id' element={<Project />} />
            <Route path='/main' element={<Landing />} />
            <Route path='/craft' element={<CraftHackathon />} />
-           <Route path='/crafthack' element={<CraftHackathon />} />
            <Route path='/craft-hackathon' element={<CraftHackathon />} />
+           <Route path='/craft/board' element={<WorkshopBoard />} />
+           <Route path='/craft-hackathon/board' element={<WorkshopBoard />} />
+           <Route path='/craft/inspirations' element={<WorkshopBoard />} />
+           <Route path='/craft-hackathon/inspirations' element={<WorkshopBoard />} />
          </Routes>
       </div>
     );

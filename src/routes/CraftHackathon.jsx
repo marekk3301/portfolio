@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import '../css/CraftHackathon.css';
 
 const toolsData = [
@@ -30,19 +31,19 @@ const toolsData = [
     id: 'vinyl',
     name: 'Vinyl Cutter',
     icon: 'vinyl.svg',
-    examples: 'Custom Stickers, Stencils, T-shirts and apparel, Vehicle lettering'
+    examples: 'Custom Stickers, Stencils, T-shirts and apparel, Vehicle lettering, Scrapbooking, Shadow boxes'
   },
   {
-    id: 'soldering',
-    name: 'Soldering Station',
-    icon: 'soldering.svg',
-    examples: 'Electronic Circuits, Custom PCBs, Electronic repairs, Metal jewelry, Stained Glass'
+    id: 'sewing',
+    name: 'Sewing Machine',
+    icon: 'sewing.svg',
+    examples: 'Custom apparel, Cosplay, Costumes, Bags and pouches, Plush toys'
   },
   {
     id: 'electronics',
-    name: 'Electronic Components',
+    name: 'Electronics Workstation',
     icon: 'electronics.svg',
-    examples: 'Home automation, Interactive art, Custom game controllers, Regular and addressable LEDs, Sensors, Servos, Switches'
+    examples: 'Electronic Circuits, Custom PCBs, Home automation, Interactive art, Custom game controllers'
   },
   {
     id: 'dremel',
@@ -66,7 +67,7 @@ const toolsData = [
     id: 'powertools',
     name: 'Power Tools',
     icon: 'powertools.svg',
-    examples: 'Cordless Drill, Orbital Sander, Heat Gun, Hot Glue Gun'
+    examples: 'Soldering iron, DC power supply, Cordless Drill, Orbital Sander, Heat Gun, Hot Glue Gun, Rhinestone applicator'
   },
   {
     id: 'handtools',
@@ -199,6 +200,13 @@ const CraftHackathon = () => {
               );
             })}
           </div>
+
+          <div className="craft-tools__forward">
+            <Link to="/craft/board" className="craft-tools__forward-btn glitch_no_blur">
+              <span>EXPLORE INSPIRATIONS & TOOLS BOARD</span>
+              <span className="craft-tools__forward-arrow">→</span>
+            </Link>
+          </div>
         </section>
 
         {/* Section: Timeline & Logistics */}
@@ -223,7 +231,6 @@ const CraftHackathon = () => {
             <div className="craft-logistics__card">
               <div className="craft-logistics__row">
                 <span className="craft-logistics__label">DATE</span>
-                <span className="craft-logistics__val">19.09.2026 – 20.09.2026</span>
                 <span className="craft-logistics__val">12.09.2026 – 13.09.2026</span>
               </div>
               <div className="craft-logistics__row">

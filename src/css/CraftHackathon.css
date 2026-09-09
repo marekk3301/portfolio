@@ -270,6 +270,46 @@
   margin: 0;
 }
 
+/* Forward to Board */
+.craft-tools__forward {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.craft-tools__forward-btn {
+  font-family: monospace;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(238, 107, 37, 0.4);
+  padding: 12px 24px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.craft-tools__forward-btn:hover {
+  background: rgba(238, 107, 37, 0.1);
+  border-color: #ee6b25;
+  color: #ffffff;
+  transform: translateY(-2px);
+  filter: drop-shadow(-2px 0 2px rgba(238, 107, 37, 0.5)) drop-shadow(2px 0 2px rgba(34, 101, 203, 0.7));
+}
+
+.craft-tools__forward-arrow {
+  transition: transform 0.2s ease;
+}
+
+.craft-tools__forward-btn:hover .craft-tools__forward-arrow {
+  transform: translateX(4px);
+}
+
 /* Timeline & Logistics */
 .craft-schedule__grid {
   display: grid;
@@ -406,7 +446,12 @@
   border-top: 1px solid rgba(255, 255, 255, 0.06);
   text-align: center;
   font-family: monospace;
-  font-size: 11px;
-  letter-spacing: 1px;
-  color: rgba(232, 234, 237, 0.45);
+  font-size: 8px;
+  letter-spacing: 1.5px;
+  color: rgba(232, 234, 237, 0.5);
+}
+
+.craft-footer p {
+  font-size: 8px;
+  margin: 0;
 }
