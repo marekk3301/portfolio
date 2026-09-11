@@ -139,7 +139,6 @@ const CraftHackathon = () => {
         </h1>
 
         <div className="craft-hero__date glitch_no_blur">
-          19.09.2026
           12.09.2026
         </div>
 
