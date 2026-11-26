@@ -2,31 +2,19 @@ import { Link } from "react-router-dom";
 
 import "../css/ProjectList.css"
 
-// import PdfModal from '../components/PdfModal';
-// import ExternalLinks from '../components/ExternalLinks';
-
 import hackathons from '../assets/hackathons.json';
 
 const ProjectList = () => {
 
-    const projectList = hackathons.map((hackathon) => {
-        // eslint-disable-next-line
-        if (hackathon.icon == "") {
-          hackathon.icon = "generic.svg"
-        }
-
-        if (hackathon.id) {
-          console.log(hackathon.event.name, hackathon.event.date);
-          return (
-            <div className="project__icon">
-              <Link to={"/project/" + hackathon.id}>
-                <img className="glitch" src={process.env.PUBLIC_URL + "/galleries/project_icons/" + hackathon.icon} alt={hackathon.id} />
-              </Link>
-            </div>
-          );
-        }   
-        return null;
-    });
+    const projectList = hackathons
+      .filter((hackathon) => hackathon.id)
+      .map((hackathon) => (
+        <div className="project__icon" key={hackathon.id}>
+          <Link to={"/project/" + hackathon.id}>
+            <img className="glitch" src={process.env.PUBLIC_URL + "/galleries/project_icons/" + (hackathon.icon || "generic.svg")} alt={hackathon.name} />
+          </Link>
+        </div>
+      ));
 
     return (
       <div className="list__container">
@@ -38,5 +26,5 @@ const ProjectList = () => {
       </div>
     );
   }
- 
+
   export default ProjectList

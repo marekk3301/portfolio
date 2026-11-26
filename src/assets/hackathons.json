@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Keyboard to MIDI conversion",
         "icon": "musicjam19.svg",
-        "solution": "https://marekk3301.github.io/portfolio/galleries/musicjam19/musicjam19.jpg",
+        "solution": "musicjam19/musicjam19.jpg",
         "solution_display_type": "image",
         "description": "For my first hackathon ever, we repurposed an old Casio SA-67 keyboard. By soldering into the PCB and connecting the keys to an Arduino, we aimed to read the key presses and transmit them as MIDI signals to a PC. Despite not finishing in time, the experience of a hackathon was incredibly fun.",
         "event": {
@@ -29,7 +29,7 @@
         "icon": "musicjam20.svg",
         "solution": "https://www.youtube.com/embed/T_IM0BnU654?si=vwh02xU4-vGwWqUP",
         "solution_display_type": "youtube",
-        "description": "We combined a medieval song \"Greensleves\" played by a 3d printer, with sounds that we had recorded. The vocals are a courtesy of medialab - they've managed to recreate the calls of people from 16th century Gdańsk. In the clip, G-code (an instruction for the printer needed to play the melody) is displayed. If you speak G-code, it's a karaoke version. The clips with CRT TV are a background for medieval drawings. We experimented with montage to combine medieval art with technology - the old with the new.",
+        "description": "We combined a medieval song \"Greensleeves\" played by a 3D printer, with sounds that we had recorded. The vocals are a courtesy of medialab - they've managed to recreate the calls of people from 16th century Gdańsk. In the clip, G-code (an instruction for the printer needed to play the melody) is displayed. If you speak G-code, it's a karaoke version. The clips with CRT TV are a background for medieval drawings. We experimented with montage to combine medieval art with technology - the old with the new.",
         "event": {
             "logo": "musicjam19.png",
             "name": "MusicJam",
@@ -78,7 +78,7 @@
         "icon": "bitehack21.svg",
         "solution": "https://www.youtube.com/embed/60ubFF-5QuY?si=jh4ivxdYne19I-zs",
         "solution_display_type": "youtube",
-        "description": "We created a motion-controlled glove using an accelerometer and gyroscope module. We wrote demos in Processing to showcase its capabilities. One of them was a game where player controlled a ball's movement and speed by tilting the glove, aiming to score points and avoid traps.",
+        "description": "We created a motion-controlled glove using an accelerometer and gyroscope module. We wrote demos in Processing to showcase its capabilities. One of them was a game where the player controlled a ball's movement and speed by tilting the glove, aiming to score points and avoid traps.",
         "event": {
             "logo": "bitehack.png",
             "name": "Bitehack",
@@ -101,7 +101,7 @@
         "id": 5,
         "name": "Alan Turing's Puzzle",
         "icon": "kombajn21.svg",
-        "solution": "https://marekk3301.github.io/portfolio/galleries/kombajn21/kombajn21.png",
+        "solution": "kombajn21/kombajn21.png",
         "solution_display_type": "image",
         "description": "We developed a point-and-click puzzle game using MS PowerPoint as the engine. Inspired by Rusty Lake's Cube Escape games, players assisted Alan Turing in decrypting the Enigma code by solving various puzzles.",
         "event": {
@@ -151,7 +151,7 @@
         "id": 7,
         "name": "Leśna Skrytka",
         "icon": "lasy21.svg",
-        "solution": "https://marekk3301.github.io/portfolio/galleries/lasy21/lasy21.png",
+        "solution": "lasy21/lasy21.png",
         "solution_display_type": "image",
         "description": "Wypoczynkomat (Leśna Skrytka) is a storage and distribution system for firewood. It also includes kindling and a returnable lighter in each locker containing wood. Five lockers store hammocks with setup instructions. A mobile app allows for reservations, automates payments, and provides forest-related information and safety notifications. The app also prevents access to firewood during high fire risk periods and enables users to report issues.",
         "event": {
@@ -176,7 +176,7 @@
     },
     {
         "id": 8,
-        "name": "Non-negotioable Alarm Clock",
+        "name": "Non-negotiable Alarm Clock",
         "icon": "panic21.svg",
         "solution": "https://www.youtube.com/embed/TOA2egFkRPo?si=o7MX5_KYbjahkIpD",
         "solution_display_type": "youtube",
@@ -226,7 +226,7 @@
     },
     {
         "id": 10,
-        "name": "Neon Pidgeon Clip",
+        "name": "Neon Pigeon Clip",
         "icon": "animaton22pidgeon.svg",
         "solution": "https://www.youtube.com/embed/zFDLR6cfbYg?si=cRHFc17kkkFoi92O",
         "solution_display_type": "youtube",
@@ -254,7 +254,7 @@
         "icon": "animaton22sfm.svg",
         "solution": "https://www.youtube.com/embed/TSgMcA8cNTY?si=801rSfM1_ArcvhHG",
         "solution_display_type": "youtube",
-        "description": "An AI-generated animation, made using Disco Diffusion. Created before AI-generated images became mainstream (Before Dall-e 2 or Stable Diffusion). The clip was selected to be used as the official music video. This was one of two projects we completed during the event.",
+        "description": "An AI-generated animation, made using Disco Diffusion. Created before AI-generated images became mainstream (before DALL·E 2 or Stable Diffusion). The clip was selected to be used as the official music video. This was one of two projects we completed during the event.",
         "event": {
             "logo": "animaton.png",
             "name": "Animaton",
@@ -301,7 +301,7 @@
         "id": 13,
         "name": "Rocketman Clip",
         "icon": "musicjam22.svg",
-        "solution": "https://marekk3301.github.io/portfolio/galleries/musicjam22/musicjam22.png",
+        "solution": "musicjam22/musicjam22.png",
         "solution_display_type": "image",
         "description": "Recorded a cover of \"Rocket Man\" by Elton John and created a procedurally generated animation using Processing. The animation depicted a view from an accelerating spaceship, enhancing the musical experience with dynamic visuals.",
         "event": {
@@ -325,9 +325,9 @@
         "id": 14,
         "name": "Space Sprouts",
         "icon": "gamejam23.svg",
-        "solution": "https://marekk3301.github.io/portfolio/galleries/gamejam23/gamejam23.png",
+        "solution": "gamejam23/gamejam23.png",
         "solution_display_type": "image",
-        "description": "As you strive to create a thriving exo-planet, you must cultivate the delicate relationship between plants, their roots, and the soil microbiome. With every seed you plant and every crop you harvest, you unleash the power of photosynthesis to transform the hostile environment into a lush and thriving ecosystem. But be vigilant, as you navigate the dangers of the cosmos and monitor the critical oxygen levels, your skills, and strategy will be tested. Roots left too long to grow will bite into the core of the planet and cause the decay of the core. Each successful harvest brings this new world one step closer to becoming a thriving, beautiful exo-planet.",
+        "description": "As you strive to create a thriving exo-planet, you must cultivate the delicate relationship between plants, their roots, and the soil microbiome. With every seed you plant and every crop you harvest, you unleash the power of photosynthesis to transform the hostile environment into a lush and thriving ecosystem. But be vigilant, as you navigate the dangers of the cosmos and monitor the critical oxygen levels, your skills and strategy will be tested. Roots left too long to grow will bite into the core of the planet and cause the decay of the core. Each successful harvest brings this new world one step closer to becoming a thriving, beautiful exo-planet.",
         "event": {
             "logo": "gamejam23.png",
             "name": "Hackerspace GameJam",
@@ -370,7 +370,7 @@
         "gallery": [],
         "links": {
             "Project Overview": "https://www.hackster.io/507183/digital-keys-for-lab-access-control-9b3caf",
-            "Awards Announcment (Accessibility Award)": "https://www.hackster.io/contests/smartcampus2023#category-1085",
+            "Awards Announcement (Accessibility Award)": "https://www.hackster.io/contests/smartcampus2023#category-1085",
             "Source Code": "https://hacksterio.s3.amazonaws.com/uploads/attachments/1599152/app.zip"
         }
     },
@@ -378,7 +378,7 @@
         "id": 16,
         "name": "TreeCity",
         "icon": "hack4change23.svg",
-        "solution": "https://marekk3301.github.io/portfolio/galleries/hack4change23/hack4change23.png",
+        "solution": "hack4change23/hack4change23.png",
         "solution_display_type": "image",
         "description": "The project is aimed at promoting green urban environments through an educational game. Players transform a city by making eco-friendly choices, such as creating parks and investing in green energy, which improve the city's environment and quality of life. Players earn points for real-life eco-friendly actions like walking or cycling, which can be used to unlock game upgrades. The project seeks to educate and engage users while collaborating with educational foundations, tech startups, and city councils, and utilizing community budgets to create a tangible impact on urban sustainability.",
         "event": {
@@ -428,7 +428,7 @@
         "id": 18,
         "name": "PeekaBOO",
         "icon": "gamejam24.svg",
-        "solution": "https://marekk3301.github.io/portfolio/galleries/gamejam24/gamejam24.png",
+        "solution": "gamejam24/gamejam24.png",
         "solution_display_type": "image",
         "description": "Dive into the spectral world of 'PeekaBoo' where you play as a friendly ghost on a heartwarming quest. Your mission? Use rhythm game mechanics to play a lullaby to make a crying baby laugh. Synchronize your movements with the soothing soundtrack and spread joy in this unique and whimsical adventure.",
         "event": {
@@ -454,7 +454,7 @@
         "id": 19,
         "name": "Spacerowe Bingo",
         "icon": "hack4change24.svg",
-        "solution": "https://marekk3301.github.io/portfolio/galleries/hack4change24/hack4change24.png",
+        "solution": "hack4change24/hack4change24.png",
         "solution_display_type": "image",
         "description": "We developed a mobile app that encourages outdoor activity through a bingo game. Users can mark off items they see during walks, promoting physical exercise, improving mental health, and providing entertainment for all ages. The app is free for individual users, while institutions like museums can collaborate by creating custom bingo cards tailored to their events or locations. This feature not only boosts engagement but also highlights specific places and activities.",
         "event": {
@@ -566,7 +566,7 @@
         "icon": "spaceapps24.svg",
         "solution": "https://www.youtube.com/embed/55EbobOBdGI?si=rNO6QWE-Tt_7gvb9",
         "solution_display_type": "youtube",
-        "description": "We created a text-based adventure game where the Earth is on the brink of collapse, necessitating the exploration of space. Players need to learn about various exoplanets to be able to make a decision where to settle. Real-life scientific data is presented by a fine-tuned AI assistant (openAI), who also helps the player advance space technologies. The challange is to choose planets with the most favorable conditions for life and energy acquisition. Some planets can be a true paradise, some are risky but rewarding, and others...a flop!",
+        "description": "We created a text-based adventure game where the Earth is on the brink of collapse, necessitating the exploration of space. Players need to learn about various exoplanets to be able to make a decision where to settle. Real-life scientific data is presented by a fine-tuned AI assistant (OpenAI), who also helps the player advance space technologies. The challenge is to choose planets with the most favorable conditions for life and energy acquisition. Some planets can be a true paradise, some are risky but rewarding, and others...a flop!",
         "event": {
             "logo": "spaceapps.png",
             "name": "NASA Space Apps",
@@ -592,7 +592,7 @@
         "id": 24,
         "name": "Broken by choice",
         "icon": "steelworks24.svg",
-        "solution": "https://img.itch.zone/aW1hZ2UvMzA2Njk4MS8xODM0NzYzOS5wbmc=/original/6Tzbfn.png",
+        "solution": "steelworks24/steelworks24.png",
         "solution_display_type": "image",
         "description": "We developed a jigsaw-inspired horror game set in a surreal, atmospheric world. Players must navigate various rooms filled with deadly zombies and gruesome decapitation devices. To survive and progress, they face tough choices: sacrifice body parts in exchange for items essential for surviving and winning. Choose wisely, act quickly. And beware of the stew.",
         "event": {
@@ -618,9 +618,9 @@
         "id": 25,
         "name": "Superman (t-rex) Runner irl",
         "icon": "bitehack24.svg",
-        "solution": "https://marekk3301.github.io/portfolio/galleries/bitehack24/bitehack24-1.jpg",
+        "solution": "bitehack24/bitehack24-1.jpg",
         "solution_display_type": "image",
-        "description": "",
+        "description": "We created a physical take on the classic offline T-Rex runner game. Instead of a dinosaur, the player controls a flying superhero, changing its altitude by moving a hand above a ToF lidar distance sensor to dodge incoming obstacles such as trees, houses, and fences. When a collision is detected, the game stops and the final score is displayed.",
         "event": {
             "logo": "bitehack.png",
             "name": "Bitehack",
@@ -634,7 +634,6 @@
         "team": "Antoni Ulenberg",
         "gallery": ["bitehack24", "bitehack24-1.jpg", "bitehack24-2.jpg", "bitehack24-3.jpg", "bitehack24-4.jpg", "bitehack24-5.jpg", "bitehack24-6.jpg", "bitehack24-7.jpg", "bitehack24-8.jpg", "bitehack24-9.jpg", "bitehack24-10.jpg", "bitehack24-11.jpg", "bitehack24-12.jpg"],
         "links": {
-            "Github Source": "https://github.com/kinga-marszalkowska/bitehack2022",
             "Facebook Page": "https://www.facebook.com/BEST.BITEhack",
             "Event Website": "https://bitehack.best.krakow.pl/"
         }
@@ -643,7 +642,7 @@
         "id": 26,
         "name": "speechBubble",
         "icon": "gamejam25.svg",
-        "solution": "https://marekk3301.github.io/portfolio/galleries/gamejam25/gamejam25.png",
+        "solution": "gamejam25/gamejam25.png",
         "solution_display_type": "image",
         "description": "A lighthearted and addictive emoji-merging game that puts your creativity and logic to the test! Starting with simple chat bubbles and emojis, players combine elements to discover new, hilarious conversational expressions to talk with strangers. From basic \"Hi!\" bubbles to quirky meme-worthy combos, each new merge brings surprises and challenges.",
         "event": {
@@ -671,7 +670,7 @@
         "id": 27,
         "name": "Celestia",
         "icon": "rerenesans25.svg",
-        "solution": "https://marekk3301.github.io/portfolio/galleries/rerenesans25/celestia.jpg",
+        "solution": "rerenesans25/celestia.jpg",
         "solution_display_type": "image",
         "description": "We built an interactive art installation that combines addressable LEDs with a voice assistant to bring the night sky indoors. People can ask the AI about constellations, planets, or stars, and see them light up in real time on a mapped LED starfield. The system also responds to the assistant's own storytelling, illuminating constellations as they are mentioned.",
         "event": {
@@ -689,8 +688,8 @@
         "links": {
             "Presentation": "https://www.youtube.com/live/Aa0GkLbIiII?t=4860",
             "Awards Announcement": "https://www.youtube.com/live/Aa0GkLbIiII?t=8868",
-            "Event Website": "https://evenea.pl/pl/wydarzenie/rerenesans",
-            "Event": "https://codeme.pl/eventy/rerenesans/"
+            "Event": "https://evenea.pl/pl/wydarzenie/rerenesans",
+            "Event Website": "https://codeme.pl/eventy/rerenesans/"
 
         }
     },
@@ -698,7 +697,7 @@
         "id": 28,
         "name": "Wartuś",
         "icon": "hackyeah25.svg",
-        "solution": "https://marekk3301.github.io/portfolio/galleries/hackyeah25/wartus.png",
+        "solution": "hackyeah25/wartus.png",
         "solution_display_type": "image",
         "description": "We designed a smart plush toy that helps parents understand and support their baby’s health, sleep and well-being. Inside Wartuś there are non-contact sensors for tracking breathing and heart rate, as well as skin and room temperature, ambient noise, and diaper status (via H₂S detection) sensors. The companion app processes this data locally and in real time to recognize patterns, predict short-term changes (like restlessness or diaper needs) and provide gentle, data-driven guidance instead of guesswork.",
         "event": {
@@ -726,7 +725,7 @@
         "id": 29,
         "name": "PrzeinaczAI",
         "icon": "bkihack25.svg",
-        "solution": "https://marekk3301.github.io/portfolio/galleries/bkihack25/przeinaczAI.jpg",
+        "solution": "bkihack25/przeinaczAI.jpg",
         "solution_display_type": "image",
         "description": "We developed a Chrome extension that transforms any online article into the writing and speaking style of your favorite real or fictional character. It extracts clean text, rewrites it using AI, and lets you listen to it in the matching voice using text-to-speech. The generated version appears seamlessly above the article.",
         "event": {
@@ -754,7 +753,7 @@
         "id": 30,
         "name": "Du hast den guten Wein bisher behalten",
         "icon": "musicjam25.svg",
-        "solution": "https://marekk3301.github.io/portfolio/galleries/musicjam25/musicjam25.jpg",
+        "solution": "musicjam25/musicjam25.jpg",
         "solution_display_type": "image",
         "description": "We created an interactive sound installation that reimagines a fragment of the baroque composition \"Du hast den guten Wein bisher behalten\" by Johann Daniel Pucklitz through the live-coding ecosystem Strudel. The original notesheets were transcribed by hand and rewritten in code which allowed them to be shaped in real time by a set of tactile, mushroom-shaped controllers. Each mushroom hides a different sensor which allow performers to alter parameters and apply effects directly to the running composition as it plays. The result is a meeting point between baroque music and interactive digital art.",
         "event": {
@@ -777,7 +776,7 @@
         "id": 31,
         "name": "Kontrabando",
         "icon": "hacknation25.svg",
-        "solution": "https://marekk3301.pl/galleries/hacknation25/hacknation25.png",
+        "solution": "hacknation25/hacknation25.png",
         "solution_display_type": "image",
         "description": "We developed an AI-driven solution which utilizes image embeddings to accurately match vehicle X-ray scans with their corresponding reference templates stored in a database. This system enhances the efficiency and accuracy of identifying contraband hidden within vehicles at border checkpoints by flagging any discrepancies that may indicate the presence of illicit items.",
         "event": {
@@ -792,7 +791,6 @@
         "team": "Katarzyna Zawiasińska, Klaudia Nosal, Jan Kamiński, Piotr Górski",
         "gallery": ["hacknation25", "hacknation25-1.png", "hacknation25-2.png", "hacknation25-3.jpg", "hacknation25-4.jpg", "hacknation25-5.jpg", "hacknation25-6.jpg", "hacknation25-7.jpg", "hacknation25-8.jpg", "hacknation25-9.jpg", "hacknation25-10.jpg", "hacknation25-11.jpg", "hacknation25-12.jpg", "hacknation25-13.jpg"],
         "links": {
-            "Notebook": "https://marekk3301.github.io/",
             "Facebook Event": "https://www.facebook.com/HackNationPL",
             "Event Website": "https://hacknation.pl/",
             "Photo Gallery": "https://www.facebook.com/HackNationPL/photos",
@@ -803,9 +801,9 @@
         "id": 32,
         "name": "(Don't) Let it Burn",
         "icon": "gamejam26.svg",
-        "solution": "https://marekk3301.pl/galleries/gamejam26/gamejam26.png",
+        "solution": "gamejam26/gamejam26.png",
         "solution_display_type": "image",
-        "description": "We created a game wkere players can become an ordinary firefighters in a not so ordinary world of magic, dragons and...FIRE?! Well now someone has to extinguish it before it gets out of control. Use magic PyroMasks to see hidden walls, magic doors as well as enchanted fires that can not be seen with naked eye.",
+        "description": "We created a game where players become ordinary firefighters in a not so ordinary world of magic, dragons and...FIRE?! Well now someone has to extinguish it before it gets out of control. Use magic PyroMasks to see hidden walls, magic doors as well as enchanted fires that cannot be seen with naked eye.",
         "event": {
             "logo": "gamejam24.png",
             "name": "HackJam",
@@ -820,7 +818,7 @@
         "links": {
             "Game": "https://marekk3301.itch.io/let-it-burn",
             "Global Game Jam Entry": "https://globalgamejam.org/games/2026/dont-let-it-burn-5",
-            "Canva Presentation": "https://www.canva.com/design/DAHAEEjn23M/tfwfyGdSbqKDEl0AXyccOw/edit?utm_content=DAHAEEjn23M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+            "Canva Presentation": "https://canva.link/x8dd2fbatbdxfbw",
             "Github Source": "https://github.com/marekk3301/let-it-burn"
         }
     },

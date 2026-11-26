@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
 import ProjectDescription from '../components/ProjectDescription';
@@ -16,7 +16,16 @@ import hackathons from '../assets/hackathons.json';
 
 const Project = () => {
     const { id } = useParams();
-    const hackathon = hackathons.find(h => h.id == id);
+    const hackathon = hackathons.find(h => String(h.id) === id);
+
+    useEffect(() => {
+        if (!hackathon) return;
+        const previousTitle = document.title;
+        document.title = hackathon.name;
+        return () => {
+            document.title = previousTitle;
+        };
+    }, [hackathon]);
 
     if (!hackathon) {
         return <div style={{marginTop: "45%", textAlign: "center"}}>Project #{id} not found</div>;
@@ -42,7 +51,7 @@ const Project = () => {
                     <Gallery gallery={hackathon.gallery} />
                 </div>
             )}
-            <CloseButton></CloseButton> {/* todo: change close button behaviour inside fullscreen picture */}
+            <CloseButton />{/* closes the fullscreen picture first, if one is open */}
         </div>
     );
 };

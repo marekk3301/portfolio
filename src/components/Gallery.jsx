@@ -1,21 +1,26 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import GalleryItem from './GalleryItem';
 import FullscreenImage from './FullscreenImage';
 import '../css/Gallery.css';
 
 const Gallery = ({ gallery }) => {
+    const location = useLocation();
+    const navigate = useNavigate();
 
     const folderName = gallery[0];
     const imageList = gallery.slice(1).map((image) => `${process.env.PUBLIC_URL}/galleries/${folderName}/${image}`);
-    
-    const [fullscreenImage, setFullscreenImage] = useState(null);
+
+    // The open image lives in history state, so the browser's Back button closes it
+    // instead of leaving the project page.
+    const fullscreenImage = location.state?.fullscreenImage;
 
     const handleImageClick = (image) => {
-        setFullscreenImage(image);
+        navigate(location.pathname, { state: { fullscreenImage: image } });
     };
 
     const closeFullscreenImage = () => {
-        setFullscreenImage(null);
+        navigate(-1);
     };
 
     return (

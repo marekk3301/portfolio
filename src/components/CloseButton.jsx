@@ -1,13 +1,18 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import '../css/CloseButton.css';
 
 const CloseButton = () => {
     const navigate = useNavigate();
+    const location = useLocation();
 
-    // Handle the click event to either navigate back to the main page or close fullscreen picture
+    // Close the fullscreen picture if one is open, otherwise go back to the main page
     const handleClose = () => {
-        navigate('/');
+        if (location.state?.fullscreenImage) {
+            navigate(-1);
+        } else {
+            navigate('/');
+        }
     };
 
     let fill_color = "#ffffff";

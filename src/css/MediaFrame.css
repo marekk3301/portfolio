@@ -2,3 +2,10 @@
 .mediaframe video {
   width: 100%;
 }
+
+.mediaframe--youtube iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+}
