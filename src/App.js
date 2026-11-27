@@ -6,6 +6,8 @@ import ProjectList from './routes/ProjectList';
 import Landing from './routes/Landing';
 import CraftHackathon from './routes/CraftHackathon';
 import WorkshopBoard from './routes/WorkshopBoard';
+import OdysseyList from './routes/OdysseyList';
+import OdysseyProject from './routes/OdysseyProject';
 
 function App() {
   const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
@@ -24,6 +26,8 @@ function App() {
            <Route path='/' element={<ProjectList/>} />
            <Route path='/project/:id' element={<Project />} />
            <Route path='/main' element={<Landing />} />
+           <Route path='/odyssey' element={<OdysseyList />} />
+           <Route path='/odyssey/:id' element={<OdysseyProject />} />
            <Route path='/craft' element={<CraftHackathon />} />
            <Route path='/craft-hackathon' element={<CraftHackathon />} />
            <Route path='/craft/board' element={<WorkshopBoard />} />

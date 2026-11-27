@@ -1,0 +1,9 @@
+[
+    { "id": 1, "role": "member", "season": "2015/16", "title": "Project 01", "problem": "Problem 1", "category": "Vehicle",     "division": "II",  "worldFinals": false, "accent": "#8fd3c9", "model": "odyssey/pojazd16/pojazd.stl", "modelUp": "z" },
+    { "id": 2, "role": "member", "season": "2016/17", "title": "Project 02", "problem": "Problem 1", "category": "Vehicle",     "division": "II",  "worldFinals": true,  "accent": "#c9b3ff" },
+    { "id": 3, "role": "member", "season": "2017/18", "title": "Project 03", "problem": "Problem 2", "category": "Technical",   "division": "III", "worldFinals": false, "accent": "#ffb38a" },
+    { "id": 4, "role": "member", "season": "2018/19", "title": "Project 04", "problem": "Problem 1", "category": "Vehicle",     "division": "III", "worldFinals": true,  "accent": "#9ecbff" },
+    { "id": 5, "role": "member", "season": "2022/23", "title": "Project 05", "problem": "Problem 4", "category": "Structure",   "division": "III", "worldFinals": true,  "accent": "#e8e28a" },
+    { "id": 6, "role": "coach",  "season": "2023/24", "title": "Project 06", "problem": "Problem 1", "category": "Vehicle",     "division": "I",   "worldFinals": false, "accent": "#ff9fb4" },
+    { "id": 7, "role": "coach",  "season": "2024/25", "title": "Project 07", "problem": "Problem 5", "category": "Performance", "division": "II",  "worldFinals": true,  "accent": "#a8e6a1" }
+]

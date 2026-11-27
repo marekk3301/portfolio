@@ -1,0 +1,80 @@
+/* Shared tokens and base styles for the index-style pages (Landing, Odyssey of the Mind).
+   Everything is scoped to .idx so the hackathon pages keep their own styles. */
+
+/* Variable font (100..900) so font-weight animates smoothly instead of snapping between static weights */
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Geist+Mono:wght@400;500&family=Courier+Prime:wght@400;700&display=swap');
+
+.idx {
+  --bg: #050607;
+  --fg: #eceef1;
+  --dim: #767c85;
+  --line: #2a2e34;
+  --screen: #030405;      /* hologram viewer / video are physical displays: dark in both themes */
+  --screen-fg: #dfe6ea;
+  --screen-dim: #8a949b;
+  --paper: #ebeae6;       /* script page */
+  --ink: #141414;
+  /* ArUco stays true black/white in both themes so a camera can read it */
+  --tag-black: #000000;
+  --tag-white: #ffffff;
+  --accent: #8fd3c9;
+  --font-display: "Geist", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --font-script: "Courier Prime", "Courier New", Courier, monospace;
+  --ease: cubic-bezier(.65, 0, .35, 1);
+  color-scheme: dark;
+
+  box-sizing: border-box;
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-display);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  transition: background .4s ease, color .4s ease;
+}
+@media (prefers-color-scheme: light) {
+  .idx:not([data-theme="dark"]) { --bg: #b5bac0; --fg: #090b0d; --dim: #4c535b; --line: #979da5; color-scheme: light; }
+}
+.idx[data-theme="light"] { --bg: #b5bac0; --fg: #090b0d; --dim: #4c535b; --line: #979da5; color-scheme: light; }
+
+.idx * { box-sizing: border-box; }
+.idx a { color: inherit; text-decoration: none; }
+.idx button { font: inherit; color: inherit; }
+.idx h1, .idx h2, .idx h3, .idx h4 { margin: 0; text-wrap: balance; }
+.idx p { margin: 0; font-size: inherit; }
+.idx :focus-visible { outline: 1px dashed var(--fg); outline-offset: 4px; }
+
+.idx .mono { font-family: var(--font-mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; font-variant-numeric: tabular-nums; line-height: 1.4; }
+.idx .dim { color: var(--dim); }
+
+/* bracket frame: corner marks that step outward on hover, like a target locking on.
+   Each page decides what triggers it (.frame-on below, or its own :hover rules). */
+.idx .frame { position: absolute; inset: 0; pointer-events: none; z-index: 1; transition: inset .5s var(--ease); }
+.idx .frame i { position: absolute; width: 18%; height: 18%; border: 0 solid var(--fg); transition: width .5s var(--ease), height .5s var(--ease); }
+.idx .frame i:nth-child(1) { top: 0; left: 0; border-top-width: 2px; border-left-width: 2px; }
+.idx .frame i:nth-child(2) { top: 0; right: 0; border-top-width: 2px; border-right-width: 2px; }
+.idx .frame i:nth-child(3) { bottom: 0; left: 0; border-bottom-width: 2px; border-left-width: 2px; }
+.idx .frame i:nth-child(4) { bottom: 0; right: 0; border-bottom-width: 2px; border-right-width: 2px; }
+
+.idx .frame-on .frame { inset: -6px; }
+.idx .frame-on .frame i { width: 10%; height: 10%; }
+
+/* title bar that fills with the foreground colour on hover */
+.idx .fill {
+  padding: 4px 9px;
+  margin: -4px -9px;
+  background: linear-gradient(var(--fg), var(--fg)) no-repeat left / 0% 100%;
+  transition: background-size .45s var(--ease), color .3s .1s;
+}
+
+.idx .fill-on .fill { background-size: 100% 100%; color: var(--bg); }
+
+/* theme switch */
+.idx .seg { display: inline-flex; border: 1px solid var(--fg); }
+.idx .seg button { background: none; border: 0; padding: 7px 10px; cursor: pointer; }
+.idx .seg button[aria-pressed="true"] { background: var(--fg); color: var(--bg); }
+
+@media (prefers-reduced-motion: reduce) { .idx, .idx * { transition: none !important; } }

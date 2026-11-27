@@ -1,9 +1,14 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
+import useIndexTheme from "../components/useIndexTheme";
+import usePageTitle from "../components/usePageTitle";
+
+import "../css/Index.css"
 import "../css/Landing.css"
 
 import hackathons from '../assets/hackathons.json';
+import odyssey from '../assets/odyssey.json';
 // ArUco DICT_4X4_50: inner 4×4 bits per id, 1 = white (exported from OpenCV)
 import arucoDict from '../assets/aruco_4x4_50.json';
 
@@ -13,23 +18,14 @@ const CONFIG = {
     sections: [
         // area: grid placement, count: number shown on the tile
         { area: "hack",  title: "Hackathon projects",  to: "/",          unit: "entries", count: hackathons.filter((h) => h.id).length },
-        { area: "odys",  title: "Odyssey of the Mind", to: "/odyssey",   unit: "entries", count: 6 },
+        { area: "odys",  title: "Odyssey of the Mind", to: "/odyssey",   unit: "entries", count: odyssey.length },
         { area: "other", title: "Other projects",      to: "/projects",  unit: "entries", count: 23 },
         { area: "tools", title: "Tools & skills",      to: "/skilltree", unit: "items",   count: 31 },
     ],
 };
 
-const THEME_KEY = "idx-theme";
 const THEMES = [["dark", "Dark"], ["light", "Light"], ["auto", "Auto"]];
 const PIXEL_GRID = 6; // squares per side in the hover fill
-
-const readTheme = () => {
-    try {
-        return localStorage.getItem(THEME_KEY) || "dark";
-    } catch (e) {
-        return "dark";
-    }
-};
 
 const pad = (n, width) => String(n).padStart(width, "0");
 
@@ -79,25 +75,13 @@ const ArucoTag = ({ bits }) => (
 );
 
 const Landing = () => {
-    const [theme, setTheme] = useState(readTheme);
+    const [theme, setTheme, themeAttr] = useIndexTheme();
     const [markerId, setMarkerId] = useState(() => randomMarkerId());
 
-    useEffect(() => {
-        try {
-            localStorage.setItem(THEME_KEY, theme);
-        } catch (e) {}
-    }, [theme]);
-
-    useEffect(() => {
-        const previousTitle = document.title;
-        document.title = CONFIG.name.join(" ");
-        return () => {
-            document.title = previousTitle;
-        };
-    }, []);
+    usePageTitle(CONFIG.name.join(" "));
 
     return (
-        <div className="landing" data-theme={theme === "auto" ? undefined : theme}>
+        <div className="idx landing" data-theme={themeAttr}>
             <main className="cross">
                 <section className="cell meta" aria-label="About">
                     <div className="mono dim">Index / personal archive</div>
@@ -117,7 +101,7 @@ const Landing = () => {
                             <div className="arm-count">{pad(section.count, 2)}</div>
                             <div className="arm-unit mono dim">{section.unit}</div>
                         </div>
-                        <div className="arm-title">{section.title}</div>
+                        <div className="arm-title fill">{section.title}</div>
                     </Link>
                 ))}
 
